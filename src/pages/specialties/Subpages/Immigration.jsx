@@ -3,23 +3,265 @@ import React from "react";
 const Immigration = () => {
   return (
     <>
-      <div className="section-py-130 pb-5">
+      <section className="hero-section-container">
         <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-10">
-              <div className="section__title text-center mb-40">
-                <h2 className="title">Immigration Law </h2>
-                <p>
-                  Boulou LPO offers dedicated paralegal assistance to
-                  immigration attorneys and firms, ensuring every application,
-                  petition, and case is prepared with precision and compliance.
-                  We streamline the immigration process for both you and your
-                  clients, handling the detailed work so you can focus on
-                  advocacy and strategy.
-                </p>
+          <div className="row align-items-center">
+            {/* Left Content - col-8 */}
+            <div className="col-lg-8 col-md-12 hero-text-content">
+              <div className="legal-hero-badge">
+                Personalized and Affordable Solutions
+              </div>
+              <h1 className="hero-title">Immigration Law</h1>
+              <p className="hero-description">
+                Boulou LPO offers dedicated paralegal assistance to immigration
+                attorneys and firms, ensuring every application, petition, and
+                case is prepared with precision and compliance. We streamline
+                the immigration process for both you and your clients, handling
+                the detailed work so you can focus on advocacy and strategy.
+              </p>
+            </div>
+
+            {/* Right Image Section - col-4 */}
+            <div className="col-lg-4 col-md-12 hero-image-content">
+              <div className="hero-main-image">
+                <img src="/assets/lpo/administration-law.png" alt="Lawyer" />
+                {/* Floating Images */}
+                <div className="hero-floating-img hero-img1">
+                  <img src="/assets/1.png" alt="Assistant" />
+                </div>
+                <div className="hero-floating-img hero-img2">
+                  <img src="/assets/3.png" alt="Attorney" />
+                </div>
+              </div>
+              <p className="hero-caption">
+                * At Boulou LPO, our paralegals provide comprehensive
+                immigration support, including: *
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="transform-section py-5">
+        <div className="container">
+          <div className="row g-5 align-items-start">
+            <div className="col-lg-6">
+              <h2
+                className="transform-title fw-bold mb-3"
+                style={{ fontSize: "40px", color: "#002688" }}
+              >
+                How We Can Transform Your Immigration Practice{" "}
+              </h2>
+            </div>
+            <div className="col-lg-6">
+              <h6 style={{ color: "#002688" }}>
+                Sharper Preparation, Stronger Defense
+              </h6>
+              <p className="transform-description text-muted">
+                Immigration law is deadline-driven and detail-sensitive. Our
+                team ensures all forms are correctly completed, supporting
+                documents are organized, and case progress is closely monitored.
+                By taking over the administrative and paralegal tasks, we help
+                you avoid delays, reduce errors, and improve client confidence —
+                allowing your attorneys to focus on advocacy and case strategy.
+              </p>
+            </div>
+
+            {/* RIGHT: Image Cards */}
+            <div className="col-lg-12">
+              <div className="row g-4">
+                {/* Card 1 */}
+                <div className="col-12 col-sm-6">
+                  <div className="transform-card">
+                    <img
+                      src="assets/lpo/inc.png"
+                      className="transform-card-img"
+                      alt="Visa & Green Card Assistance"
+                    />
+                    <div className="transform-card-overlay"></div>
+                    <div className="transform-card-content">
+                      <h5 className="fw-semibold">
+                        Visa & Green Card Assistance
+                      </h5>
+                      <p>
+                        From family-based petitions to employment visas, we help
+                        you navigate the complex immigration system and secure
+                        lawful permanent residency with confidence.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Card 2 */}
+                <div className="col-12 col-sm-6">
+                  <div className="transform-card">
+                    <img
+                      src="assets/lpo/top.png"
+                      className="transform-card-img"
+                      alt="Protecting Your Future"
+                    />
+                    <div className="transform-card-overlay"></div>
+                    <div className="transform-card-content">
+                      <h5 className="fw-semibold">Protecting Your Future</h5>
+                      <p>
+                        Whether you’re facing deportation, removal proceedings,
+                        or asylum claims, our attorneys fight to safeguard your
+                        legal status and keep families together.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Card 3 (full width below) */}
+                <div className="col-12">
+                  <div className="transform-card">
+                    <img
+                      src="assets/lpo/cxx.jpg"
+                      className="transform-card-img"
+                      alt="Guidance at Every Step"
+                    />
+                    <div className="transform-card-overlay"></div>
+                    <div className="transform-card-content">
+                      <h5 className="fw-semibold">Guidance at Every Step</h5>
+                      <p>
+                        Immigration law can be overwhelming. We provide clear
+                        legal guidance, handle all documentation, and represent
+                        you before immigration authorities so you can achieve
+                        your goals with peace of mind.
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section class="features__area-three section-py-130 pt-0">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-6">
+              <div class="section__title text-center mb-40">
+                <h2 class="title">Why Choose Boulou LPO?</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row gutter-y-24 justify-content-center">
+            <div class="col-lg-4 col-sm-6">
+              <div class="features__item-two">
+                <div class="features__icon-two">
+                  <i class="flaticon-partner"></i>
+                </div>
+                <div class="features__content-four">
+                  <h3 class="title">Skilled, Scalable Support</h3>
+                  <p>
+                    Paralegals trained in criminal case procedures and evidence
+                    handling.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <div class="features__item-two">
+                <div class="features__icon-two">
+                  <i class="flaticon-health-insurance"></i>
+                </div>
+                <div class="features__content-four">
+                  <h3 class="title">Bilingual Capabilities</h3>
+                  <p>
+                    Effective communication with English and Spanish-speaking
+                    clients and witnesses.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <div class="features__item-two">
+                <div class="features__icon-two">
+                  <i class="flaticon-tax"></i>
+                </div>
+                <div class="features__content-four">
+                  <h3 class="title">Industry-Focused Expertise</h3>
+                  <p>
+                    Deep familiarity with criminal defense timelines, filings,
+                    and procedural rules.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-sm-6">
+              <div class="features__item-two">
+                <div class="features__icon-two">
+                  <i class="flaticon-report"></i>
+                </div>
+                <div class="features__content-four">
+                  <h3 class="title">Confidential & Compliant</h3>
+                  <p>
+                    Secure handling of sensitive case files and client records.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-sm-6">
+              <div class="features__item-two">
+                <div class="features__icon-two">
+                  <i class="flaticon-calculator"></i>
+                </div>
+                <div class="features__content-four">
+                  <h3 class="title">Cost-Effective Partnership</h3>
+                  <p>
+                    Professional legal support without the overhead of in-house
+                    hires.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div className="sub-page-baner pb-5" style={{ marginTop: "0px" }}>
+        <div className="container">
+          <section class="banner__area-five">
+            <div class="container custom-container-five">
+              <div
+                class="banner__bg-foura"
+                style={{
+                  backgroundImage: "url(assets/lpo/h8_hero_bg.jpg) ",
+                }}
+              >
+                <div
+                  class="banner__bg-shape"
+                  style={{
+                    backgroundImage:
+                      "url(assets/img/banner/h8_hero_bg_shape.svg)",
+                  }}
+                ></div>
+                <div class="row">
+                  <div class="col-xl-8 col-lg-8">
+                    <div
+                      class="banner__content-five"
+                      style={{ padding: "30px" }}
+                    >
+                      <h2 class="title" data-aos="fade-up" data-aos-delay="400">
+                        Impact Statement
+                      </h2>
+                      <h4>Precision and Care for Every Client Journey</h4>
+                      <p data-aos="fade-up" data-aos-delay="600">
+                        Boulou LPO is your behind-the-scenes partner, ensuring
+                        your immigration cases move forward smoothly and
+                        efficiently. We help you serve more clients, meet every
+                        deadline, and maintain a high standard of accuracy and
+                        professionalism in every case you handle.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
         </div>
       </div>
 
@@ -28,7 +270,7 @@ const Immigration = () => {
           <div class="row align-items-center justify-content-center">
             <div class="col-lg-5 col-md-10 order-0 order-lg-2">
               <div class="features__img">
-                 <img src="assets/img/special/Immigration.jpg" alt="img" />
+                <img src="assets/img/special/Immigration.jpg" alt="img" />
               </div>
             </div>
             <div class="col-lg-7 col-md-10  ">
@@ -167,136 +409,6 @@ const Immigration = () => {
                     precedents
                   </li>
                 </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="features__area-three section-py-130 pt-0">
-        <div class="container">
-          <div class="row gutter-y-24 justify-content-center">
-            <div class="col-lg-6 col-sm-6">
-              <div class="features__item-two">
-                <div class="features__content-four">
-                  <div className="section__title   ">
-                    <h3>How We Can Transform Your Immigration Practice</h3>
-                    <h5 className="mt-3">
-                      <i>From Paperwork Overload to Process Flow</i>{" "}
-                    </h5>
-                    <p>
-                      Immigration law is deadline-driven and detail-sensitive.
-                      Our team ensures all forms are correctly completed,
-                      supporting documents are organized, and case progress is
-                      closely monitored. By taking over the administrative and
-                      paralegal tasks, we help you avoid delays, reduce errors,
-                      and improve client confidence — allowing your attorneys to
-                      focus on advocacy and case strategy.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6 col-sm-6">
-              <div class="features__item-two">
-                <div class="features__content-four">
-                  <div className="section__title   ">
-                    <h3>Impact Statement</h3>
-                    <h5 className="mt-3">
-                      {" "}
-                      <i>Precision and Care for Every Client Journey </i>{" "}
-                    </h5>
-                    <p>
-                      Boulou LPO is your behind-the-scenes partner, ensuring
-                      your immigration cases move forward smoothly and
-                      efficiently. We help you serve more clients, meet every
-                      deadline, and maintain a high standard of accuracy and
-                      professionalism in every case you handle.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="features__area-three section-py-130 pt-0">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-6">
-              <div class="section__title text-center mb-40">
-                <h2 class="title">Why Choose Boulou LPO?</h2>
-              </div>
-            </div>
-          </div>
-          <div class="row gutter-y-24 justify-content-center">
-            <div class="col-lg-4 col-sm-6">
-              <div class="features__item-two">
-                <div class="features__icon-two">
-                  <i class="flaticon-partner"></i>
-                </div>
-                <div class="features__content-four">
-                  <h3 class="title">Skilled, Scalable Support</h3>
-                  <p>
-                    Paralegals experienced in family-based, employment-based,
-                    and humanitarian immigration matters.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-              <div class="features__item-two">
-                <div class="features__icon-two">
-                  <i class="flaticon-health-insurance"></i>
-                </div>
-                <div class="features__content-four">
-                  <h3 class="title">Bilingual Capabilities</h3>
-                  <p>
-                    Fluent support for English and Spanish-speaking clients,
-                    ensuring clear communication.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-              <div class="features__item-two">
-                <div class="features__icon-two">
-                  <i class="flaticon-tax"></i>
-                </div>
-                <div class="features__content-four">
-                  <h3 class="title">Industry-Focused Expertise</h3>
-                  <p>
-                    Knowledge of USCIS procedures, deadlines, and documentation
-                    requirements.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-6 col-sm-6">
-              <div class="features__item-two">
-                <div class="features__icon-two">
-                  <i class="flaticon-report"></i>
-                </div>
-                <div class="features__content-four">
-                  <h3 class="title">Confidential & Compliant</h3>
-                  <p>Secure management of sensitive immigration records.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6 col-sm-6">
-              <div class="features__item-two">
-                <div class="features__icon-two">
-                  <i class="flaticon-calculator"></i>
-                </div>
-                <div class="features__content-four">
-                  <h3 class="title">Cost-Effective Partnership</h3>
-                  <p>
-                    Quality paralegal services without the overhead of in-house
-                    hiring.
-                  </p>
-                </div>
               </div>
             </div>
           </div>

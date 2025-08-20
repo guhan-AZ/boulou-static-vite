@@ -56,16 +56,16 @@ const Family = () => {
             </div>
             <div className="col-lg-6">
               <h6 style={{ color: "#002688" }}>
-                Sharper Preparation, Stronger Defense
+                Organized Support for Sensitive Matters
               </h6>
               <p className="transform-description text-muted">
-                In criminal defense, every detail matters — and missing one can
-                change the outcome of a case. Our team ensures that evidence is
-                properly managed, filings are timely, and all procedural
-                requirements are met. With us handling the backend, your
-                attorneys can devote more time to strategy, client advocacy, and
-                courtroom performance, resulting in stronger defenses and better
-                client outcomes.
+                Family law cases demand a balance of efficiency, empathy, and
+                accuracy. Our team ensures all required documents are complete,
+                deadlines are met, and case files are organized for quick
+                access. By taking on these essential administrative and legal
+                support tasks, we free your attorneys to focus on providing
+                counsel, negotiation, and courtroom representation — all while
+                maintaining a high standard of client care.
               </p>
             </div>
 
@@ -78,15 +78,18 @@ const Family = () => {
                     <img
                       src="assets/lpo/inc.png"
                       className="transform-card-img"
-                      alt="Strong Defense Strategy"
+                      alt="Compassionate Representation"
                     />
                     <div className="transform-card-overlay"></div>
                     <div className="transform-card-content">
-                      <h5 className="fw-semibold">Strong Defense Strategy</h5>
+                      <h5 className="fw-semibold">
+                        Compassionate Representation
+                      </h5>
                       <p>
-                        We build powerful defense strategies to protect your
-                        rights and freedom, ensuring every angle of your case is
-                        examined with precision and skill.
+                        We understand the emotional challenges of family
+                        disputes. Our attorneys provide compassionate legal
+                        support while protecting your best interests every step
+                        of the way.
                       </p>
                     </div>
                   </div>
@@ -98,16 +101,17 @@ const Family = () => {
                     <img
                       src="assets/lpo/top.png"
                       className="transform-card-img"
-                      alt="Protecting Your Rights"
+                      alt="Protecting What Matters Most"
                     />
                     <div className="transform-card-overlay"></div>
                     <div className="transform-card-content">
-                      <h5 className="fw-semibold">Protecting Your Rights</h5>
+                      <h5 className="fw-semibold">
+                        Protecting What Matters Most
+                      </h5>
                       <p>
-                        From misdemeanor charges to serious felonies, our
-                        attorneys stand by your side—safeguarding your
-                        constitutional rights and challenging unfair evidence or
-                        procedures.
+                        Whether it’s child custody, divorce, or spousal support,
+                        we work tirelessly to safeguard your family’s future and
+                        secure fair, lasting outcomes.
                       </p>
                     </div>
                   </div>
@@ -119,18 +123,18 @@ const Family = () => {
                     <img
                       src="assets/lpo/cxx.jpg"
                       className="transform-card-img"
-                      alt="Guidance Through Every Step"
+                      alt="Guidance Through Transitions"
                     />
                     <div className="transform-card-overlay"></div>
                     <div className="transform-card-content">
                       <h5 className="fw-semibold">
-                        Guidance Through Every Step
+                        Guidance Through Transitions
                       </h5>
                       <p>
-                        Facing criminal charges is overwhelming. We provide
-                        clear guidance, aggressive courtroom representation, and
-                        dedicated support to help you move forward with
-                        confidence.
+                        Family law cases can feel overwhelming. We guide you
+                        through each stage with clarity—handling legal
+                        procedures, negotiations, and court representation—so
+                        you can move forward with confidence.
                       </p>
                     </div>
                   </div>
@@ -141,54 +145,48 @@ const Family = () => {
         </div>
       </section>
 
-      <section class="features__area-three section-py-130 pt-0">
-        <div class="container">
-          <div class="row gutter-y-24 justify-content-center">
-            <div class="col-lg-6 col-sm-6">
-              <div class="features__item-two">
-                <div class="features__content-four">
-                  <div className="section__title   ">
-                    <h3>How We Can Transform Your Family Law Practice</h3>
-                    <h5 className="mt-3">
-                      <i>Organized Support for Sensitive Matters </i>{" "}
-                    </h5>
-                    <p>
-                      Family law cases demand a balance of efficiency, empathy,
-                      and accuracy. Our team ensures all required documents are
-                      complete, deadlines are met, and case files are organized
-                      for quick access. By taking on these essential
-                      administrative and legal support tasks, we free your
-                      attorneys to focus on providing counsel, negotiation, and
-                      courtroom representation — all while maintaining a high
-                      standard of client care.
-                    </p>
+      <div className="sub-page-baner pb-5" style={{ marginTop: "0px" }}>
+        <div className="container">
+          <section class="banner__area-five">
+            <div class="container custom-container-five">
+              <div
+                class="banner__bg-foura"
+                style={{
+                  backgroundImage: "url(assets/lpo/h8_hero_bg.jpg) ",
+                }}
+              >
+                <div
+                  class="banner__bg-shape"
+                  style={{
+                    backgroundImage:
+                      "url(assets/img/banner/h8_hero_bg_shape.svg)",
+                  }}
+                ></div>
+                <div class="row">
+                  <div class="col-xl-8 col-lg-8">
+                    <div
+                      class="banner__content-five"
+                      style={{ padding: "30px" }}
+                    >
+                      <h2 class="title" data-aos="fade-up" data-aos-delay="400">
+                        Impact Statement
+                      </h2>
+                      <h4>Trusted Support When It Matters Most</h4>
+                      <p data-aos="fade-up" data-aos-delay="600">
+                        With Boulou LPO as your partner, you can confidently
+                        handle more cases without sacrificing quality or
+                        compassion. We help your firm run smoothly, keep clients
+                        informed, and meet every deadline, making us a reliable
+                        extension of your family law team.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-lg-6 col-sm-6">
-              <div class="features__item-two">
-                <div class="features__content-four">
-                  <div className="section__title   ">
-                    <h3>Impact Statement</h3>
-                    <h5 className="mt-3">
-                      {" "}
-                      <i>Trusted Support When It Matters Most </i>{" "}
-                    </h5>
-                    <p>
-                      With Boulou LPO as your partner, you can confidently
-                      handle more cases without sacrificing quality or
-                      compassion. We help your firm run smoothly, keep clients
-                      informed, and meet every deadline, making us a reliable
-                      extension of your family law team.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          </section>
         </div>
-      </section>
+      </div>
 
       <section class="features__area-three section-py-130 pt-0">
         <div class="container">
