@@ -3,45 +3,148 @@ import React from "react";
 const Intellectual = () => {
   return (
     <>
-      <div className="section-py-130 pb-5">
+      <section className="hero-section-container">
         <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-10">
-              <div className="section__title text-center mb-40">
-                <h2 className="title">Intellectual Property Law (IP Law)</h2>
-                <p>
-                  Boulou LPO provides expert paralegal assistance for intellectual property law firms, ensuring 
-trademarks, copyrights, patents, and trade secrets are properly managed and protected. From 
-filing applications to monitoring deadlines, we support attorneys in safeguarding clients’ valuable 
-intellectual assets with precision and efficiency. 
-                </p>
+          <div className="row align-items-center">
+            {/* Left Content - col-8 */}
+            <div className="col-lg-8 col-md-12 hero-text-content">
+              <div className="legal-hero-badge">
+                Expert IP Law Support
+              </div>
+              <h1 className="hero-title">Intellectual Property Law (IP Law)</h1>
+              <p className="hero-description">
+                Boulou LPO provides expert paralegal assistance for intellectual property law firms, ensuring 
+                trademarks, copyrights, patents, and trade secrets are properly managed and protected. From 
+                filing applications to monitoring deadlines, we support attorneys in safeguarding clients’ valuable 
+                intellectual assets with precision and efficiency.
+              </p>
+            </div>
+
+            {/* Right Image Section - col-4 */}
+            <div className="col-lg-4 col-md-12 hero-image-content">
+              <div className="hero-main-image">
+                <img src="/assets/lpo/Intellectual Property Law (IP Law).png" alt="Intellectual Property" />
+                {/* Floating Images */}
+                <div className="hero-floating-img hero-img1">
+                  <img src="/assets/1.png" alt="Assistant" />
+                </div>
+                <div className="hero-floating-img hero-img2">
+                  <img src="/assets/3.png" alt="Attorney" />
+                </div>
+              </div>
+              <p className="hero-caption">
+                * At Boulou LPO, our paralegals provide comprehensive IP law assistance, including: *
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="transform-section py-5">
+        <div className="container">
+          <div className="row g-5 align-items-start">
+            <div className="col-lg-6">
+              <h2
+                className="transform-title fw-bold mb-3"
+                style={{ fontSize: "40px", color: "#002688" }}
+              >
+                How We Can Transform Your IP Practice
+              </h2>
+            </div>
+            <div className="col-lg-6">
+              <h6 style={{ color: "#002688" }}>
+                Protecting Innovation Through Precise Support
+              </h6>
+              <p className="transform-description text-muted">
+                Intellectual property law requires accuracy, strict compliance, and careful monitoring of deadlines. 
+                Our team handles all the procedural and administrative work, from application filings to portfolio 
+                management, allowing your attorneys to focus on strategy, enforcement, and client counseling. 
+                This ensures IP assets are fully protected while reducing risk and administrative burden.
+              </p>
+            </div>
+
+            {/* RIGHT: Image Cards */}
+            <div className="col-lg-12">
+              <div className="row g-4">
+                {/* Card 1 */}
+                <div className="col-12 col-sm-6">
+                  <div className="transform-card">
+                    <img
+                      src="assets/lpo/personal-injury.png"
+                      className="transform-card-img"
+                      alt="Safeguard IP Assets"
+                    />
+                    <div className="transform-card-overlay"></div>
+                    <div className="transform-card-content">
+                      <h5 className="fw-semibold">Safeguard IP Assets</h5>
+                      <p>
+                        We ensure trademarks, copyrights, and patents are filed and managed with precision to protect your clients’ innovations.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Card 2 */}
+                <div className="col-12 col-sm-6">
+                  <div className="transform-card">
+                    <img
+                      src="assets/lpo/Intellectual Property Law (IP Law).png"
+                      className="transform-card-img"
+                      alt="Ensure Compliance"
+                    />
+                    <div className="transform-card-overlay"></div>
+                    <div className="transform-card-content">
+                      <h5 className="fw-semibold">Ensure Compliance</h5>
+                      <p>
+                        Our team monitors deadlines and maintains compliance with USPTO and international IP regulations.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Card 3 (full width below) */}
+                <div className="col-12">
+                  <div className="transform-card">
+                    <img
+                      src="assets/lpo/Civil Litigation.png"
+                      className="transform-card-img"
+                      alt="Streamline IP Management"
+                    />
+                    <div className="transform-card-overlay"></div>
+                    <div className="transform-card-content">
+                      <h5 className="fw-semibold">Streamline IP Management</h5>
+                      <p>
+                        We organize and maintain IP portfolios, ensuring accurate records and efficient communication with clients and inventors.
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      <section class="features__area-two section-py-130 pt-0">
-        <div class="container">
-          <div class="row align-items-center justify-content-center">
-            <div class="col-lg-5 col-md-10 order-0 order-lg-2">
-              <div class="features__img">
-                <img src="assets/img/special/Intellectual.jpg" alt="img" />
+      <section className="features__area-two section-py-130 pt-0">
+        <div className="container">
+          <div className="row align-items-center justify-content-center">
+            <div className="col-lg-5 col-md-10 order-0 order-lg-2">
+              <div className="features__img">
+                <img src="/assets/img/special/Intellectual.jpg" alt="img" />
               </div>
             </div>
-            <div class="col-lg-7 col-md-10  ">
-              <div class="features__content-two">
-                <div class="section__title mb-25">
-                  <span class="sub-title">Types of Services We Offer </span>
+            <div className="col-lg-7 col-md-10">
+              <div className="features__content-two">
+                <div className="section__title mb-25">
+                  <span className="sub-title">Types of Services We Offer</span>
                   <h2>Expert Intellectual Property Paralegal Support</h2>
                   <p>
-                    At Boulou LPO, our paralegals provide comprehensive IP law assistance, including: 
+                    At Boulou LPO, our paralegals provide comprehensive IP law assistance, including:
                   </p>
                 </div>
-
-                <ul class="list-wrap about__list-item-two">
+                <ul className="list-wrap about__list-item-two">
                   <li>
-                    <div class="icon">
+                    <div className="icon">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="14"
@@ -52,16 +155,16 @@ intellectual assets with precision and efficiency.
                         <path
                           d="M12.091 2L5.091 9L1.90918 5.81818"
                           stroke="currentColor"
-                          stroke-width="2.1875"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
+                          strokeWidth="2.1875"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
                         />
                       </svg>
                     </div>
                     Preparing and filing trademark, copyright, and patent applications
                   </li>
                   <li>
-                    <div class="icon">
+                    <div className="icon">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="14"
@@ -72,16 +175,16 @@ intellectual assets with precision and efficiency.
                         <path
                           d="M12.091 2L5.091 9L1.90918 5.81818"
                           stroke="currentColor"
-                          stroke-width="2.1875"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
+                          strokeWidth="2.1875"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
                         />
                       </svg>
                     </div>
-                  Drafting licensing agreements and non-disclosure agreements
+                    Drafting licensing agreements and non-disclosure agreements
                   </li>
                   <li>
-                    <div class="icon">
+                    <div className="icon">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="14"
@@ -92,16 +195,16 @@ intellectual assets with precision and efficiency.
                         <path
                           d="M12.091 2L5.091 9L1.90918 5.81818"
                           stroke="currentColor"
-                          stroke-width="2.1875"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
+                          strokeWidth="2.1875"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
                         />
                       </svg>
                     </div>
-                 Monitoring deadlines for renewals, oppositions, and maintenance filings 
+                    Monitoring deadlines for renewals, oppositions, and maintenance filings
                   </li>
                   <li>
-                    <div class="icon">
+                    <div className="icon">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="14"
@@ -112,16 +215,16 @@ intellectual assets with precision and efficiency.
                         <path
                           d="M12.091 2L5.091 9L1.90918 5.81818"
                           stroke="currentColor"
-                          stroke-width="2.1875"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
+                          strokeWidth="2.1875"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
                         />
                       </svg>
                     </div>
-                   Organizing IP portfolios and maintaining accurate records
+                    Organizing IP portfolios and maintaining accurate records
                   </li>
                   <li>
-                    <div class="icon">
+                    <div className="icon">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="14"
@@ -132,16 +235,16 @@ intellectual assets with precision and efficiency.
                         <path
                           d="M12.091 2L5.091 9L1.90918 5.81818"
                           stroke="currentColor"
-                          stroke-width="2.1875"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
+                          strokeWidth="2.1875"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
                         />
                       </svg>
                     </div>
                     Coordinating communications with clients, inventors, and the USPTO
                   </li>
                   <li>
-                    <div class="icon">
+                    <div className="icon">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="14"
@@ -152,13 +255,13 @@ intellectual assets with precision and efficiency.
                         <path
                           d="M12.091 2L5.091 9L1.90918 5.81818"
                           stroke="currentColor"
-                          stroke-width="2.1875"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
+                          strokeWidth="2.1875"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
                         />
                       </svg>
                     </div>
-                   Conducting legal research on IP laws, precedents, and infringement cases
+                    Conducting legal research on IP laws, precedents, and infringement cases
                   </li>
                 </ul>
               </div>
@@ -167,69 +270,23 @@ intellectual assets with precision and efficiency.
         </div>
       </section>
 
-      <section class="features__area-three section-py-130 pt-0">
-        <div class="container">
-          <div class="row gutter-y-24 justify-content-center">
-            <div class="col-lg-6 col-sm-6">
-              <div class="features__item-two">
-                <div class="features__content-four">
-                  <div className="section__title   ">
-                    <h3>
-                     How We Can Transform Your IP Practice
-                    </h3>
-                    <h5 className="mt-3">
-                      <i>Protecting Innovation Through Precise Support</i>{" "}
-                    </h5>
-                    <p>
-                      Intellectual property law requires accuracy, strict compliance, and careful monitoring of deadlines. 
-Our team handles all the procedural and administrative work, from application filings to portfolio 
-management, allowing your attorneys to focus on strategy, enforcement, and client counseling. 
-This ensures IP assets are fully protected while reducing risk and administrative burden. 
-
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6 col-sm-6">
-              <div class="features__item-two">
-                <div class="features__content-four">
-                  <div className="section__title   ">
-                    <h3>Impact Statement</h3>
-                    <h5 className="mt-3">
-                      {" "}
-                      <i>Securing Your Clients’ Innovations with Confidence </i>{" "}
-                    </h5>
-                    <p>
-                    Boulou LPO provides reliable, detail-oriented support for every stage of intellectual property 
-protection. We help your firm maintain compliance, meet deadlines, and safeguard valuable 
-assets, giving your clients confidence that their intellectual property is in expert hands.
-                    </p>
-                  </div>
-                </div>
+      <section className="features__area-three section-py-130 pt-0">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-6">
+              <div className="section__title text-center mb-40">
+                <h2 className="title">Why Choose Boulou LPO?</h2>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-
-      <section class="features__area-three section-py-130 pt-0">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-6">
-              <div class="section__title text-center mb-40">
-                <h2 class="title">Why Choose Boulou LPO?</h2>
-              </div>
-            </div>
-          </div>
-          <div class="row gutter-y-24 justify-content-center">
-            <div class="col-lg-4 col-sm-6">
-              <div class="features__item-two">
-                <div class="features__icon-two">
-                  <i class="flaticon-partner"></i>
+          <div className="row gutter-y-24 justify-content-center">
+            <div className="col-lg-4 col-sm-6">
+              <div className="features__item-two">
+                <div className="features__icon-two">
+                  <i className="flaticon-partner"></i>
                 </div>
-                <div class="features__content-four">
-                  <h3 class="title">Skilled, Scalable Support</h3>
+                <div className="features__content-four">
+                  <h3 className="title">Skilled, Scalable Support</h3>
                   <p>
                     Paralegals trained in employment agreements, workplace
                     investigations, and labor disputes.
@@ -237,13 +294,13 @@ assets, giving your clients confidence that their intellectual property is in ex
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-sm-6">
-              <div class="features__item-two">
-                <div class="features__icon-two">
-                  <i class="flaticon-health-insurance"></i>
+            <div className="col-lg-4 col-sm-6">
+              <div className="features__item-two">
+                <div className="features__icon-two">
+                  <i className="flaticon-health-insurance"></i>
                 </div>
-                <div class="features__content-four">
-                  <h3 class="title">Bilingual Capabilities</h3>
+                <div className="features__content-four">
+                  <h3 className="title">Bilingual Capabilities</h3>
                   <p>
                     Clear communication with English and Spanish-speaking
                     clients, witnesses, and HR teams.
@@ -251,13 +308,13 @@ assets, giving your clients confidence that their intellectual property is in ex
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-sm-6">
-              <div class="features__item-two">
-                <div class="features__icon-two">
-                  <i class="flaticon-tax"></i>
+            <div className="col-lg-4 col-sm-6">
+              <div className="features__item-two">
+                <div className="features__icon-two">
+                  <i className="flaticon-tax"></i>
                 </div>
-                <div class="features__content-four">
-                  <h3 class="title">Industry-Focused Expertise</h3>
+                <div className="features__content-four">
+                  <h3 className="title">Industry-Focused Expertise</h3>
                   <p>
                     Knowledge of employment law procedures, EEOC filings, and
                     compliance requirements.
@@ -265,30 +322,29 @@ assets, giving your clients confidence that their intellectual property is in ex
                 </div>
               </div>
             </div>
-
-            <div class="col-lg-6 col-sm-6">
-              <div class="features__item-two">
-                <div class="features__icon-two">
-                  <i class="flaticon-report"></i>
+            <div className="col-lg-6 col-sm-6">
+              <div className="features__item-two">
+                <div className="features__icon-two">
+                  <i className="flaticon-report"></i>
                 </div>
-                <div class="features__content-four">
-                  <h3 class="title">Confidential & Compliant</h3>
+                <div className="features__content-four">
+                  <h3 className="title">Confidential & Compliant</h3>
                   <p>
                     Secure handling of sensitive employee and company records.
                   </p>
                 </div>
               </div>
             </div>
-            <div class="col-lg-6 col-sm-6">
-              <div class="features__item-two">
-                <div class="features__icon-two">
-                  <i class="flaticon-calculator"></i>
+            <div className="col-lg-6 col-sm-6">
+              <div className="features__item-two">
+                <div className="features__icon-two">
+                  <i className="flaticon-calculator"></i>
                 </div>
-                <div class="features__content-four">
-                  <h3 class="title">Cost-Effective Partnership</h3>
+                <div className="features__content-four">
+                  <h3 className="title">Cost-Effective Partnership</h3>
                   <p>
                     Professional support without the expense of expanding your
-                    in house staff.
+                    in-house staff.
                   </p>
                 </div>
               </div>
@@ -296,6 +352,47 @@ assets, giving your clients confidence that their intellectual property is in ex
           </div>
         </div>
       </section>
+
+      <div className="sub-page-baner pb-5" style={{ marginTop: "0px" }}>
+        <div className="container">
+          <section className="banner__area-five">
+            <div className="container custom-container-five">
+              <div
+                className="banner__bg-foura"
+                style={{
+                  backgroundImage: "url(assets/lpo/h8_hero_bg.jpg)",
+                }}
+              >
+                <div
+                  className="banner__bg-shape"
+                  style={{
+                    backgroundImage:
+                      "url(assets/img/banner/h8_hero_bg_shape.svg)",
+                  }}
+                ></div>
+                <div className="row">
+                  <div className="col-xl-8 col-lg-8">
+                    <div
+                      className="banner__content-five"
+                      style={{ padding: "30px" }}
+                    >
+                      <h2 className="title" data-aos="fade-up" data-aos-delay="400">
+                        Impact Statement
+                      </h2>
+                      <h4>Securing Your Clients’ Innovations with Confidence</h4>
+                      <p data-aos="fade-up" data-aos-delay="600">
+                        Boulou LPO provides reliable, detail-oriented support for every stage of intellectual property 
+                        protection. We help your firm maintain compliance, meet deadlines, and safeguard valuable 
+                        assets, giving your clients confidence that their intellectual property is in expert hands.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
 
       <section className="cta__area-two section-py-130 pt-0">
         <div className="container">
@@ -320,7 +417,7 @@ assets, giving your clients confidence that their intellectual property is in ex
                   </div>
                   <a
                     href="tel:1 (561) 409-5858"
-                    className="tg-btn tg-border-btn "
+                    className="tg-btn tg-border-btn"
                   >
                     Call Now{" "}
                     <img
@@ -342,4 +439,4 @@ assets, giving your clients confidence that their intellectual property is in ex
   );
 };
 
-export default Intellectual ;
+export default Intellectual;
