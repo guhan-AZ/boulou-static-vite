@@ -9,7 +9,7 @@ const Footer = () => {
         <div class="container">
           <div class="footer__top-two footer__top-three">
             <div class="row">
-              <div class="col-xl-3 col-lg-4 col-md-6">
+              <div class="col-xl-4 col-lg-4 col-md-6">
                 <div class="footer__widget">
                   <h4 class="footer__widget-title">Follow us On:</h4>
                   <div class="footer__content-two">
@@ -69,7 +69,7 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
-              <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+              <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
                 <div class="footer__widget">
                   <h4 class="footer__widget-title">Quick Links</h4>
                   <ul class="footer__widget-link list-wrap">
@@ -93,27 +93,7 @@ const Footer = () => {
                   </ul>
                 </div>
               </div>
-              <div class="col-xl-2 col-lg-4 col-md-6 col-sm-6">
-                <div class="footer__widget">
-                  <h4 class="footer__widget-title">Services</h4>
-                  <ul class="footer__widget-link list-wrap">
-                    <li>
-                      <Link to="/paralegal-service">Paralegal Service</Link>
-                    </li>
-                    <li>
-                      <Link to="/contract-life-cycle-management">
-                        Contract Life Cycle
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="/document-review">Document Review</Link>
-                    </li>
-                    <li>
-                      <Link to="/admin-supports">Admin Supports</Link>
-                    </li>
-                  </ul>
-                </div>
-              </div>
+             
               <div class="col-xl-4 col-lg-4 col-md-6">
                 <div class="footer__widget">
                   <h4 class="footer__widget-title">Contact</h4>

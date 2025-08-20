@@ -22,9 +22,9 @@ const Specialties = () => {
 
       <section className="legal-hero-banner ">
       <div className="legal-hero-content">
-        <span className="legal-hero-badge">
+        {/* <span className="legal-hero-badge">
           Highly Expert Lawyers in Diverse Practice Areas
-        </span>
+        </span> */}
         <h1 className="legal-hero-title">
           Boulou LPO’ <br /> Legal Specialties
         </h1>
@@ -33,7 +33,7 @@ const Specialties = () => {
           with specialized remote lawyers across various practice areas. Expert
           legal support tailored to your needs.
         </p>
-        <button className="legal-hero-btn">Book a Demo</button>
+        <a href="contact" className="legal-hero-btn">Book a Demo</a>
       </div>
 
       {/* Floating Images */}
@@ -773,7 +773,7 @@ const Specialties = () => {
           legal talent across the world, ensuring your legal matters are handled
           with precision and expertise that matches your specific needs.
         </p>
-        <button className="hero-remote-lawyers-btn">Book a Demo</button>
+        <a href="contact" className="hero-remote-lawyers-btn">Book a Demo</a>
       </div>
     </section>
      <FAQSection />

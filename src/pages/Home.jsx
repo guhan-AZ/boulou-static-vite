@@ -14,7 +14,9 @@ const Home = () => {
     <>
      <Helmet>
         <title>Trusted Legal Process Outsourcing Partner | Boulou LPO</title>
-        <meta name="description" content="Partner with Boulou LPO for reliable legal process outsourcing. We help law firms & attorneys with contract lifecycle management, paralegal services & document review." />
+        <meta name="description" content="Partner with Boulou LPO for reliable legal process outsourcing. 
+        We help law firms & attorneys with contract lifecycle management, paralegal services & document review.
+" />
       </Helmet>
       <section className="banner__area-two fix">
         <div className="container">
