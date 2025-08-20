@@ -20,7 +20,6 @@ const Administrative = () => {
                 attorneys stay organized and focused on advocacy while we manage
                 essential administrative and legal support tasks.
               </p>
-              <button className="hero-remote-lawyers-btn">Book a Demo</button>
             </div>
 
             {/* Right Image Section - col-4 */}
