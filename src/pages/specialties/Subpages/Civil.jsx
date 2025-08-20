@@ -3,169 +3,313 @@ import React from "react";
 const Civil = () => {
   return (
     <>
-      <div className="section-py-130 pb-5">
+      {/* Hero Section */}
+      <section className="hero-section-container">
         <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-10">
-              <div className="section__title text-center mb-40">
-                <h2 className="title">Civil Litigation</h2>
-                <p>
-                  Boulou LPO provides skilled paralegal assistance for civil
-                  litigation attorneys, ensuring all aspects of case management,
-                  filings, and discovery are handled accurately and efficiently.
-                  From initial pleadings to trial preparation, we help your firm
-                  stay organized, meet deadlines, and focus on achieving
-                  favorable outcomes for clients.
-                </p>
+          <div className="row align-items-center">
+            {/* Left Content */}
+            <div className="col-lg-8 col-md-12 hero-text-content">
+              <div className="legal-hero-badge">
+                Reliable & Efficient Litigation Support
+              </div>
+              <h1 className="hero-title">Civil Litigation</h1>
+              <p className="hero-description">
+                Boulou LPO provides skilled paralegal assistance for civil
+                litigation attorneys, ensuring case management, filings, and
+                discovery are handled with precision and efficiency. From
+                pleadings to trial preparation, we help your firm stay
+                organized, meet deadlines, and achieve favorable client
+                outcomes.
+              </p>
+              <button className="hero-remote-lawyers-btn">Book a Demo</button>
+            </div>
+
+            {/* Right Image */}
+            <div className="col-lg-4 col-md-12 hero-image-content">
+              <div className="hero-main-image">
+                <img src="/assets/lpo/Civil Litigation.png" alt="Civil Litigation" />
+                {/* Floating Images */}
+                <div className="hero-floating-img hero-img1">
+                  <img src="/assets/1.png" alt="Assistant" />
+                </div>
+                <div className="hero-floating-img hero-img2">
+                  <img src="/assets/3.png" alt="Attorney" />
+                </div>
+              </div>
+              <p className="hero-caption">
+                *Boulou LPO is not U.S.-based or licensed, but is trained by U.S.
+                attorneys and has extensive experience supporting U.S. law
+                firms.*
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Transform Section */}
+      <section className="transform-section py-5">
+        <div className="container">
+          <div className="row g-5 align-items-start">
+            <div className="col-lg-6">
+              <h2
+                className="transform-title fw-bold mb-3"
+                style={{ fontSize: "40px", color: "#002688" }}
+              >
+                How We Can Transform <br /> Your Civil Litigation Practice
+              </h2>
+            </div>
+            <div className="col-lg-6">
+              <h6 style={{ color: "#002688" }}>
+                Streamlined Support for Every Stage of Litigation
+              </h6>
+              <p className="transform-description text-muted">
+                Civil litigation demands detailed documentation, strict
+                deadlines, and careful preparation. Our paralegal team handles
+                filings, discovery, and trial prep so attorneys can focus on
+                client advocacy and courtroom strategy.
+              </p>
+            </div>
+
+            {/* Transformation Cards */}
+            <div className="col-lg-12">
+              <div className="row g-4">
+                {/* Card 1 */}
+                <div className="col-12 col-sm-6">
+                  <div className="transform-card">
+                    <img
+                      src="assets/lpo/inc.png"
+                      className="transform-card-img"
+                      alt="Increase Profitability"
+                    />
+                    <div className="transform-card-overlay"></div>
+                    <div className="transform-card-content">
+                      <h5 className="fw-semibold">Increase Profitability</h5>
+                      <p>
+                        Reduce overhead by leveraging cost-effective legal
+                        support that eliminates the need for full-time in-house
+                        staff.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Card 2 */}
+                <div className="col-12 col-sm-6">
+                  <div className="transform-card">
+                    <img
+                      src="assets/lpo/top.png"
+                      className="transform-card-img"
+                      alt="Access Top Talent"
+                    />
+                    <div className="transform-card-overlay"></div>
+                    <div className="transform-card-content">
+                      <h5 className="fw-semibold">Access Top Talent</h5>
+                      <p>
+                        Partner with highly trained litigation paralegals
+                        experienced in complex case management and trial
+                        preparation.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Card 3 */}
+                <div className="col-12">
+                  <div className="transform-card">
+                    <img
+                      src="assets/lpo/cxx.jpg"
+                      className="transform-card-img"
+                      alt="Save Time"
+                    />
+                    <div className="transform-card-overlay"></div>
+                    <div className="transform-card-content">
+                      <h5 className="fw-semibold">Save Time</h5>
+                      <p>
+                        We handle filings, discovery, and trial binders so you
+                        can focus on strategy and client advocacy — not
+                        repetitive administrative tasks.
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
+      </section>
+
+      {/* Why Choose Section */}
+      <section className="features__area-three section-py-130 pt-0">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-6">
+              <div className="section__title text-center mb-40">
+                <h2 className="title">Why Choose Boulou LPO?</h2>
+              </div>
+            </div>
+          </div>
+          <div className="row gutter-y-24 justify-content-center">
+            <div className="col-lg-4 col-sm-6">
+              <div className="features__item-two">
+                <div className="features__icon-two">
+                  <i className="flaticon-partner"></i>
+                </div>
+                <div className="features__content-four">
+                  <h3 className="title">Litigation Expertise</h3>
+                  <p>
+                    Experienced in pleadings, motions, discovery, and trial
+                    preparation for civil litigation matters.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-sm-6">
+              <div className="features__item-two">
+                <div className="features__icon-two">
+                  <i className="flaticon-health-insurance"></i>
+                </div>
+                <div className="features__content-four">
+                  <h3 className="title">Efficient Case Management</h3>
+                  <p>
+                    Organized support for filings, deadlines, evidence, and
+                    court communications.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-sm-6">
+              <div className="features__item-two">
+                <div className="features__icon-two">
+                  <i className="flaticon-tax"></i>
+                </div>
+                <div className="features__content-four">
+                  <h3 className="title">Tailored Support</h3>
+                  <p>
+                    Services customized to your firm’s unique litigation
+                    workflow and needs.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6 col-sm-6">
+              <div className="features__item-two">
+                <div className="features__icon-two">
+                  <i className="flaticon-report"></i>
+                </div>
+                <div className="features__content-four">
+                  <h3 className="title">Confidential & Compliant</h3>
+                  <p>
+                    Secure handling of sensitive case documents and client
+                    information.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6 col-sm-6">
+              <div className="features__item-two">
+                <div className="features__icon-two">
+                  <i className="flaticon-calculator"></i>
+                </div>
+                <div className="features__content-four">
+                  <h3 className="title">Cost-Effective</h3>
+                  <p>
+                    High-quality litigation support without the overhead of
+                    in-house staff.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Impact Banner */}
+      <div className="sub-page-baner pb-5" style={{ marginTop: "0px" }}>
+        <div className="container">
+          <section className="banner__area-five">
+            <div className="container custom-container-five">
+              <div
+                className="banner__bg-foura"
+                style={{
+                  backgroundImage: "url(assets/lpo/h8_hero_bg.jpg)",
+                }}
+              >
+                <div
+                  className="banner__bg-shape"
+                  style={{
+                    backgroundImage:
+                      "url(assets/img/banner/h8_hero_bg_shape.svg)",
+                  }}
+                ></div>
+                <div className="row">
+                  <div className="col-xl-8 col-lg-8">
+                    <div className="banner__content-five" style={{ padding: "30px" }}>
+                      <h2 className="title">Impact Statement</h2>
+                      <h4>Dependable Support for Civil Litigation Matters</h4>
+                      <p>
+                        Boulou LPO helps your litigation practice run smoothly by
+                        managing filings, discovery, and trial preparation with
+                        accuracy — allowing attorneys to focus on strategy,
+                        negotiations, and courtroom advocacy.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
       </div>
 
-      <section class="features__area-two section-py-130 pt-0">
-        <div class="container">
-          <div class="row align-items-center justify-content-center">
-            <div class="col-lg-5 col-md-10 order-0 order-lg-2">
-              <div class="features__img">
+      {/* Services Offered */}
+      <section className="features__area-two section-py-130 ">
+        <div className="container">
+          <div className="row align-items-center justify-content-center">
+            <div className="col-lg-5 col-md-10 order-0 order-lg-2">
+              <div className="features__img">
                 <img src="assets/img/special/Civil.jpg" alt="img" />
               </div>
             </div>
-            <div class="col-lg-7 col-md-10  ">
-              <div class="features__content-two">
-                <div class="section__title mb-25">
-                  <span class="sub-title">Types of Services We Offer </span>
+            <div className="col-lg-7 col-md-10">
+              <div className="features__content-two">
+                <div className="section__title mb-25">
+                  <span className="sub-title">Types of Services We Offer</span>
                   <h2>Expert Civil Litigation Paralegal Support</h2>
                   <p>
-                    At Boulou LPO, our paralegals provide comprehensive civil
-                    litigation assistance, including:
+                    Our team provides end-to-end litigation assistance,
+                    including:
                   </p>
                 </div>
-
-                <ul class="list-wrap about__list-item-two">
-                  <li>
-                    <div class="icon">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="14"
-                        height="11"
-                        viewBox="0 0 14 11"
-                        fill="none"
-                      >
-                        <path
-                          d="M12.091 2L5.091 9L1.90918 5.81818"
-                          stroke="currentColor"
-                          stroke-width="2.1875"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        />
-                      </svg>
-                    </div>
-                    Drafting and filing complaints, motions, and discovery
-                    requests
-                  </li>
-                  <li>
-                    <div class="icon">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="14"
-                        height="11"
-                        viewBox="0 0 14 11"
-                        fill="none"
-                      >
-                        <path
-                          d="M12.091 2L5.091 9L1.90918 5.81818"
-                          stroke="currentColor"
-                          stroke-width="2.1875"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        />
-                      </svg>
-                    </div>
-                    Organizing and managing case files and exhibits
-                  </li>
-                  <li>
-                    <div class="icon">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="14"
-                        height="11"
-                        viewBox="0 0 14 11"
-                        fill="none"
-                      >
-                        <path
-                          d="M12.091 2L5.091 9L1.90918 5.81818"
-                          stroke="currentColor"
-                          stroke-width="2.1875"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        />
-                      </svg>
-                    </div>
-                    Coordinating depositions, witness communications, and court
-                    scheduling
-                  </li>
-                  <li>
-                    <div class="icon">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="14"
-                        height="11"
-                        viewBox="0 0 14 11"
-                        fill="none"
-                      >
-                        <path
-                          d="M12.091 2L5.091 9L1.90918 5.81818"
-                          stroke="currentColor"
-                          stroke-width="2.1875"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        />
-                      </svg>
-                    </div>
-                    Conducting legal research on statutes, case law, and
-                    precedents
-                  </li>
-                  <li>
-                    <div class="icon">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="14"
-                        height="11"
-                        viewBox="0 0 14 11"
-                        fill="none"
-                      >
-                        <path
-                          d="M12.091 2L5.091 9L1.90918 5.81818"
-                          stroke="currentColor"
-                          stroke-width="2.1875"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        />
-                      </svg>
-                    </div>
-                    Preparing trial binders, exhibits, and evidence summaries
-                  </li>
-                  <li>
-                    <div class="icon">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="14"
-                        height="11"
-                        viewBox="0 0 14 11"
-                        fill="none"
-                      >
-                        <path
-                          d="M12.091 2L5.091 9L1.90918 5.81818"
-                          stroke="currentColor"
-                          stroke-width="2.1875"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                        />
-                      </svg>
-                    </div>
-                    Managing deadlines, calendars, and document production
-                  </li>
+                <ul className="list-wrap about__list-item-two">
+                  {[
+                    "Drafting and filing complaints, motions, and discovery requests",
+                    "Organizing and managing case files and exhibits",
+                    "Coordinating depositions, witnesses, and court schedules",
+                    "Conducting legal research on statutes, precedents, and case law",
+                    "Preparing trial binders, exhibits, and evidence summaries",
+                    "Managing litigation calendars, deadlines, and document production",
+                  ].map((item, idx) => (
+                    <li key={idx}>
+                      <div className="icon">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="14"
+                          height="11"
+                          viewBox="0 0 14 11"
+                          fill="none"
+                        >
+                          <path
+                            d="M12.091 2L5.091 9L1.90918 5.81818"
+                            stroke="currentColor"
+                            strokeWidth="2.1875"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                          />
+                        </svg>
+                      </div>
+                      {item}
+                    </li>
+                  ))}
                 </ul>
               </div>
             </div>
@@ -173,148 +317,14 @@ const Civil = () => {
         </div>
       </section>
 
-      <section class="features__area-three section-py-130 pt-0">
-        <div class="container">
-          <div class="row gutter-y-24 justify-content-center">
-            <div class="col-lg-6 col-sm-6">
-              <div class="features__item-two">
-                <div class="features__content-four">
-                  <div className="section__title   ">
-                    <h3>How We Can Transform Your Civil Litigation Practice</h3>
-                    <h5 className="mt-3">
-                      <i>Efficient Case Management for Better Outcomes </i>{" "}
-                    </h5>
-                    <p>
-                      Civil litigation involves multiple deadlines, documents,
-                      and parties. Our team handles the administrative and
-                      paralegal workload, ensuring filings are accurate,
-                      evidence is organized, and deadlines are met. This allows
-                      attorneys to focus on strategy, client advocacy, and
-                      courtroom performance, ultimately improving case
-                      efficiency and results.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6 col-sm-6">
-              <div class="features__item-two">
-                <div class="features__content-four">
-                  <div className="section__title   ">
-                    <h3>Impact Statement</h3>
-                    <h5 className="mt-3">
-                      {" "}
-                      <i>Precision Support for Every Case</i>{" "}
-                    </h5>
-                    <p>
-                      Boulou LPO helps your civil litigation practice operate
-                      smoothly, reduce errors, and stay ahead of deadlines. With
-                      our dedicated support, your attorneys can focus on
-                      building stronger cases, serving more clients, and
-                      achieving favorable outcomes.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="features__area-three section-py-130 pt-0">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-6">
-              <div class="section__title text-center mb-40">
-                <h2 class="title">Why Choose Boulou LPO?</h2>
-              </div>
-            </div>
-          </div>
-          <div class="row gutter-y-24 justify-content-center">
-            <div class="col-lg-4 col-sm-6">
-              <div class="features__item-two">
-                <div class="features__icon-two">
-                  <i class="flaticon-partner"></i>
-                </div>
-                <div class="features__content-four">
-                  <h3 class="title">Skilled, Scalable Support</h3>
-                  <p>
-                    Paralegals experienced in civil procedure, filings, and case
-                    management.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-              <div class="features__item-two">
-                <div class="features__icon-two">
-                  <i class="flaticon-health-insurance"></i>
-                </div>
-                <div class="features__content-four">
-                  <h3 class="title">Bilingual Capabilities</h3>
-                  <p>
-                    Effective communication with English and Spanish-speaking
-                    clients, witnesses, and opposing counsel.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-              <div class="features__item-two">
-                <div class="features__icon-two">
-                  <i class="flaticon-tax"></i>
-                </div>
-                <div class="features__content-four">
-                  <h3 class="title">Industry-Focused Expertise</h3>
-                  <p>
-                    Deep understanding of civil litigation timelines, discovery
-                    processes, and courtroom requirements.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-6 col-sm-6">
-              <div class="features__item-two">
-                <div class="features__icon-two">
-                  <i class="flaticon-report"></i>
-                </div>
-                <div class="features__content-four">
-                  <h3 class="title">Confidential & Compliant</h3>
-                  <p>
-                    Secure handling of sensitive case materials and client
-                    information.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6 col-sm-6">
-              <div class="features__item-two">
-                <div class="features__icon-two">
-                  <i class="flaticon-calculator"></i>
-                </div>
-                <div class="features__content-four">
-                  <h3 class="title">Cost-Effective Partnership</h3>
-                  <p>
-                    Access professional litigation support without the overhead
-                    of in-house hires.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="cta__area-two section-py-130 pt-0">
+      {/* CTA */}
+      <section className="cta__area-two section-py-130 pt-5">
         <div className="container">
           <div className="cta__inner-wrap-two">
             <div className="row align-items-center">
               <div className="col-lg-6">
                 <div className="cta__content-three">
-                  <h2 className="title">
-                    Click to get a free Consultation Now
-                  </h2>
+                  <h2 className="title">Click to get a free Consultation Now</h2>
                 </div>
               </div>
               <div className="col-lg-6">
