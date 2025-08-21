@@ -28,7 +28,10 @@ const Consumerprotection = () => {
             {/* Right Image Section - col-4 */}
             <div className="col-lg-4 col-md-12 hero-image-content">
               <div className="hero-main-image">
-                <img src="/assets/lpo/Corporate and business law.png" alt="Lawyer" />
+                <img
+                  src="/assets/lpo/Corporate and business law.png"
+                  alt="Lawyer"
+                />
                 {/* Floating Images */}
                 <div className="hero-floating-img hero-img1">
                   <img src="/assets/1.png" alt="Assistant" />
@@ -162,11 +165,16 @@ const Consumerprotection = () => {
                       className="banner__content-five"
                       style={{ padding: "30px" }}
                     >
-                      <h2 className="title" data-aos="fade-up" data-aos-delay="400">
+                      <h2
+                        className="title"
+                        data-aos="fade-up"
+                        data-aos-delay="400"
+                      >
                         Impact Statement
                       </h2>
                       <h4>
-                        Maximizing Efficiency and Accuracy in Consumer Protection Cases
+                        Maximizing Efficiency and Accuracy in Consumer
+                        Protection Cases
                       </h4>
                       <p data-aos="fade-up" data-aos-delay="600">
                         With Boulou LPO, your legal team can manage large-scale
@@ -182,40 +190,6 @@ const Consumerprotection = () => {
           </section>
         </div>
       </div>
-
-      {/* TYPES OF SERVICES */}
-      <section className="features__area-two section-py-130">
-        <div className="container">
-          <div className="row align-items-center justify-content-center">
-            <div className="col-lg-5 col-md-10 order-0 order-lg-2">
-              <div className="features__img">
-                <img src="assets/img/special/Consumer.jpg" alt="img" />
-              </div>
-            </div>
-            <div className="col-lg-7 col-md-10 order-2">
-              <div className="features__content-two">
-                <div className="section__title mb-25">
-                  <span className="sub-title">Types of Services We Offer </span>
-                  <h2>Expert Consumer Protection / Class Action Support</h2>
-                  <p>
-                    At Boulou LPO, our paralegals provide comprehensive
-                    assistance, including:
-                  </p>
-                </div>
-
-                <ul className="list-wrap about__list-item-two">
-                  <li>Drafting and organizing complaints, pleadings, and legal correspondence</li>
-                  <li>Preparing filings and documentation for class certification and settlements</li>
-                  <li>Coordinating communications with clients, class members, and opposing counsel</li>
-                  <li>Managing case files, exhibits, and discovery materials</li>
-                  <li>Conducting legal research on consumer protection laws, regulations, and precedents</li>
-                  <li>Assisting with settlement administration, notices, and reporting</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* WHY CHOOSE */}
       <section className="features__area-three section-py-130 pt-0">
@@ -297,6 +271,158 @@ const Consumerprotection = () => {
                     additional in-house staff.
                   </p>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* TYPES OF SERVICES */}
+      <section className="features__area-two section-py-130 pt-0">
+        <div className="container">
+          <div className="row align-items-center justify-content-center">
+            <div className="col-lg-5 col-md-10 order-0 order-lg-2">
+              <div className="features__img">
+                <img src="assets/img/special/Consumer.jpg" alt="img" />
+              </div>
+            </div>
+            <div className="col-lg-7 col-md-10">
+              <div className="features__content-two">
+                <div className="section__title mb-25">
+                  <span className="sub-title">Types of Services We Offer</span>
+                  <h2>Expert Consumer Protection / Class Action Support</h2>
+                  <p>
+                    At Boulou LPO, our paralegals provide comprehensive
+                    assistance, including:
+                  </p>
+                </div>
+                <ul className="list-wrap about__list-item-two">
+                  <li>
+                    <div className="icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="11"
+                        viewBox="0 0 14 11"
+                        fill="none"
+                      >
+                        <path
+                          d="M12.091 2L5.091 9L1.90918 5.81818"
+                          stroke="currentColor"
+                          strokeWidth="2.1875"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                    </div>
+                    Drafting and organizing complaints, pleadings, and legal
+                    correspondence
+                  </li>
+                  <li>
+                    <div className="icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="11"
+                        viewBox="0 0 14 11"
+                        fill="none"
+                      >
+                        <path
+                          d="M12.091 2L5.091 9L1.90918 5.81818"
+                          stroke="currentColor"
+                          strokeWidth="2.1875"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                    </div>
+                    Preparing filings and documentation for class certification
+                    and settlements
+                  </li>
+                  <li>
+                    <div className="icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="11"
+                        viewBox="0 0 14 11"
+                        fill="none"
+                      >
+                        <path
+                          d="M12.091 2L5.091 9L1.90918 5.81818"
+                          stroke="currentColor"
+                          strokeWidth="2.1875"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                    </div>
+                    Coordinating communications with clients, class members, and
+                    opposing counsel
+                  </li>
+                  <li>
+                    <div className="icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="11"
+                        viewBox="0 0 14 11"
+                        fill="none"
+                      >
+                        <path
+                          d="M12.091 2L5.091 9L1.90918 5.81818"
+                          stroke="currentColor"
+                          strokeWidth="2.1875"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                    </div>
+                    Managing case files, exhibits, and discovery materials
+                  </li>
+                  <li>
+                    <div className="icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="11"
+                        viewBox="0 0 14 11"
+                        fill="none"
+                      >
+                        <path
+                          d="M12.091 2L5.091 9L1.90918 5.81818"
+                          stroke="currentColor"
+                          strokeWidth="2.1875"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                    </div>
+                    Conducting legal research on consumer protection laws,
+                    regulations, and precedents
+                  </li>
+                  <li>
+                    <div className="icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="11"
+                        viewBox="0 0 14 11"
+                        fill="none"
+                      >
+                        <path
+                          d="M12.091 2L5.091 9L1.90918 5.81818"
+                          stroke="currentColor"
+                          strokeWidth="2.1875"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                    </div>
+                    Assisting with settlement administration, notices, and
+                    reporting
+                  </li>
+                </ul>
               </div>
             </div>
           </div>

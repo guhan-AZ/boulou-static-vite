@@ -32,7 +32,7 @@ import Footer from "./Component/Footer";
 import CareerNew from "./pages/CareerNew";
 import CareerNewDetails from "./pages/CareerNewDetails";
 import Chatbot from "./Component/Chatbot";
-import Specialties from "./pages/Specialties/Specialties";
+import InternalGuide from "./pages/specialties/InternalGuide";
 import Personal from "./pages/Specialties/Subpages/Personal";
 import Criminal from "./pages/Specialties/Subpages/Criminal";
 import Family from "./pages/Specialties/Subpages/Family";
@@ -101,7 +101,7 @@ const App = () => {
         <Route path="/ApplyForm/:id" element={<ApplyForm />} />
 
         {/* Specialties */}
-        <Route path="/Specialties" element={<Specialties />} />
+        <Route path="/internalguide" element={<InternalGuide />} />
         <Route path="/Personal" element={<Personal />} />
         <Route path="/Criminal" element={<Criminal />} />
         <Route path="/Family" element={<Family />} />

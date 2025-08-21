@@ -62,12 +62,12 @@ const ContractLaw = () => {
                 Streamlined Contract Management for Accuracy and Compliance
               </h6>
               <p className="transform-description text-muted">
-                Contract law demands attention to detail, timely reviews,
-                and strict adherence to legal obligations. Our team handles
-                document preparation, organization, and monitoring, allowing
-                attorneys to focus on negotiations, strategy, and client
-                counseling. This reduces risk, prevents missed deadlines,
-                and ensures contracts support favorable outcomes.
+                Contract law demands attention to detail, timely reviews, and
+                strict adherence to legal obligations. Our team handles document
+                preparation, organization, and monitoring, allowing attorneys to
+                focus on negotiations, strategy, and client counseling. This
+                reduces risk, prevents missed deadlines, and ensures contracts
+                support favorable outcomes.
               </p>
             </div>
 
@@ -177,39 +177,6 @@ const ContractLaw = () => {
         </div>
       </div>
 
-      {/* SERVICES */}
-      <section className="features__area-two section-py-130">
-        <div className="container">
-          <div className="row align-items-center justify-content-center">
-            <div className="col-lg-5 col-md-10 order-0 order-lg-2">
-              <div className="features__img">
-                <img src="assets/img/special/Contract.jpg" alt="Contract" />
-              </div>
-            </div>
-            <div className="col-lg-7 col-md-10 order-2">
-              <div className="features__content-two">
-                <div className="section__title mb-25">
-                  <span className="sub-title">Types of Services We Offer</span>
-                  <h2>Expert Contract Law Paralegal Support</h2>
-                  <p>
-                    At Boulou LPO, our paralegals provide comprehensive contract
-                    law assistance, including:
-                  </p>
-                </div>
-                <ul className="list-wrap about__list-item-two">
-                  <li>Drafting, reviewing, and revising contracts & agreements</li>
-                  <li>Preparing non-disclosure, partnership, and service agreements</li>
-                  <li>Organizing and maintaining contract records & databases</li>
-                  <li>Tracking contract deadlines, renewals, and compliance obligations</li>
-                  <li>Coordinating communications with clients, vendors, and parties</li>
-                  <li>Conducting legal research on contractual obligations and precedents</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* WHY CHOOSE */}
       <section className="features__area-three section-py-130 pt-0">
         <div className="container">
@@ -224,31 +191,196 @@ const ContractLaw = () => {
             <div className="col-lg-4 col-sm-6">
               <div className="features__item-two">
                 <h3 className="title">Skilled, Scalable Support</h3>
-                <p>Paralegals experienced in drafting, reviewing, and managing various contracts.</p>
+                <p>
+                  Paralegals experienced in drafting, reviewing, and managing
+                  various contracts.
+                </p>
               </div>
             </div>
             <div className="col-lg-4 col-sm-6">
               <div className="features__item-two">
                 <h3 className="title">Bilingual Capabilities</h3>
-                <p>Clear communication with English and Spanish-speaking clients, partners, and vendors.</p>
+                <p>
+                  Clear communication with English and Spanish-speaking clients,
+                  partners, and vendors.
+                </p>
               </div>
             </div>
             <div className="col-lg-4 col-sm-6">
               <div className="features__item-two">
                 <h3 className="title">Industry-Focused Expertise</h3>
-                <p>Knowledge of contract law principles, compliance, and enforcement procedures.</p>
+                <p>
+                  Knowledge of contract law principles, compliance, and
+                  enforcement procedures.
+                </p>
               </div>
             </div>
             <div className="col-lg-6 col-sm-6">
               <div className="features__item-two">
                 <h3 className="title">Confidential & Compliant</h3>
-                <p>Secure handling of sensitive agreements and legal documents.</p>
+                <p>
+                  Secure handling of sensitive agreements and legal documents.
+                </p>
               </div>
             </div>
             <div className="col-lg-6 col-sm-6">
               <div className="features__item-two">
                 <h3 className="title">Cost-Effective Partnership</h3>
-                <p>Expand contract management capabilities without the overhead of in-house hires.</p>
+                <p>
+                  Expand contract management capabilities without the overhead
+                  of in-house hires.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* SERVICES */}
+      <section className="features__area-two section-py-130 pt-0">
+        <div className="container">
+          <div className="row align-items-center justify-content-center">
+            <div className="col-lg-5 col-md-10 order-0 order-lg-2">
+              <div className="features__img">
+                <img src="assets/img/special/Contract.jpg" alt="img" />
+              </div>
+            </div>
+            <div className="col-lg-7 col-md-10">
+              <div className="features__content-two">
+                <div className="section__title mb-25">
+                  <span className="sub-title">Types of Services We Offer</span>
+                  <h2>Expert Contract Law Paralegal Support</h2>
+                  <p>
+                    At Boulou LPO, our paralegals provide comprehensive contract
+                    law assistance, including:
+                  </p>
+                </div>
+                <ul className="list-wrap about__list-item-two">
+                  <li>
+                    <div className="icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="11"
+                        viewBox="0 0 14 11"
+                        fill="none"
+                      >
+                        <path
+                          d="M12.091 2L5.091 9L1.90918 5.81818"
+                          stroke="currentColor"
+                          strokeWidth="2.1875"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                    </div>
+                    Drafting, reviewing, and revising contracts & agreements
+                  </li>
+                  <li>
+                    <div className="icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="11"
+                        viewBox="0 0 14 11"
+                        fill="none"
+                      >
+                        <path
+                          d="M12.091 2L5.091 9L1.90918 5.81818"
+                          stroke="currentColor"
+                          strokeWidth="2.1875"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                    </div>
+                    Preparing non-disclosure, partnership, and service
+                    agreements
+                  </li>
+                  <li>
+                    <div className="icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="11"
+                        viewBox="0 0 14 11"
+                        fill="none"
+                      >
+                        <path
+                          d="M12.091 2L5.091 9L1.90918 5.81818"
+                          stroke="currentColor"
+                          strokeWidth="2.1875"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                    </div>
+                    Organizing and maintaining contract records & databases
+                  </li>
+                  <li>
+                    <div className="icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="11"
+                        viewBox="0 0 14 11"
+                        fill="none"
+                      >
+                        <path
+                          d="M12.091 2L5.091 9L1.90918 5.81818"
+                          stroke="currentColor"
+                          strokeWidth="2.1875"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                    </div>
+                    Tracking contract deadlines, renewals, and compliance
+                    obligations{" "}
+                  </li>
+                  <li>
+                    <div className="icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="11"
+                        viewBox="0 0 14 11"
+                        fill="none"
+                      >
+                        <path
+                          d="M12.091 2L5.091 9L1.90918 5.81818"
+                          stroke="currentColor"
+                          strokeWidth="2.1875"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                    </div>
+                    Coordinating communications with clients, vendors, and
+                    parties
+                  </li>
+                  <li>
+                    <div className="icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="11"
+                        viewBox="0 0 14 11"
+                        fill="none"
+                      >
+                        <path
+                          d="M12.091 2L5.091 9L1.90918 5.81818"
+                          stroke="currentColor"
+                          strokeWidth="2.1875"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                    </div>
+                    Conducting legal research on contractual obligations and
+                    precedents
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
@@ -262,7 +394,9 @@ const ContractLaw = () => {
             <div className="row align-items-center">
               <div className="col-lg-6">
                 <div className="cta__content-three">
-                  <h2 className="title">Click to get a free Consultation Now</h2>
+                  <h2 className="title">
+                    Click to get a free Consultation Now
+                  </h2>
                 </div>
               </div>
               <div className="col-lg-6">
@@ -275,7 +409,10 @@ const ContractLaw = () => {
                       <a href="tel:1 (561) 409-5858">1 (561) 409-5858</a>
                     </div>
                   </div>
-                  <a href="tel:1 (561) 409-5858" className="tg-btn tg-border-btn">
+                  <a
+                    href="tel:1 (561) 409-5858"
+                    className="tg-btn tg-border-btn"
+                  >
                     Call Now{" "}
                     <img
                       src="assets/img/icons/right_arrow.svg"
