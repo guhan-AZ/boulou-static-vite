@@ -1,33 +1,31 @@
 import React from "react";
-import peronsals from "../../../../public/assets/lpo/personal-injury.png";
 
-const Personal = () => {
+const HabitabilityLaw = () => {
   return (
     <>
       <section className="hero-section-container">
         <div className="container">
           <div className="row align-items-center">
-            {/* Left Content - col-8 */}
             <div className="col-lg-8 col-md-12 hero-text-content">
               <div className="legal-hero-badge">
-                Driving Case Success Through Precision and Speed
+                Reliable and Precise Legal Support
               </div>
-              <h1 className="hero-title">Personal Injury Law</h1>
+              <h1 className="hero-title">Habitability Law</h1>
               <p className="hero-description">
-                Boulou LPO provides specialized paralegal support tailored to
-                the unique demands of personal injury law firms. From client
-                intake to case preparation, our team ensures accuracy, speed,
-                and professionalism at every stage, helping attorneys focus on
-                building strong cases while we manage the critical details
-                behind the scenes.
+                Boulou LPO provides specialized paralegal assistance for
+                habitability law attorneys, ensuring tenant-rights cases,
+                housing code violations, and related documentation are managed
+                accurately and efficiently. From client intake to case
+                preparation, we help attorneys stay organized and focused on
+                advocating for safe and livable housing conditions.
               </p>
             </div>
-
-            {/* Right Image Section - col-4 */}
             <div className="col-lg-4 col-md-12 hero-image-content">
               <div className="hero-main-image">
-                <img src={peronsals} alt="Lawyer" />
-                {/* Floating Images */}
+                <img
+                  src="assets/img/special/Corporate.jpg"
+                  alt="Corporate Law"
+                />
                 <div className="hero-floating-img hero-img1">
                   <img src="/assets/1.png" alt="Assistant" />
                 </div>
@@ -36,9 +34,8 @@ const Personal = () => {
                 </div>
               </div>
               <p className="hero-caption">
-                * At Boulou LPO, our paralegals assist your firm with a
-                comprehensive range of personal injury legal support needs,
-                including:*
+                *At Boulou LPO, our paralegals provide comprehensive
+                habitability law assistance, including: *
               </p>
             </div>
           </div>
@@ -53,26 +50,23 @@ const Personal = () => {
                 className="transform-title fw-bold mb-3"
                 style={{ fontSize: "40px", color: "#002688" }}
               >
-                How We Can Transform Your PI Practice{" "}
+                How We Can Transform Your Habitability Law Practice
               </h2>
             </div>
             <div className="col-lg-6">
               <h6 style={{ color: "#002688" }}>
-                From Overloaded to Organized – Fast{" "}
+                Efficient Support for Tenant Advocacy
               </h6>
               <p className="transform-description text-muted">
-                Personal injury cases can move quickly — and so can we. Our team
-                integrates into your existing workflows, taking over
-                time-consuming administrative and paralegal tasks so your
-                attorneys can focus on strategy, negotiation, and courtroom
-                advocacy. By ensuring that documentation is complete, deadlines
-                are met, and communications are timely, we help your firm
-                increase case throughput, reduce bottlenecks, and improve client
-                satisfaction.
+                Habitability cases involve strict deadlines, detailed
+                documentation, and coordination with multiple parties. Our team
+                manages administrative and paralegal tasks, freeing attorneys to
+                focus on client advocacy, strategy, and negotiation. This
+                ensures cases progress efficiently and tenants receive timely,
+                professional support.
               </p>
             </div>
 
-            {/* RIGHT: Image Cards */}
             <div className="col-lg-12">
               <div className="row g-4">
                 {/* Card 1 */}
@@ -81,15 +75,16 @@ const Personal = () => {
                     <img
                       src="assets/lpo/inc.png"
                       className="transform-card-img"
-                      alt="Maximize Compensation"
+                      alt="Safe & Livable Housing"
                     />
                     <div className="transform-card-overlay"></div>
                     <div className="transform-card-content">
-                      <h5 className="fw-semibold">Maximize Compensation</h5>
+                      <h5 className="fw-semibold">Safe & Livable Housing</h5>
                       <p>
-                        We fight to secure the highest possible settlement for
-                        medical bills, lost wages, pain and suffering, and
-                        long-term care expenses.
+                        We help tenants enforce their right to safe and sanitary
+                        living conditions—addressing issues like mold, pests,
+                        leaks, and broken utilities that landlords fail to
+                        repair.
                       </p>
                     </div>
                   </div>
@@ -101,36 +96,39 @@ const Personal = () => {
                     <img
                       src="assets/lpo/top.png"
                       className="transform-card-img"
-                      alt="Justice You Deserve"
+                      alt="Fighting Negligent Landlords"
                     />
                     <div className="transform-card-overlay"></div>
                     <div className="transform-card-content">
-                      <h5 className="fw-semibold">Justice You Deserve</h5>
+                      <h5 className="fw-semibold">
+                        Fighting Negligent Landlords
+                      </h5>
                       <p>
-                        Our experienced personal injury attorneys hold negligent
-                        parties accountable and ensure your rights are fully
-                        protected in and out of court.
+                        When landlords ignore repair requests or violate housing
+                        codes, we take action—demanding accountability and
+                        protecting tenants’ health, safety, and legal rights.
                       </p>
                     </div>
                   </div>
                 </div>
 
-                {/* Card 3 (full width below) */}
+                {/* Card 3 (full width) */}
                 <div className="col-12">
                   <div className="transform-card">
                     <img
                       src="assets/lpo/cxx.jpg"
                       className="transform-card-img"
-                      alt="Compassionate Support"
+                      alt="Guidance Through Habitability Claims"
                     />
                     <div className="transform-card-overlay"></div>
                     <div className="transform-card-content">
-                      <h5 className="fw-semibold">Compassionate Support</h5>
+                      <h5 className="fw-semibold">
+                        Guidance Through Habitability Claims
+                      </h5>
                       <p>
-                        From day one, we guide you through every step—handling
-                        paperwork, medical records, insurance companies, and
-                        legal procedures—so you can focus on recovery while we
-                        fight for your future.
+                        We guide tenants through filing habitability claims,
+                        negotiating repairs, rent reductions, or damages, and
+                        ensuring housing laws are upheld by property owners.
                       </p>
                     </div>
                   </div>
@@ -141,83 +139,82 @@ const Personal = () => {
         </div>
       </section>
 
-      <section class="features__area-three section-py-130 pt-0">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-6">
-              <div class="section__title text-center mb-40">
-                <h2 class="title">Why Choose Boulou LPO?</h2>
+      <section className="features__area-three section-py-130 pt-0">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-6">
+              <div className="section__title text-center mb-40">
+                <h2 className="title">Why Choose Boulou LPO?</h2>
               </div>
             </div>
           </div>
-          <div class="row gutter-y-24 justify-content-center">
-            <div class="col-lg-4 col-sm-6">
-              <div class="features__item-two">
-                <div class="features__icon-two">
-                  <i class="flaticon-partner"></i>
+          <div className="row gutter-y-24 justify-content-center">
+            <div className="col-lg-4 col-sm-6">
+              <div className="features__item-two">
+                <div className="features__icon-two">
+                  <i className="flaticon-partner"></i>
                 </div>
-                <div class="features__content-four">
-                  <h3 class="title">Skilled, Scalable Support</h3>
+                <div className="features__content-four">
+                  <h3 className="title">Skilled, Scalable Support</h3>
                   <p>
-                    Access paralegals experienced in personal injury processes,
-                    ready to scale with your caseload.
+                    Paralegals experienced in tenant-landlord law, habitability
+                    claims, and housing regulations.
                   </p>
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-sm-6">
-              <div class="features__item-two">
-                <div class="features__icon-two">
-                  <i class="flaticon-health-insurance"></i>
+            <div className="col-lg-4 col-sm-6">
+              <div className="features__item-two">
+                <div className="features__icon-two">
+                  <i className="flaticon-health-insurance"></i>
                 </div>
-                <div class="features__content-four">
-                  <h3 class="title">Bilingual Capabilities</h3>
+                <div className="features__content-four">
+                  <h3 className="title">Bilingual Capabilities</h3>
                   <p>
-                    Seamless communication with English and Spanish-speaking
-                    clients.
+                    Clear communication with English and Spanish-speaking
+                    tenants, landlords, and housing authorities.
                   </p>
                 </div>
               </div>
             </div>
-            <div class="col-lg-4 col-sm-6">
-              <div class="features__item-two">
-                <div class="features__icon-two">
-                  <i class="flaticon-tax"></i>
+            <div className="col-lg-4 col-sm-6">
+              <div className="features__item-two">
+                <div className="features__icon-two">
+                  <i className="flaticon-tax"></i>
                 </div>
-                <div class="features__content-four">
-                  <h3 class="title">Industry-Focused Expertise</h3>
+                <div className="features__content-four">
+                  <h3 className="title">Industry-Focused Expertise</h3>
                   <p>
-                    We understand the timelines, documentation, and urgency
-                    unique to PI matters.
+                    Knowledge of local and state habitability statutes and case
+                    law.
                   </p>
                 </div>
               </div>
             </div>
-
-            <div class="col-lg-6 col-sm-6">
-              <div class="features__item-two">
-                <div class="features__icon-two">
-                  <i class="flaticon-report"></i>
+            <div className="col-lg-6 col-sm-6">
+              <div className="features__item-two">
+                <div className="features__icon-two">
+                  <i className="flaticon-report"></i>
                 </div>
-                <div class="features__content-four">
-                  <h3 class="title">Confidential & Compliant</h3>
+                <div className="features__content-four">
+                  <h3 className="title">Confidential & Compliant</h3>
                   <p>
-                    Secure handling of sensitive client information with strict
-                    adherence to legal regulations.
+                    Secure handling of sensitive client and property
+                    information.
                   </p>
                 </div>
               </div>
             </div>
-            <div class="col-lg-6 col-sm-6">
-              <div class="features__item-two">
-                <div class="features__icon-two">
-                  <i class="flaticon-calculator"></i>
+            <div className="col-lg-6 col-sm-6">
+              <div className="features__item-two">
+                <div className="features__icon-two">
+                  <i className="flaticon-calculator"></i>
                 </div>
-                <div class="features__content-four">
-                  <h3 class="title">Cost-Effective Partnership</h3>
+                <div className="features__content-four">
+                  <h3 className="title">Cost-Effective Partnership</h3>
                   <p>
-                    A budget-friendly way to expand your team without additional
-                    overhead.
+                    Professional support without the overhead of expanding in
+                    house staff.
                   </p>
                 </div>
               </div>
@@ -228,39 +225,42 @@ const Personal = () => {
 
       <div className="sub-page-baner pb-5" style={{ marginTop: "0px" }}>
         <div className="container">
-          <section class="banner__area-five">
-            <div class="container custom-container-five">
+          <section className="banner__area-five">
+            <div className="container custom-container-five">
               <div
-                class="banner__bg-foura"
-                style={{
-                  backgroundImage: "url(assets/lpo/h8_hero_bg.jpg) ",
-                }}
+                className="banner__bg-foura"
+                style={{ backgroundImage: "url(assets/lpo/h8_hero_bg.jpg)" }}
               >
                 <div
-                  class="banner__bg-shape"
+                  className="banner__bg-shape"
                   style={{
                     backgroundImage:
                       "url(assets/img/banner/h8_hero_bg_shape.svg)",
                   }}
                 ></div>
-                <div class="row">
-                  <div class="col-xl-8 col-lg-8">
+                <div className="row">
+                  <div className="col-xl-8 col-lg-8">
                     <div
-                      class="banner__content-five"
+                      className="banner__content-five"
                       style={{ padding: "30px" }}
                     >
-                      <h2 class="title" data-aos="fade-up" data-aos-delay="400">
+                      <h2
+                        className="title"
+                        data-aos="fade-up"
+                        data-aos-delay="400"
+                      >
                         Impact Statement
                       </h2>
-                      <h4>Driving Case Success Through Precision and Speed</h4>
+                      <h4>
+                        Reliable Support for Safe and Livable Housing Cases
+                      </h4>
                       <p data-aos="fade-up" data-aos-delay="600">
-                        With Boulou LPO as your dedicated personal injury
-                        support partner, you gain a team that works as
-                        efficiently and passionately as your in-house staff —
-                        without the hiring and training burden. We help you
-                        close cases faster, serve more clients, and maximize
-                        settlements while maintaining the highest professional
-                        standards.
+                        Boulou LPO helps your habitability law practice stay
+                        organized, meet deadlines, and handle sensitive
+                        documentation accurately. We allow attorneys to focus on
+                        achieving positive outcomes for clients while
+                        maintaining a high standard of professionalism and
+                        efficiency.
                       </p>
                     </div>
                   </div>
@@ -271,29 +271,27 @@ const Personal = () => {
         </div>
       </div>
 
-      <section class="features__area-two section-py-130 pt-0">
-        <div class="container">
-          <div class="row align-items-center justify-content-center">
-            <div class="col-lg-5 col-md-10 order-0 order-lg-2">
-              <div class="features__img">
-                <img src="assets/img/special/Personal.jpg" alt="img" />
+      <section className="features__area-two section-py-130 pt-0">
+        <div className="container">
+          <div className="row align-items-center justify-content-center">
+            <div className="col-lg-5 col-md-10 order-0 order-lg-2">
+              <div className="features__img">
+                <img src="assets/img/special/Corporate.jpg" alt="img" />
               </div>
             </div>
-            <div class="col-lg-7 col-md-10  ">
-              <div class="features__content-two">
-                <div class="section__title mb-25">
-                  <span class="sub-title">Types of Services We Offer </span>
-                  <h2>Expert Personal Injury Paralegal Support </h2>
+            <div className="col-lg-7 col-md-10">
+              <div className="features__content-two">
+                <div className="section__title mb-25">
+                  <span className="sub-title">Types of Services We Offer</span>
+                  <h2>Expert Habitability Law Paralegal Support</h2>
                   <p>
-                    At Boulou LPO, our paralegals assist your firm with a
-                    comprehensive range of personal injury legal support needs,
-                    including:{" "}
+                    At Boulou LPO, our paralegals provide comprehensive
+                    habitability law assistance, including:
                   </p>
                 </div>
-
-                <ul class="list-wrap about__list-item-two">
+                <ul className="list-wrap about__list-item-two">
                   <li>
-                    <div class="icon">
+                    <div className="icon">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="14"
@@ -304,16 +302,16 @@ const Personal = () => {
                         <path
                           d="M12.091 2L5.091 9L1.90918 5.81818"
                           stroke="currentColor"
-                          stroke-width="2.1875"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
+                          strokeWidth="2.1875"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
                         />
                       </svg>
                     </div>
-                    Conducting and managing client intake interviews
+                    Conducting client intake and case evaluation
                   </li>
                   <li>
-                    <div class="icon">
+                    <div className="icon">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="14"
@@ -324,16 +322,17 @@ const Personal = () => {
                         <path
                           d="M12.091 2L5.091 9L1.90918 5.81818"
                           stroke="currentColor"
-                          stroke-width="2.1875"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
+                          strokeWidth="2.1875"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
                         />
                       </svg>
                     </div>
-                    Collecting, organizing, and summarizing medical records
+                    Drafting complaints, demand letters, and legal
+                    correspondence
                   </li>
                   <li>
-                    <div class="icon">
+                    <div className="icon">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="14"
@@ -344,16 +343,17 @@ const Personal = () => {
                         <path
                           d="M12.091 2L5.091 9L1.90918 5.81818"
                           stroke="currentColor"
-                          stroke-width="2.1875"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
+                          strokeWidth="2.1875"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
                         />
                       </svg>
                     </div>
-                    Preparing demand letters and settlement documentation
+                    Organizing inspection reports, repair records, and
+                    supporting documentation
                   </li>
                   <li>
-                    <div class="icon">
+                    <div className="icon">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="14"
@@ -364,16 +364,17 @@ const Personal = () => {
                         <path
                           d="M12.091 2L5.091 9L1.90918 5.81818"
                           stroke="currentColor"
-                          stroke-width="2.1875"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
+                          strokeWidth="2.1875"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
                         />
                       </svg>
                     </div>
-                    Drafting pleadings and discovery responses
+                    Coordinating communications with clients, landlords, and
+                    housing authorities
                   </li>
                   <li>
-                    <div class="icon">
+                    <div className="icon">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="14"
@@ -384,16 +385,16 @@ const Personal = () => {
                         <path
                           d="M12.091 2L5.091 9L1.90918 5.81818"
                           stroke="currentColor"
-                          stroke-width="2.1875"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
+                          strokeWidth="2.1875"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
                         />
                       </svg>
                     </div>
-                    Managing case calendars and deadlines
+                    Managing deadlines, filings, and court calendars
                   </li>
                   <li>
-                    <div class="icon">
+                    <div className="icon">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="14"
@@ -404,13 +405,14 @@ const Personal = () => {
                         <path
                           d="M12.091 2L5.091 9L1.90918 5.81818"
                           stroke="currentColor"
-                          stroke-width="2.1875"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
+                          strokeWidth="2.1875"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
                         />
                       </svg>
                     </div>
-                    Coordinating with medical providers and insurance companies
+                    Conducting legal research on local and state habitability
+                    laws
                   </li>
                 </ul>
               </div>
@@ -442,7 +444,7 @@ const Personal = () => {
                   </div>
                   <a
                     href="tel:1 (561) 409-5858"
-                    className="tg-btn tg-border-btn "
+                    className="tg-btn tg-border-btn"
                   >
                     Call Now{" "}
                     <img
@@ -464,4 +466,4 @@ const Personal = () => {
   );
 };
 
-export default Personal;
+export default HabitabilityLaw;

@@ -21,7 +21,6 @@ const Transportation = () => {
                 to freight, shipping, and transportation operations efficiently
                 and accurately.
               </p>
-              <button className="hero-remote-lawyers-btn">Book a Demo</button>
             </div>
 
             {/* Right Image Section - col-4 */}
@@ -37,8 +36,8 @@ const Transportation = () => {
                 </div>
               </div>
               <p className="hero-caption">
-                *Boulou LPO is not U.S.-based or licensed, but is trained by
-                U.S. attorneys and has experience working with U.S. law firms.*
+                *At Boulou LPO, our paralegals provide comprehensive support,
+                including: *
               </p>
             </div>
           </div>
@@ -196,6 +195,13 @@ const Transportation = () => {
             </div>
           </div>
           <div className="row gutter-y-24 justify-content-center">
+            <div>
+              <p className="text-center mb-5">
+                We provide law firms and transportation businesses with
+                reliable, specialized paralegal support tailored to their legal
+                needs.
+              </p>
+            </div>
             <div className="col-lg-4 col-sm-6">
               <div className="features__item-two">
                 <div className="features__icon-two">
@@ -204,8 +210,9 @@ const Transportation = () => {
                 <div className="features__content-four">
                   <h3 className="title">Skilled, Scalable Support</h3>
                   <p>
-                    Paralegals trained in transportation law, handling
-                    contracts, claims, and compliance effectively.
+                    Paralegals trained in transportation and logistics law who
+                    can handle a wide range of cases and administrative tasks
+                    efficiently.
                   </p>
                 </div>
               </div>
@@ -218,8 +225,8 @@ const Transportation = () => {
                 <div className="features__content-four">
                   <h3 className="title">Bilingual Capabilities</h3>
                   <p>
-                    Seamless communication with English and Spanish-speaking
-                    clients, carriers, and agencies.
+                    Communicate effectively with clients, carriers, and
+                    stakeholders in both English and Spanish.
                   </p>
                 </div>
               </div>
@@ -232,8 +239,8 @@ const Transportation = () => {
                 <div className="features__content-four">
                   <h3 className="title">Industry-Focused Expertise</h3>
                   <p>
-                    Knowledgeable in federal and state transportation
-                    regulations and logistics industry practices.
+                    Knowledgeable in transportation regulations, shipping
+                    contracts, compliance requirements, and dispute resolution.
                   </p>
                 </div>
               </div>
@@ -247,8 +254,8 @@ const Transportation = () => {
                 <div className="features__content-four">
                   <h3 className="title">Confidential & Compliant</h3>
                   <p>
-                    Secure handling of contracts, regulatory filings, and case
-                    data.
+                    Ensure sensitive client, cargo, and regulatory information
+                    is managed securely.
                   </p>
                 </div>
               </div>
@@ -261,8 +268,8 @@ const Transportation = () => {
                 <div className="features__content-four">
                   <h3 className="title">Cost-Effective Partnership</h3>
                   <p>
-                    Enhance your legal practice without the expense of
-                    additional in-house hires.
+                    Expand your legal team’s capabilities without the cost of
+                    additional in-house staff.
                   </p>
                 </div>
               </div>
@@ -309,8 +316,8 @@ const Transportation = () => {
                         />
                       </svg>
                     </div>
-                    Drafting and reviewing shipping contracts and freight
-                    agreements
+                    Drafting, reviewing, and organizing shipping contracts,
+                    carrier agreements, and freight documents
                   </li>
                   <li>
                     <div className="icon">
@@ -330,7 +337,8 @@ const Transportation = () => {
                         />
                       </svg>
                     </div>
-                    Preparing legal correspondence and compliance filings
+                    Preparing legal correspondence and filings for claims,
+                    disputes, and regulatory compliance
                   </li>
                   <li>
                     <div className="icon">
@@ -350,8 +358,8 @@ const Transportation = () => {
                         />
                       </svg>
                     </div>
-                    Coordinating with clients, carriers, insurers, and
-                    regulators
+                    Coordinating communications with clients, carriers,
+                    insurers, and government agencies
                   </li>
                   <li>
                     <div className="icon">
@@ -371,7 +379,8 @@ const Transportation = () => {
                         />
                       </svg>
                     </div>
-                    Managing shipment documentation and case files
+                    Managing case files, shipment documentation, and compliance
+                    records
                   </li>
                   <li>
                     <div className="icon">
@@ -391,8 +400,8 @@ const Transportation = () => {
                         />
                       </svg>
                     </div>
-                    Conducting research on transportation regulations and case
-                    law
+                    Conducting legal research on transportation regulations,
+                    contracts, and precedent cases
                   </li>
                   <li>
                     <div className="icon">
@@ -412,7 +421,8 @@ const Transportation = () => {
                         />
                       </svg>
                     </div>
-                    Assisting with dispute resolution and litigation support
+                    Assisting with dispute resolution, litigation support, and
+                    settlement administration
                   </li>
                 </ul>
               </div>

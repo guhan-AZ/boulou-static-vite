@@ -12,12 +12,19 @@ const Municipal = () => {
               </div>
               <h1 className="hero-title">Municipal / Local Government Law</h1>
               <p className="hero-description">
-                Boulou LPO provides specialized paralegal support for attorneys working with municipalities, local governments, and public agencies. We assist with regulatory compliance, ordinance review, contracts, and administrative procedures, ensuring your legal matters are handled efficiently and accurately.
+                Boulou LPO provides specialized paralegal support for attorneys
+                working with municipalities, local governments, and public
+                agencies. We assist with regulatory compliance, ordinance
+                review, contracts, and administrative procedures, ensuring your
+                legal matters are handled efficiently and accurately.
               </p>
             </div>
             <div className="col-lg-4 col-md-12 hero-image-content">
               <div className="hero-main-image">
-                <img src="assets/img/special/Municipal.jpg" alt="Municipal Law" />
+                <img
+                  src="assets/img/special/Municipal.jpg"
+                  alt="Municipal Law"
+                />
                 <div className="hero-floating-img hero-img1">
                   <img src="/assets/1.png" alt="Assistant" />
                 </div>
@@ -26,7 +33,8 @@ const Municipal = () => {
                 </div>
               </div>
               <p className="hero-caption">
-                * At Boulou LPO, our paralegals provide comprehensive municipal law assistance, including: *
+                * At Boulou LPO, our paralegals provide comprehensive municipal
+                law assistance, including: *
               </p>
             </div>
           </div>
@@ -41,7 +49,8 @@ const Municipal = () => {
                 className="transform-title fw-bold mb-3"
                 style={{ fontSize: "40px", color: "#002688" }}
               >
-                How We Can Transform Your Municipal / Local Government Legal Operations
+                How We Can Transform Your Municipal / Local Government Legal
+                Operations
               </h2>
             </div>
             <div className="col-lg-6">
@@ -49,7 +58,11 @@ const Municipal = () => {
                 Streamlined Support for Complex Legal Matters
               </h6>
               <p className="transform-description text-muted">
-                By leveraging Boulou LPO’s dedicated paralegals, your team can manage administrative filings, compliance checks, and case documentation more efficiently. This allows attorneys to focus on strategy, advocacy, and high-level decision-making while ensuring all legal tasks are handled accurately and on time.
+                By leveraging Boulou LPO’s dedicated paralegals, your team can
+                manage administrative filings, compliance checks, and case
+                documentation more efficiently. This allows attorneys to focus
+                on strategy, advocacy, and high-level decision-making while
+                ensuring all legal tasks are handled accurately and on time.
               </p>
             </div>
             <div className="col-lg-12">
@@ -63,9 +76,12 @@ const Municipal = () => {
                     />
                     <div className="transform-card-overlay"></div>
                     <div className="transform-card-content">
-                      <h5 className="fw-semibold">Ordinance and Contract Review</h5>
+                      <h5 className="fw-semibold">
+                        Ordinance and Contract Review
+                      </h5>
                       <p>
-                        We draft and review ordinances, contracts, and resolutions with precision.
+                        We draft and review ordinances, contracts, and
+                        resolutions with precision.
                       </p>
                     </div>
                   </div>
@@ -79,9 +95,12 @@ const Municipal = () => {
                     />
                     <div className="transform-card-overlay"></div>
                     <div className="transform-card-content">
-                      <h5 className="fw-semibold">Administrative Coordination</h5>
+                      <h5 className="fw-semibold">
+                        Administrative Coordination
+                      </h5>
                       <p>
-                        Our team coordinates with clients, agencies, and stakeholders to keep proceedings on track.
+                        Our team coordinates with clients, agencies, and
+                        stakeholders to keep proceedings on track.
                       </p>
                     </div>
                   </div>
@@ -97,7 +116,8 @@ const Municipal = () => {
                     <div className="transform-card-content">
                       <h5 className="fw-semibold">Compliance and Research</h5>
                       <p>
-                        We conduct legal research and manage compliance records to ensure regulatory adherence.
+                        We conduct legal research and manage compliance records
+                        to ensure regulatory adherence.
                       </p>
                     </div>
                   </div>
@@ -118,6 +138,13 @@ const Municipal = () => {
             </div>
           </div>
           <div className="row gutter-y-24 justify-content-center">
+            <div>
+              <p className="text-center mb-5">
+                We provide law firms and government clients with reliable,
+                specialized paralegal support tailored to municipal and local
+                government law.
+              </p>
+            </div>
             <div className="col-lg-4 col-sm-6">
               <div className="features__item-two">
                 <div className="features__icon-two">
@@ -126,7 +153,8 @@ const Municipal = () => {
                 <div className="features__content-four">
                   <h3 className="title">Skilled, Scalable Support</h3>
                   <p>
-                    Paralegals trained in local government law who can handle a range of administrative and legal tasks efficiently.
+                    Paralegals trained in local government law who can handle a
+                    range of administrative and legal tasks efficiently.
                   </p>
                 </div>
               </div>
@@ -139,7 +167,8 @@ const Municipal = () => {
                 <div className="features__content-four">
                   <h3 className="title">Bilingual Capabilities</h3>
                   <p>
-                    Communicate effectively with diverse communities, agencies, and stakeholders in English and Spanish.
+                    Communicate effectively with diverse communities, agencies,
+                    and stakeholders in English and Spanish.
                   </p>
                 </div>
               </div>
@@ -152,7 +181,8 @@ const Municipal = () => {
                 <div className="features__content-four">
                   <h3 className="title">Industry-Focused Expertise</h3>
                   <p>
-                    Knowledgeable in municipal codes, ordinances, contracts, and regulatory compliance.
+                    Knowledgeable in municipal codes, ordinances, contracts, and
+                    regulatory compliance.
                   </p>
                 </div>
               </div>
@@ -165,7 +195,8 @@ const Municipal = () => {
                 <div className="features__content-four">
                   <h3 className="title">Confidential & Compliant</h3>
                   <p>
-                    Ensure sensitive government and client information is managed securely.
+                    Ensure sensitive government and client information is
+                    managed securely.
                   </p>
                 </div>
               </div>
@@ -178,7 +209,8 @@ const Municipal = () => {
                 <div className="features__content-four">
                   <h3 className="title">Cost-Effective Partnership</h3>
                   <p>
-                    Expand your legal team’s capabilities without the cost of additional in-house staff.
+                    Expand your legal team’s capabilities without the cost of
+                    additional in-house staff.
                   </p>
                 </div>
               </div>
@@ -198,18 +230,32 @@ const Municipal = () => {
                 <div
                   className="banner__bg-shape"
                   style={{
-                    backgroundImage: "url(assets/img/banner/h8_hero_bg_shape.svg)",
+                    backgroundImage:
+                      "url(assets/img/banner/h8_hero_bg_shape.svg)",
                   }}
                 ></div>
                 <div className="row">
                   <div className="col-xl-8 col-lg-8">
-                    <div className="banner__content-five" style={{ padding: "30px" }}>
-                      <h2 className="title" data-aos="fade-up" data-aos-delay="400">
+                    <div
+                      className="banner__content-five"
+                      style={{ padding: "30px" }}
+                    >
+                      <h2
+                        className="title"
+                        data-aos="fade-up"
+                        data-aos-delay="400"
+                      >
                         Impact Statement
                       </h2>
-                      <h4>Enhancing Local Government Legal Operations Through Skilled Paralegal Support</h4>
+                      <h4>
+                        Enhancing Local Government Legal Operations Through
+                        Skilled Paralegal Support
+                      </h4>
                       <p data-aos="fade-up" data-aos-delay="600">
-                        Boulou LPO enables your firm or agency to navigate municipal and local government law efficiently, maintain compliance, and deliver timely legal support to clients and communities.
+                        Boulou LPO enables your firm or agency to navigate
+                        municipal and local government law efficiently, maintain
+                        compliance, and deliver timely legal support to clients
+                        and communities.
                       </p>
                     </div>
                   </div>
@@ -232,9 +278,12 @@ const Municipal = () => {
               <div className="features__content-two">
                 <div className="section__title mb-25">
                   <span className="sub-title">Types of Services We Offer</span>
-                  <h2>Expert Municipal / Local Government Law Paralegal Support</h2>
+                  <h2>
+                    Expert Municipal / Local Government Law Paralegal Support
+                  </h2>
                   <p>
-                    At Boulou LPO, our paralegals provide comprehensive municipal law assistance, including:
+                    At Boulou LPO, our paralegals provide comprehensive
+                    municipal law assistance, including:
                   </p>
                 </div>
                 <ul className="list-wrap about__list-item-two">
@@ -256,7 +305,8 @@ const Municipal = () => {
                         />
                       </svg>
                     </div>
-                    Drafting and reviewing ordinances, contracts, and resolutions
+                    Drafting and reviewing ordinances, contracts, and
+                    resolutions
                   </li>
                   <li>
                     <div className="icon">
@@ -276,7 +326,8 @@ const Municipal = () => {
                         />
                       </svg>
                     </div>
-                    Preparing legal correspondence and filings for public hearings or administrative proceedings
+                    Preparing legal correspondence and filings for public
+                    hearings or administrative proceedings
                   </li>
                   <li>
                     <div className="icon">
@@ -296,7 +347,8 @@ const Municipal = () => {
                         />
                       </svg>
                     </div>
-                    Coordinating communications with clients, agencies, and community stakeholders
+                    Coordinating communications with clients, agencies, and
+                    community stakeholders
                   </li>
                   <li>
                     <div className="icon">
@@ -316,7 +368,8 @@ const Municipal = () => {
                         />
                       </svg>
                     </div>
-                    Organizing case files, meeting documentation, and compliance records
+                    Organizing case files, meeting documentation, and compliance
+                    records
                   </li>
                   <li>
                     <div className="icon">
@@ -336,7 +389,8 @@ const Municipal = () => {
                         />
                       </svg>
                     </div>
-                    Conducting legal research on statutes, regulations, and local government case law
+                    Conducting legal research on statutes, regulations, and
+                    local government case law
                   </li>
                   <li>
                     <div className="icon">
@@ -356,7 +410,8 @@ const Municipal = () => {
                         />
                       </svg>
                     </div>
-                    Assisting with administrative hearings, disputes, and litigation support
+                    Assisting with administrative hearings, disputes, and
+                    litigation support
                   </li>
                 </ul>
               </div>
@@ -371,7 +426,9 @@ const Municipal = () => {
             <div className="row align-items-center">
               <div className="col-lg-6">
                 <div className="cta__content-three">
-                  <h2 className="title">Click to get a free Consultation Now</h2>
+                  <h2 className="title">
+                    Click to get a free Consultation Now
+                  </h2>
                 </div>
               </div>
               <div className="col-lg-6">
@@ -384,7 +441,10 @@ const Municipal = () => {
                       <a href="tel:1 (561) 409-5858">1 (561) 409-5858</a>
                     </div>
                   </div>
-                  <a href="tel:1 (561) 409-5858" className="tg-btn tg-border-btn">
+                  <a
+                    href="tel:1 (561) 409-5858"
+                    className="tg-btn tg-border-btn"
+                  >
                     Call Now{" "}
                     <img
                       src="assets/img/icons/right_arrow.svg"

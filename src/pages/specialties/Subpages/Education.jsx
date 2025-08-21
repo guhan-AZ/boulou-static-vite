@@ -12,12 +12,20 @@ const Education = () => {
               </div>
               <h1 className="hero-title">Education Law</h1>
               <p className="hero-description">
-                Boulou LPO delivers specialized paralegal support to law firms and educational institutions navigating the complexities of education law. From policy compliance and student rights to employment issues within schools and universities, our team ensures legal processes are handled with accuracy, timeliness, and discretion.
+                Boulou LPO delivers specialized paralegal support to law firms
+                and educational institutions navigating the complexities of
+                education law. From policy compliance and student rights to
+                employment issues within schools and universities, our team
+                ensures legal processes are handled with accuracy, timeliness,
+                and discretion.
               </p>
             </div>
             <div className="col-lg-4 col-md-12 hero-image-content">
               <div className="hero-main-image">
-                <img src="assets/img/special/Education.jpg" alt="Education Law" />
+                <img
+                  src="assets/img/special/Education.jpg"
+                  alt="Education Law"
+                />
                 <div className="hero-floating-img hero-img1">
                   <img src="/assets/1.png" alt="Assistant" />
                 </div>
@@ -26,7 +34,8 @@ const Education = () => {
                 </div>
               </div>
               <p className="hero-caption">
-                * At Boulou LPO, our paralegals assist with a broad range of education law matters, including: *
+                * At Boulou LPO, our paralegals assist with a broad range of
+                education law matters, including: *
               </p>
             </div>
           </div>
@@ -49,7 +58,12 @@ const Education = () => {
                 Efficient Support for Complex Workplace Matters
               </h6>
               <p className="transform-description text-muted">
-                By integrating Boulou LPO’s paralegal services into your practice, you gain a reliable partner to manage the detailed legal tasks that keep your education law matters on track. Our support allows attorneys to focus on advocacy and strategy, while we handle compliance checks, documentation, and case preparation efficiently.
+                By integrating Boulou LPO’s paralegal services into your
+                practice, you gain a reliable partner to manage the detailed
+                legal tasks that keep your education law matters on track. Our
+                support allows attorneys to focus on advocacy and strategy,
+                while we handle compliance checks, documentation, and case
+                preparation efficiently.
               </p>
             </div>
             <div className="col-lg-12">
@@ -65,7 +79,8 @@ const Education = () => {
                     <div className="transform-card-content">
                       <h5 className="fw-semibold">Policy Compliance</h5>
                       <p>
-                        We draft and review school policies, contracts, and agreements to ensure compliance.
+                        We draft and review school policies, contracts, and
+                        agreements to ensure compliance.
                       </p>
                     </div>
                   </div>
@@ -81,7 +96,8 @@ const Education = () => {
                     <div className="transform-card-content">
                       <h5 className="fw-semibold">Case Preparation</h5>
                       <p>
-                        Our team prepares case files and legal correspondence for student and institutional cases.
+                        Our team prepares case files and legal correspondence
+                        for student and institutional cases.
                       </p>
                     </div>
                   </div>
@@ -97,7 +113,8 @@ const Education = () => {
                     <div className="transform-card-content">
                       <h5 className="fw-semibold">Legal Research</h5>
                       <p>
-                        We conduct research on education laws, regulations, and precedents to support your cases.
+                        We conduct research on education laws, regulations, and
+                        precedents to support your cases.
                       </p>
                     </div>
                   </div>
@@ -118,15 +135,23 @@ const Education = () => {
             </div>
           </div>
           <div className="row gutter-y-24 justify-content-center">
+            <div>
+              <p className="text-center mb-5">
+                We provide law firms with reliable, specialized paralegal
+                support tailored to their practice areas.{" "}
+              </p>
+            </div>
             <div className="col-lg-4 col-sm-6">
               <div className="features__item-two">
                 <div className="features__icon-two">
                   <i className="flaticon-partner"></i>
                 </div>
+
                 <div className="features__content-four">
                   <h3 className="title">Skilled, Scalable Support</h3>
                   <p>
-                    Access paralegals trained in education law who can handle projects of any size efficiently.
+                    Access paralegals trained in education law who can handle
+                    projects of any size efficiently.
                   </p>
                 </div>
               </div>
@@ -139,7 +164,8 @@ const Education = () => {
                 <div className="features__content-four">
                   <h3 className="title">Bilingual Capabilities</h3>
                   <p>
-                    Communicate effectively with clients, schools, and agencies in both English and Spanish.
+                    Communicate effectively with clients, schools, and agencies
+                    in both English and Spanish.
                   </p>
                 </div>
               </div>
@@ -152,7 +178,8 @@ const Education = () => {
                 <div className="features__content-four">
                   <h3 className="title">Industry-Focused Expertise</h3>
                   <p>
-                    Leverage our knowledge of federal, state, and local education laws to support your cases.
+                    Leverage our knowledge of federal, state, and local
+                    education laws to support your cases.
                   </p>
                 </div>
               </div>
@@ -165,7 +192,8 @@ const Education = () => {
                 <div className="features__content-four">
                   <h3 className="title">Confidential & Compliant</h3>
                   <p>
-                    Ensure sensitive student and institutional information is managed securely.
+                    Ensure sensitive student and institutional information is
+                    managed securely.
                   </p>
                 </div>
               </div>
@@ -178,7 +206,8 @@ const Education = () => {
                 <div className="features__content-four">
                   <h3 className="title">Cost-Effective Partnership</h3>
                   <p>
-                    Expand your legal team’s capabilities without the overhead of additional in-house staff.
+                    Expand your legal team’s capabilities without the overhead
+                    of additional in-house staff.
                   </p>
                 </div>
               </div>
@@ -198,18 +227,32 @@ const Education = () => {
                 <div
                   className="banner__bg-shape"
                   style={{
-                    backgroundImage: "url(assets/img/banner/h8_hero_bg_shape.svg)",
+                    backgroundImage:
+                      "url(assets/img/banner/h8_hero_bg_shape.svg)",
                   }}
                 ></div>
                 <div className="row">
                   <div className="col-xl-8 col-lg-8">
-                    <div className="banner__content-five" style={{ padding: "30px" }}>
-                      <h2 className="title" data-aos="fade-up" data-aos-delay="400">
+                    <div
+                      className="banner__content-five"
+                      style={{ padding: "30px" }}
+                    >
+                      <h2
+                        className="title"
+                        data-aos="fade-up"
+                        data-aos-delay="400"
+                      >
                         Impact Statement
                       </h2>
-                      <h4>Empowering Education Law Practices with Precise, Reliable Paralegal Support</h4>
+                      <h4>
+                        Empowering Education Law Practices with Precise,
+                        Reliable Paralegal Support
+                      </h4>
                       <p data-aos="fade-up" data-aos-delay="600">
-                        With Boulou LPO, your team can respond to the legal needs of students, educators, and institutions with speed, accuracy, and cost-effectiveness — ensuring compliance and protecting rights at every stage.
+                        With Boulou LPO, your team can respond to the legal
+                        needs of students, educators, and institutions with
+                        speed, accuracy, and cost-effectiveness — ensuring
+                        compliance and protecting rights at every stage.
                       </p>
                     </div>
                   </div>
@@ -234,7 +277,8 @@ const Education = () => {
                   <span className="sub-title">Types of Services We Offer</span>
                   <h2>Expert Education Law Paralegal Support</h2>
                   <p>
-                    At Boulou LPO, our paralegals assist with a broad range of education law matters, including:
+                    At Boulou LPO, our paralegals assist with a broad range of
+                    education law matters, including:
                   </p>
                 </div>
                 <ul className="list-wrap about__list-item-two">
@@ -256,7 +300,8 @@ const Education = () => {
                         />
                       </svg>
                     </div>
-                    Drafting and reviewing school policies, contracts, and agreements
+                    Drafting and reviewing school policies, contracts, and
+                    agreements
                   </li>
                   <li>
                     <div className="icon">
@@ -276,7 +321,8 @@ const Education = () => {
                         />
                       </svg>
                     </div>
-                    Assisting with compliance documentation for local, state, and federal education laws
+                    Assisting with compliance documentation for local, state,
+                    and federal education laws
                   </li>
                   <li>
                     <div className="icon">
@@ -296,7 +342,8 @@ const Education = () => {
                         />
                       </svg>
                     </div>
-                    Preparing case files and legal correspondence for student discipline, discrimination, or special education cases
+                    Preparing case files and legal correspondence for student
+                    discipline, discrimination, or special education cases
                   </li>
                   <li>
                     <div className="icon">
@@ -316,7 +363,8 @@ const Education = () => {
                         />
                       </svg>
                     </div>
-                    Conducting legal research on statutes, case law, and regulations affecting education institutions
+                    Conducting legal research on statutes, case law, and
+                    regulations affecting education institutions
                   </li>
                   <li>
                     <div className="icon">
@@ -336,7 +384,8 @@ const Education = () => {
                         />
                       </svg>
                     </div>
-                    Organizing and managing records for administrative hearings and court proceedings
+                    Organizing and managing records for administrative hearings
+                    and court proceedings
                   </li>
                   <li>
                     <div className="icon">
@@ -356,7 +405,8 @@ const Education = () => {
                         />
                       </svg>
                     </div>
-                    Supporting attorneys in mediation, arbitration, and litigation related to educational disputes
+                    Supporting attorneys in mediation, arbitration, and
+                    litigation related to educational disputes
                   </li>
                 </ul>
               </div>
@@ -371,7 +421,9 @@ const Education = () => {
             <div className="row align-items-center">
               <div className="col-lg-6">
                 <div className="cta__content-three">
-                  <h2 className="title">Click to get a free Consultation Now</h2>
+                  <h2 className="title">
+                    Click to get a free Consultation Now
+                  </h2>
                 </div>
               </div>
               <div className="col-lg-6">
@@ -384,7 +436,10 @@ const Education = () => {
                       <a href="tel:1 (561) 409-5858">1 (561) 409-5858</a>
                     </div>
                   </div>
-                  <a href="tel:1 (561) 409-5858" className="tg-btn tg-border-btn">
+                  <a
+                    href="tel:1 (561) 409-5858"
+                    className="tg-btn tg-border-btn"
+                  >
                     Call Now{" "}
                     <img
                       src="assets/img/icons/right_arrow.svg"

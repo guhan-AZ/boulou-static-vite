@@ -1,7 +1,7 @@
 import React from "react";
-import peronsals from "../../../../public/assets/lpo/personal-injury.png";
+import insurance from "../../../../public/assets/lpo/insurance-law.png";
 
-const Personal = () => {
+const LemonLaw = () => {
   return (
     <>
       <section className="hero-section-container">
@@ -10,23 +10,23 @@ const Personal = () => {
             {/* Left Content - col-8 */}
             <div className="col-lg-8 col-md-12 hero-text-content">
               <div className="legal-hero-badge">
-                Driving Case Success Through Precision and Speed
+                Expert Lemon Law Paralegal Support
               </div>
-              <h1 className="hero-title">Personal Injury Law</h1>
+              <h1 className="hero-title">Lemon Law</h1>
               <p className="hero-description">
-                Boulou LPO provides specialized paralegal support tailored to
-                the unique demands of personal injury law firms. From client
-                intake to case preparation, our team ensures accuracy, speed,
-                and professionalism at every stage, helping attorneys focus on
-                building strong cases while we manage the critical details
-                behind the scenes.
+                Boulou LPO provides specialized paralegal assistance for lemon
+                law attorneys, ensuring claims, documentation, and filings are
+                handled accurately and efficiently. From client intake to
+                settlement preparation, we help attorneys manage the detailed
+                work involved in protecting consumers’ rights while staying
+                organized and meeting deadlines.
               </p>
             </div>
 
             {/* Right Image Section - col-4 */}
             <div className="col-lg-4 col-md-12 hero-image-content">
               <div className="hero-main-image">
-                <img src={peronsals} alt="Lawyer" />
+                <img src={insurance} alt="Lawyer" />
                 {/* Floating Images */}
                 <div className="hero-floating-img hero-img1">
                   <img src="/assets/1.png" alt="Assistant" />
@@ -36,15 +36,13 @@ const Personal = () => {
                 </div>
               </div>
               <p className="hero-caption">
-                * At Boulou LPO, our paralegals assist your firm with a
-                comprehensive range of personal injury legal support needs,
-                including:*
+                * At Boulou LPO, our paralegals provide comprehensive lemon law
+                assistance, including: *
               </p>
             </div>
           </div>
         </div>
       </section>
-
       <section className="transform-section py-5">
         <div className="container">
           <div className="row g-5 align-items-start">
@@ -53,22 +51,19 @@ const Personal = () => {
                 className="transform-title fw-bold mb-3"
                 style={{ fontSize: "40px", color: "#002688" }}
               >
-                How We Can Transform Your PI Practice{" "}
+                How We Can Transform Your Lemon Law Practice{" "}
               </h2>
             </div>
             <div className="col-lg-6">
               <h6 style={{ color: "#002688" }}>
-                From Overloaded to Organized – Fast{" "}
+                Efficient Case Management for Consumer Protection
               </h6>
               <p className="transform-description text-muted">
-                Personal injury cases can move quickly — and so can we. Our team
-                integrates into your existing workflows, taking over
-                time-consuming administrative and paralegal tasks so your
-                attorneys can focus on strategy, negotiation, and courtroom
-                advocacy. By ensuring that documentation is complete, deadlines
-                are met, and communications are timely, we help your firm
-                increase case throughput, reduce bottlenecks, and improve client
-                satisfaction.
+                Lemon law cases involve meticulous documentation, deadlines, and
+                negotiation with manufacturers. Our team manages administrative
+                and paralegal tasks so attorneys can focus on client advocacy,
+                case strategy, and settlements. This ensures cases move
+                efficiently and clients receive timely, professional service.
               </p>
             </div>
 
@@ -81,15 +76,18 @@ const Personal = () => {
                     <img
                       src="assets/lpo/inc.png"
                       className="transform-card-img"
-                      alt="Maximize Compensation"
+                      alt="Lemon Law Vehicle Protection"
                     />
                     <div className="transform-card-overlay"></div>
                     <div className="transform-card-content">
-                      <h5 className="fw-semibold">Maximize Compensation</h5>
+                      <h5 className="fw-semibold">
+                        Lemon Law Vehicle Protection
+                      </h5>
                       <p>
-                        We fight to secure the highest possible settlement for
-                        medical bills, lost wages, pain and suffering, and
-                        long-term care expenses.
+                        We help consumers who purchased defective
+                        vehicles—ensuring manufacturers and dealers are held
+                        accountable for repeated mechanical failures under Lemon
+                        Law protections.
                       </p>
                     </div>
                   </div>
@@ -101,15 +99,18 @@ const Personal = () => {
                     <img
                       src="assets/lpo/top.png"
                       className="transform-card-img"
-                      alt="Justice You Deserve"
+                      alt="Fighting Warranty Disputes"
                     />
                     <div className="transform-card-overlay"></div>
                     <div className="transform-card-content">
-                      <h5 className="fw-semibold">Justice You Deserve</h5>
+                      <h5 className="fw-semibold">
+                        Fighting Warranty Disputes
+                      </h5>
                       <p>
-                        Our experienced personal injury attorneys hold negligent
-                        parties accountable and ensure your rights are fully
-                        protected in and out of court.
+                        If dealers or manufacturers refuse to honor warranties,
+                        we fight for your rights—challenging unfair practices
+                        and securing replacements, refunds, or repairs you are
+                        legally entitled to.
                       </p>
                     </div>
                   </div>
@@ -121,16 +122,18 @@ const Personal = () => {
                     <img
                       src="assets/lpo/cxx.jpg"
                       className="transform-card-img"
-                      alt="Compassionate Support"
+                      alt="Guidance Through Lemon Law Claims"
                     />
                     <div className="transform-card-overlay"></div>
                     <div className="transform-card-content">
-                      <h5 className="fw-semibold">Compassionate Support</h5>
+                      <h5 className="fw-semibold">
+                        Guidance Through Lemon Law Claims
+                      </h5>
                       <p>
-                        From day one, we guide you through every step—handling
-                        paperwork, medical records, insurance companies, and
-                        legal procedures—so you can focus on recovery while we
-                        fight for your future.
+                        Lemon Law cases can be complex. Our team explains your
+                        rights, prepares strong claims, and ensures you receive
+                        fair compensation when stuck with a defective or unsafe
+                        vehicle.
                       </p>
                     </div>
                   </div>
@@ -159,8 +162,8 @@ const Personal = () => {
                 <div class="features__content-four">
                   <h3 class="title">Skilled, Scalable Support</h3>
                   <p>
-                    Access paralegals experienced in personal injury processes,
-                    ready to scale with your caseload.
+                    Paralegals experienced in lemon law claims, documentation,
+                    and case management.
                   </p>
                 </div>
               </div>
@@ -173,8 +176,8 @@ const Personal = () => {
                 <div class="features__content-four">
                   <h3 class="title">Bilingual Capabilities</h3>
                   <p>
-                    Seamless communication with English and Spanish-speaking
-                    clients.
+                    Clear communication with English and Spanish-speaking
+                    clients, dealerships, and manufacturers.
                   </p>
                 </div>
               </div>
@@ -187,8 +190,8 @@ const Personal = () => {
                 <div class="features__content-four">
                   <h3 class="title">Industry-Focused Expertise</h3>
                   <p>
-                    We understand the timelines, documentation, and urgency
-                    unique to PI matters.
+                    Knowledge of state-specific lemon law statutes and
+                    processes.
                   </p>
                 </div>
               </div>
@@ -202,8 +205,7 @@ const Personal = () => {
                 <div class="features__content-four">
                   <h3 class="title">Confidential & Compliant</h3>
                   <p>
-                    Secure handling of sensitive client information with strict
-                    adherence to legal regulations.
+                    Secure handling of sensitive client and case information.
                   </p>
                 </div>
               </div>
@@ -216,8 +218,8 @@ const Personal = () => {
                 <div class="features__content-four">
                   <h3 class="title">Cost-Effective Partnership</h3>
                   <p>
-                    A budget-friendly way to expand your team without additional
-                    overhead.
+                    Professional support without the expense of additional in
+                    house staff.
                   </p>
                 </div>
               </div>
@@ -252,15 +254,13 @@ const Personal = () => {
                       <h2 class="title" data-aos="fade-up" data-aos-delay="400">
                         Impact Statement
                       </h2>
-                      <h4>Driving Case Success Through Precision and Speed</h4>
+                      <h4>Reliable Support for Every Lemon Law Case</h4>
                       <p data-aos="fade-up" data-aos-delay="600">
-                        With Boulou LPO as your dedicated personal injury
-                        support partner, you gain a team that works as
-                        efficiently and passionately as your in-house staff —
-                        without the hiring and training burden. We help you
-                        close cases faster, serve more clients, and maximize
-                        settlements while maintaining the highest professional
-                        standards.
+                        Boulou LPO helps your lemon law practice stay organized,
+                        meet critical deadlines, and handle documentation with
+                        precision. We allow your attorneys to focus on resolving
+                        cases successfully while providing clients with
+                        confident, professional support throughout the process.
                       </p>
                     </div>
                   </div>
@@ -276,18 +276,17 @@ const Personal = () => {
           <div class="row align-items-center justify-content-center">
             <div class="col-lg-5 col-md-10 order-0 order-lg-2">
               <div class="features__img">
-                <img src="assets/img/special/Personal.jpg" alt="img" />
+                <img src="assets/img/special/Insurance.jpg" alt="img" />
               </div>
             </div>
             <div class="col-lg-7 col-md-10  ">
               <div class="features__content-two">
                 <div class="section__title mb-25">
                   <span class="sub-title">Types of Services We Offer </span>
-                  <h2>Expert Personal Injury Paralegal Support </h2>
+                  <h2>Expert Lemon Law Paralegal Support </h2>
                   <p>
-                    At Boulou LPO, our paralegals assist your firm with a
-                    comprehensive range of personal injury legal support needs,
-                    including:{" "}
+                    At Boulou LPO, our paralegals provide comprehensive lemon
+                    law assistance, including:
                   </p>
                 </div>
 
@@ -310,7 +309,7 @@ const Personal = () => {
                         />
                       </svg>
                     </div>
-                    Conducting and managing client intake interviews
+                    Conducting client intake and case evaluation
                   </li>
                   <li>
                     <div class="icon">
@@ -330,7 +329,8 @@ const Personal = () => {
                         />
                       </svg>
                     </div>
-                    Collecting, organizing, and summarizing medical records
+                    Drafting demand letters, complaints, and settlement
+                    documents
                   </li>
                   <li>
                     <div class="icon">
@@ -350,7 +350,8 @@ const Personal = () => {
                         />
                       </svg>
                     </div>
-                    Preparing demand letters and settlement documentation
+                    Organizing repair records, warranties, and supporting
+                    documentation
                   </li>
                   <li>
                     <div class="icon">
@@ -370,7 +371,8 @@ const Personal = () => {
                         />
                       </svg>
                     </div>
-                    Drafting pleadings and discovery responses
+                    Coordinating communications with clients, manufacturers, and
+                    dealerships
                   </li>
                   <li>
                     <div class="icon">
@@ -390,7 +392,8 @@ const Personal = () => {
                         />
                       </svg>
                     </div>
-                    Managing case calendars and deadlines
+                    Tracking deadlines and filing requirements for claims and
+                    court actions
                   </li>
                   <li>
                     <div class="icon">
@@ -410,7 +413,8 @@ const Personal = () => {
                         />
                       </svg>
                     </div>
-                    Coordinating with medical providers and insurance companies
+                    Conducting legal research on state lemon laws and case
+                    precedents
                   </li>
                 </ul>
               </div>
@@ -464,4 +468,4 @@ const Personal = () => {
   );
 };
 
-export default Personal;
+export default LemonLaw;

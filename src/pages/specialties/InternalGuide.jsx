@@ -720,7 +720,7 @@ const InternalGuide = () => {
                   <img
                     src="assets/lpo-icons/3.png"
                     style={{ width: "65px" }}
-                    alt=""
+                    alt="img"
                   />
                 </div>
                 <div className="services__content-two">
@@ -733,6 +733,66 @@ const InternalGuide = () => {
                     Compliance, claims, and contracts for the transport sector.
                   </p>
                   <Link to="/Transportation" className="tg-btn tg-btn-two">
+                    Read More{" "}
+                    <img
+                      src="assets/img/icons/right_arrow.svg"
+                      alt="right arrow"
+                      className="injectable"
+                    />
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-3 col-md-6">
+              <div className="services__item-two role-service-card">
+                <div className="services__icon-two">
+                  <img
+                    src="assets/lpo-icons/6.png"
+                    style={{ width: "65px" }}
+                    alt="Lemon Law Icon"
+                  />
+                </div>
+                <div className="services__content-two">
+                  <h4 className="title">
+                    <Link to="/Lemonlaw">Lemon Law</Link>
+                  </h4>
+                  <p>
+                    Protects consumers who purchase defective vehicles, ensuring
+                    replacement or refund when manufacturers fail to fix
+                    recurring issues under warranty.
+                  </p>
+                  <Link to="/Lemonlaw" className="tg-btn tg-btn-two">
+                    Read More{" "}
+                    <img
+                      src="assets/img/icons/right_arrow.svg"
+                      alt=""
+                      className="injectable"
+                    />
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-3 col-md-6">
+              <div className="services__item-two role-service-card">
+                <div className="services__icon-two">
+                  <img
+                    src="assets/lpo-icons/4.png"
+                    style={{ width: "65px" }}
+                    alt="Lemon Law Icon"
+                  />
+                </div>
+                <div className="services__content-two">
+                  <h4 className="title">
+                    <Link to="/Habitabilitylaw">Habitability Law</Link>
+                  </h4>
+                  <p>
+                    Protects consumers who purchase defective vehicles, ensuring
+                    replacement or refund when manufacturers fail to fix
+                    recurring issues under warranty.
+                  </p>
+                  <Link to="/Habitabilitylaw" className="tg-btn tg-btn-two">
                     Read More{" "}
                     <img
                       src="assets/img/icons/right_arrow.svg"
