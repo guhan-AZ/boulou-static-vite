@@ -143,6 +143,133 @@ const Maritime = () => {
         </div>
       </section>
 
+      <div className="sub-page-baner pb-5" style={{ marginTop: "0px" }}>
+        <div className="container">
+          <section class="banner__area-five">
+            <div class="container custom-container-five">
+              <div
+                class="banner__bg-foura"
+                style={{
+                  backgroundImage: "url(assets/lpo/h8_hero_bg.jpg) ",
+                }}
+              >
+                <div
+                  class="banner__bg-shape"
+                  style={{
+                    backgroundImage:
+                      "url(assets/img/banner/h8_hero_bg_shape.svg)",
+                  }}
+                ></div>
+                <div class="row">
+                  <div class="col-xl-8 col-lg-8">
+                    <div
+                      class="banner__content-five"
+                      style={{ padding: "30px" }}
+                    >
+                      <h2 class="title" data-aos="fade-up" data-aos-delay="400">
+                        Impact Statement
+                      </h2>
+                      <h4>Reliable Support for Every Maritime Matter</h4>
+                      <p data-aos="fade-up" data-aos-delay="600">
+                        Boulou LPO helps your maritime law practice stay
+                        organized, meet deadlines, and manage documentation with
+                        precision. We provide attorneys with the support they
+                        need to deliver confident, efficient legal services
+                        while protecting clients’ interests on land and at sea.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <section class="features__area-three section-py-130 pt-0">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-6">
+              <div class="section__title text-center mb-40">
+                <h2 class="title">Why Choose Boulou LPO?</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row gutter-y-24 justify-content-center">
+            <div class="col-lg-4 col-sm-6">
+              <div class="features__item-two">
+                <div class="features__icon-two">
+                  <i class="flaticon-partner"></i>
+                </div>
+                <div class="features__content-four">
+                  <h3 class="title">Skilled, Scalable Support</h3>
+                  <p>
+                    Paralegals experienced in maritime contracts, shipping
+                    claims, and admiralty litigation.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <div class="features__item-two">
+                <div class="features__icon-two">
+                  <i class="flaticon-health-insurance"></i>
+                </div>
+                <div class="features__content-four">
+                  <h3 class="title">Bilingual Capabilities</h3>
+                  <p>
+                    Clear communication with English and Spanish-speaking
+                    clients, ship operators, and stakeholders.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <div class="features__item-two">
+                <div class="features__icon-two">
+                  <i class="flaticon-tax"></i>
+                </div>
+                <div class="features__content-four">
+                  <h3 class="title">Industry-Focused Expertise</h3>
+                  <p>
+                    Knowledge of maritime law, shipping regulations, and
+                    admiralty procedures.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-sm-6">
+              <div class="features__item-two">
+                <div class="features__icon-two">
+                  <i class="flaticon-report"></i>
+                </div>
+                <div class="features__content-four">
+                  <h3 class="title">Confidential & Compliant</h3>
+                  <p>
+                    Secure handling of sensitive client and vessel information.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-sm-6">
+              <div class="features__item-two">
+                <div class="features__icon-two">
+                  <i class="flaticon-calculator"></i>
+                </div>
+                <div class="features__content-four">
+                  <h3 class="title">Cost-Effective Partnership</h3>
+                  <p>
+                    Professional support without the overhead of additional
+                    inhouse staff.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section class="features__area-two section-py-130 pt-0">
         <div class="container">
           <div class="row align-items-center justify-content-center">
@@ -289,133 +416,6 @@ const Maritime = () => {
                     Managing deadlines, hearings, and court filings
                   </li>
                 </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <div className="sub-page-baner pb-5" style={{ marginTop: "0px" }}>
-        <div className="container">
-          <section class="banner__area-five">
-            <div class="container custom-container-five">
-              <div
-                class="banner__bg-foura"
-                style={{
-                  backgroundImage: "url(assets/lpo/h8_hero_bg.jpg) ",
-                }}
-              >
-                <div
-                  class="banner__bg-shape"
-                  style={{
-                    backgroundImage:
-                      "url(assets/img/banner/h8_hero_bg_shape.svg)",
-                  }}
-                ></div>
-                <div class="row">
-                  <div class="col-xl-8 col-lg-8">
-                    <div
-                      class="banner__content-five"
-                      style={{ padding: "30px" }}
-                    >
-                      <h2 class="title" data-aos="fade-up" data-aos-delay="400">
-                        Impact Statement
-                      </h2>
-                      <h4>Reliable Support for Every Maritime Matter</h4>
-                      <p data-aos="fade-up" data-aos-delay="600">
-                        Boulou LPO helps your maritime law practice stay
-                        organized, meet deadlines, and manage documentation with
-                        precision. We provide attorneys with the support they
-                        need to deliver confident, efficient legal services
-                        while protecting clients’ interests on land and at sea.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-        </div>
-      </div>
-
-      <section class="features__area-three section-py-130 pt-0">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-lg-6">
-              <div class="section__title text-center mb-40">
-                <h2 class="title">Why Choose Boulou LPO?</h2>
-              </div>
-            </div>
-          </div>
-          <div class="row gutter-y-24 justify-content-center">
-            <div class="col-lg-4 col-sm-6">
-              <div class="features__item-two">
-                <div class="features__icon-two">
-                  <i class="flaticon-partner"></i>
-                </div>
-                <div class="features__content-four">
-                  <h3 class="title">Skilled, Scalable Support</h3>
-                  <p>
-                    Paralegals experienced in maritime contracts, shipping
-                    claims, and admiralty litigation.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-              <div class="features__item-two">
-                <div class="features__icon-two">
-                  <i class="flaticon-health-insurance"></i>
-                </div>
-                <div class="features__content-four">
-                  <h3 class="title">Bilingual Capabilities</h3>
-                  <p>
-                    Clear communication with English and Spanish-speaking
-                    clients, ship operators, and stakeholders.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-sm-6">
-              <div class="features__item-two">
-                <div class="features__icon-two">
-                  <i class="flaticon-tax"></i>
-                </div>
-                <div class="features__content-four">
-                  <h3 class="title">Industry-Focused Expertise</h3>
-                  <p>
-                    Knowledge of maritime law, shipping regulations, and
-                    admiralty procedures.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-6 col-sm-6">
-              <div class="features__item-two">
-                <div class="features__icon-two">
-                  <i class="flaticon-report"></i>
-                </div>
-                <div class="features__content-four">
-                  <h3 class="title">Confidential & Compliant</h3>
-                  <p>
-                    Secure handling of sensitive client and vessel information.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6 col-sm-6">
-              <div class="features__item-two">
-                <div class="features__icon-two">
-                  <i class="flaticon-calculator"></i>
-                </div>
-                <div class="features__content-four">
-                  <h3 class="title">Cost-Effective Partnership</h3>
-                  <p>
-                    Professional support without the overhead of additional
-                    inhouse staff.
-                  </p>
-                </div>
               </div>
             </div>
           </div>

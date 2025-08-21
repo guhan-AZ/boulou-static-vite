@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-import "./Specialties.css"
+import "./Specialties.css";
 import FAQSection from "../../Component/FAQSection";
 import TrustedBy from "../../Component/TrustedBy";
-const Specialties = () => {
+const InternalGuide = () => {
   return (
     <>
       {/* <div className="container">
@@ -21,38 +21,44 @@ const Specialties = () => {
       </div> */}
 
       <section className="legal-hero-banner ">
-      <div className="legal-hero-content">
-        {/* <span className="legal-hero-badge">
+        <div className="legal-hero-content">
+          {/* <span className="legal-hero-badge">
           Highly Expert Lawyers in Diverse Practice Areas
         </span> */}
-        <h1 className="legal-hero-title">
-          Boulou LPO’ <br /> Legal Specialties
-        </h1>
-        <p className="legal-hero-subtitle">
-          Boulou LPO connects law firms, solo practitioners, and legal teams
-          with specialized remote lawyers across various practice areas. Expert
-          legal support tailored to your needs.
-        </p>
-        <a href="contact" className="legal-hero-btn">Book a Demo</a>
-      </div>
+          <h1 className="legal-hero-title">
+            Boulou LPO’ <br /> Legal Specialties
+          </h1>
+          <p className="legal-hero-subtitle">
+            Boulou LPO connects law firms, solo practitioners, and legal teams
+            with specialized remote lawyers across various practice areas.
+            Expert legal support tailored to your needs.
+          </p>
+          <a href="contact" className="legal-hero-btn">
+            Book a Demo
+          </a>
+        </div>
 
-      {/* Floating Images */}
-      <div className="legal-hero-floating legal-hero-left">
-        <img src="assets/img/banner/hero_img.png" alt="Lawyer" />
-      </div>
-      <div className="legal-hero-floating legal-hero-right">
-        <img src="assets/img/images/estimate_img.png" alt="Lawyer" />
-      </div>
-    </section>
+        {/* Floating Images */}
+        <div className="legal-hero-floating legal-hero-left">
+          <img src="assets/img/banner/hero_img.png" alt="Lawyer" />
+        </div>
+        <div className="legal-hero-floating legal-hero-right">
+          <img src="assets/img/images/estimate_img.png" alt="Lawyer" />
+        </div>
+      </section>
 
-    {/* <TrustedBy /> */}
+      {/* <TrustedBy /> */}
       <section className="services__area section-py-130">
         <div className="container">
           <div className="row gutter-y-30 justify-content-center">
             <div className="col-lg-3 col-md-6">
               <div className="services__item-two role-service-card">
                 <div className="services__icon-two">
-                  <img src="assets/lpo-icons/1.png" style={{ width: '65px' }} alt="" />
+                  <img
+                    src="assets/lpo-icons/1.png"
+                    style={{ width: "65px" }}
+                    alt=""
+                  />
                 </div>
                 <div className="services__content-two">
                   <h4 className="title">
@@ -78,7 +84,11 @@ const Specialties = () => {
             <div className="col-lg-3 col-md-6">
               <div className="services__item-two role-service-card">
                 <div className="services__icon-two">
-                   <img src="assets/lpo-icons/2.png" style={{ width: '65px' }} alt="" />
+                  <img
+                    src="assets/lpo-icons/2.png"
+                    style={{ width: "65px" }}
+                    alt=""
+                  />
                 </div>
                 <div className="services__content-two">
                   <h4 className="title">
@@ -104,7 +114,11 @@ const Specialties = () => {
             <div className="col-lg-3 col-md-6">
               <div className="services__item-two role-service-card">
                 <div className="services__icon-two">
-                   <img src="assets/lpo-icons/3.png" style={{ width: '65px' }} alt="" />
+                  <img
+                    src="assets/lpo-icons/3.png"
+                    style={{ width: "65px" }}
+                    alt=""
+                  />
                 </div>
                 <div className="services__content-two">
                   <h4 className="title">
@@ -129,7 +143,11 @@ const Specialties = () => {
             <div className="col-lg-3 col-md-6">
               <div className="services__item-two role-service-card">
                 <div className="services__icon-two">
-                  <img src="assets/lpo-icons/4.png" style={{ width: '65px' }} alt="" />
+                  <img
+                    src="assets/lpo-icons/4.png"
+                    style={{ width: "65px" }}
+                    alt=""
+                  />
                 </div>
                 <div className="services__content-two">
                   <h4 className="title">
@@ -154,7 +172,11 @@ const Specialties = () => {
             <div className="col-lg-3 col-md-6">
               <div className="services__item-two role-service-card">
                 <div className="services__icon-two">
-                  <img src="assets/lpo-icons/5.png" style={{ width: '65px' }} alt="" />
+                  <img
+                    src="assets/lpo-icons/5.png"
+                    style={{ width: "65px" }}
+                    alt=""
+                  />
                 </div>
                 <div className="services__content-two">
                   <h4 className="title">
@@ -179,7 +201,11 @@ const Specialties = () => {
             <div className="col-lg-3 col-md-6">
               <div className="services__item-two role-service-card">
                 <div className="services__icon-two">
-                  <img src="assets/lpo-icons/6.png" style={{ width: '65px' }} alt="" />
+                  <img
+                    src="assets/lpo-icons/6.png"
+                    style={{ width: "65px" }}
+                    alt=""
+                  />
                 </div>
                 <div className="services__content-two">
                   <h4 className="title">
@@ -205,7 +231,11 @@ const Specialties = () => {
             <div className="col-lg-3 col-md-6">
               <div className="services__item-two role-service-card">
                 <div className="services__icon-two">
-                 <img src="assets/lpo-icons/7.png" style={{ width: '65px' }} alt="" />
+                  <img
+                    src="assets/lpo-icons/7.png"
+                    style={{ width: "65px" }}
+                    alt=""
+                  />
                 </div>
                 <div className="services__content-two">
                   <h4 className="title">
@@ -230,7 +260,11 @@ const Specialties = () => {
             <div className="col-lg-3 col-md-6">
               <div className="services__item-two role-service-card">
                 <div className="services__icon-two">
-                   <img src="assets/lpo-icons/8.png" style={{ width: '65px' }} alt="" />
+                  <img
+                    src="assets/lpo-icons/8.png"
+                    style={{ width: "65px" }}
+                    alt=""
+                  />
                 </div>
                 <div className="services__content-two">
                   <h4 className="title">
@@ -257,7 +291,11 @@ const Specialties = () => {
             <div className="col-lg-3 col-md-6">
               <div className="services__item-two role-service-card">
                 <div className="services__icon-two">
-                   <img src="assets/lpo-icons/9.png" style={{ width: '65px' }} alt="" />
+                  <img
+                    src="assets/lpo-icons/9.png"
+                    style={{ width: "65px" }}
+                    alt=""
+                  />
                 </div>
                 <div className="services__content-two">
                   <h4 className="title">
@@ -282,7 +320,11 @@ const Specialties = () => {
             <div className="col-lg-3 col-md-6">
               <div className="services__item-two role-service-card">
                 <div className="services__icon-two">
-                   <img src="assets/lpo-icons/10.png" style={{ width: '65px' }} alt="" />
+                  <img
+                    src="assets/lpo-icons/10.png"
+                    style={{ width: "65px" }}
+                    alt=""
+                  />
                 </div>
                 <div className="services__content-two">
                   <h4 className="title">
@@ -309,7 +351,11 @@ const Specialties = () => {
             <div className="col-lg-3 col-md-6">
               <div className="services__item-two role-service-card">
                 <div className="services__icon-two">
-                  <img src="assets/lpo-icons/11.png" style={{ width: '65px' }} alt="" />
+                  <img
+                    src="assets/lpo-icons/11.png"
+                    style={{ width: "65px" }}
+                    alt=""
+                  />
                 </div>
                 <div className="services__content-two">
                   <h4 className="title">
@@ -334,7 +380,11 @@ const Specialties = () => {
             <div className="col-lg-3 col-md-6">
               <div className="services__item-two role-service-card">
                 <div className="services__icon-two">
-                  <img src="assets/lpo-icons/12.png" style={{ width: '65px' }} alt="" />
+                  <img
+                    src="assets/lpo-icons/12.png"
+                    style={{ width: "65px" }}
+                    alt=""
+                  />
                 </div>
                 <div className="services__content-two">
                   <h4 className="title">
@@ -356,10 +406,14 @@ const Specialties = () => {
               </div>
             </div>
 
-             <div className="col-lg-3 col-md-6">
+            <div className="col-lg-3 col-md-6">
               <div className="services__item-two role-service-card">
                 <div className="services__icon-two">
-                  <img src="assets/lpo-icons/13.png" style={{ width: '65px' }} alt="" />
+                  <img
+                    src="assets/lpo-icons/13.png"
+                    style={{ width: "65px" }}
+                    alt=""
+                  />
                 </div>
                 <div className="services__content-two">
                   <h4 className="title">
@@ -384,7 +438,11 @@ const Specialties = () => {
             <div className="col-lg-3 col-md-6">
               <div className="services__item-two role-service-card">
                 <div className="services__icon-two">
-                  <img src="assets/lpo-icons/14.png" style={{ width: '65px' }} alt="" />
+                  <img
+                    src="assets/lpo-icons/14.png"
+                    style={{ width: "65px" }}
+                    alt=""
+                  />
                 </div>
                 <div className="services__content-two">
                   <h4 className="title">
@@ -409,7 +467,11 @@ const Specialties = () => {
             <div className="col-lg-3 col-md-6">
               <div className="services__item-two role-service-card">
                 <div className="services__icon-two">
-                   <img src="assets/lpo-icons/15.png" style={{ width: '65px' }} alt="" />
+                  <img
+                    src="assets/lpo-icons/15.png"
+                    style={{ width: "65px" }}
+                    alt=""
+                  />
                 </div>
                 <div className="services__content-two">
                   <h4 className="title">
@@ -434,7 +496,11 @@ const Specialties = () => {
             <div className="col-lg-3 col-md-6">
               <div className="services__item-two role-service-card">
                 <div className="services__icon-two">
-                   <img src="assets/lpo-icons/16.png" style={{ width: '65px' }} alt="" />
+                  <img
+                    src="assets/lpo-icons/16.png"
+                    style={{ width: "65px" }}
+                    alt=""
+                  />
                 </div>
                 <div className="services__content-two">
                   <h4 className="title">
@@ -459,7 +525,11 @@ const Specialties = () => {
             <div className="col-lg-3 col-md-6">
               <div className="services__item-two role-service-card">
                 <div className="services__icon-two">
-                  <img src="assets/lpo-icons/17.png" style={{ width: '65px' }} alt="" />
+                  <img
+                    src="assets/lpo-icons/17.png"
+                    style={{ width: "65px" }}
+                    alt=""
+                  />
                 </div>
                 <div className="services__content-two">
                   <h4 className="title">
@@ -481,7 +551,11 @@ const Specialties = () => {
             <div className="col-lg-3 col-md-6">
               <div className="services__item-two role-service-card">
                 <div className="services__icon-two">
-                   <img src="assets/lpo-icons/18.png" style={{ width: '65px' }} alt="" />
+                  <img
+                    src="assets/lpo-icons/18.png"
+                    style={{ width: "65px" }}
+                    alt=""
+                  />
                 </div>
                 <div className="services__content-two">
                   <h4 className="title">
@@ -503,13 +577,15 @@ const Specialties = () => {
             <div className="col-lg-3 col-md-6">
               <div className="services__item-two role-service-card">
                 <div className="services__icon-two">
-                  <img src="assets/lpo-icons/1.png" style={{ width: '65px' }} alt="" />
+                  <img
+                    src="assets/lpo-icons/1.png"
+                    style={{ width: "65px" }}
+                    alt=""
+                  />
                 </div>
                 <div className="services__content-two">
                   <h4 className="title">
-                    <Link to="/Maritime">
-                      Maritime / Admiralty Law
-                    </Link>
+                    <Link to="/Maritime">Maritime / Admiralty Law</Link>
                   </h4>
                   <p>
                     Support for cases involving shipping, marine contracts, and
@@ -530,13 +606,15 @@ const Specialties = () => {
             <div className="col-lg-3 col-md-6">
               <div className="services__item-two role-service-card">
                 <div className="services__icon-two">
-                  <img src="assets/lpo-icons/2.png" style={{ width: '65px' }} alt="" />
+                  <img
+                    src="assets/lpo-icons/2.png"
+                    style={{ width: "65px" }}
+                    alt=""
+                  />
                 </div>
                 <div className="services__content-two">
                   <h4 className="title">
-                    <Link to="/Medialaw">
-                      Entertainment / Media Law
-                    </Link>
+                    <Link to="/Medialaw">Entertainment / Media Law</Link>
                   </h4>
                   <p>Contracts, licensing, and IP-related support.</p>
                   <Link to="/Medialaw" className="tg-btn tg-btn-two">
@@ -554,7 +632,11 @@ const Specialties = () => {
             <div className="col-lg-3 col-md-6">
               <div className="services__item-two role-service-card">
                 <div className="services__icon-two">
-                 <img src="assets/lpo-icons/4.png" style={{ width: '65px' }} alt="" />
+                  <img
+                    src="assets/lpo-icons/4.png"
+                    style={{ width: "65px" }}
+                    alt=""
+                  />
                 </div>
                 <div className="services__content-two">
                   <h4 className="title">
@@ -579,7 +661,11 @@ const Specialties = () => {
             <div className="col-lg-3 col-md-6">
               <div className="services__item-two role-service-card">
                 <div className="services__icon-two">
-                  <img src="assets/lpo-icons/8.png" style={{ width: '65px' }} alt="" />
+                  <img
+                    src="assets/lpo-icons/8.png"
+                    style={{ width: "65px" }}
+                    alt=""
+                  />
                 </div>
                 <div className="services__content-two">
                   <h4 className="title">
@@ -603,7 +689,11 @@ const Specialties = () => {
             <div className="col-lg-3 col-md-6">
               <div className="services__item-two role-service-card">
                 <div className="services__icon-two">
-                 <img src="assets/lpo-icons/6.png" style={{ width: '65px' }} alt="" />
+                  <img
+                    src="assets/lpo-icons/6.png"
+                    style={{ width: "65px" }}
+                    alt=""
+                  />
                 </div>
                 <div className="services__content-two">
                   <h4 className="title">
@@ -627,7 +717,11 @@ const Specialties = () => {
             <div className="col-lg-3 col-md-6">
               <div className="services__item-two role-service-card">
                 <div className="services__icon-two">
-                  <img src="assets/lpo-icons/3.png" style={{ width: '65px' }} alt="" />
+                  <img
+                    src="assets/lpo-icons/3.png"
+                    style={{ width: "65px" }}
+                    alt=""
+                  />
                 </div>
                 <div className="services__content-two">
                   <h4 className="title">
@@ -670,7 +764,8 @@ const Specialties = () => {
                 <div class="features__content-four">
                   <h3 class="title">Consistent Record of Excellence</h3>
                   <p>
-                    We pride ourselves on a consistent record of excellence in every project we deliver.
+                    We pride ourselves on a consistent record of excellence in
+                    every project we deliver.
                   </p>
                 </div>
               </div>
@@ -683,7 +778,8 @@ const Specialties = () => {
                 <div class="features__content-four">
                   <h3 class="title">Specialized Industry Insights</h3>
                   <p>
-                    We provide specialized industry insights that drive smarter strategies and better results.
+                    We provide specialized industry insights that drive smarter
+                    strategies and better results.
                   </p>
                 </div>
               </div>
@@ -696,13 +792,13 @@ const Specialties = () => {
                 <div class="features__content-four">
                   <h3 class="title">International Reach</h3>
                   <p>
-                   Our international reach enables us to serve clients seamlessly across the globe.
+                    Our international reach enables us to serve clients
+                    seamlessly across the globe.
                   </p>
                 </div>
               </div>
             </div>
 
-           
             <div class="col-lg-6 col-sm-6">
               <div class="features__item-two">
                 <div class="features__icon-two">
@@ -711,7 +807,8 @@ const Specialties = () => {
                 <div class="features__content-four">
                   <h3 class="title">Cost-Effective Excellence</h3>
                   <p>
-                    We combine superior quality with cost-effective strategies for maximum value.
+                    We combine superior quality with cost-effective strategies
+                    for maximum value.
                   </p>
                 </div>
               </div>
@@ -720,7 +817,7 @@ const Specialties = () => {
         </div>
       </section>
 
-       <section className="cta__area-two section-py-130 pt-0">
+      <section className="cta__area-two section-py-130 pt-0">
         <div className="container">
           <div className="cta__inner-wrap-two">
             <div className="row align-items-center">
@@ -761,24 +858,25 @@ const Specialties = () => {
           </div>
         </div>
       </section>
-     
 
       <section className="hero-remote-lawyers">
-      <div className="hero-remote-lawyers-card">
-        <h1 className="hero-remote-lawyers-title">
-          Hire Boulou LPO Lawyers With Specialized Expertise
-        </h1>
-        <p className="hero-remote-lawyers-desc">
-          By partnering with Boulou LPO you can have access to top-tier
-          legal talent across the world, ensuring your legal matters are handled
-          with precision and expertise that matches your specific needs.
-        </p>
-        <a href="contact" className="hero-remote-lawyers-btn">Book a Demo</a>
-      </div>
-    </section>
-     <FAQSection />
+        <div className="hero-remote-lawyers-card">
+          <h1 className="hero-remote-lawyers-title">
+            Hire Boulou LPO Lawyers With Specialized Expertise
+          </h1>
+          <p className="hero-remote-lawyers-desc">
+            By partnering with Boulou LPO you can have access to top-tier legal
+            talent across the world, ensuring your legal matters are handled
+            with precision and expertise that matches your specific needs.
+          </p>
+          <a href="contact" className="hero-remote-lawyers-btn">
+            Book a Demo
+          </a>
+        </div>
+      </section>
+      <FAQSection />
     </>
   );
 };
 
-export default Specialties;
+export default InternalGuide;

@@ -8,22 +8,25 @@ const Intellectual = () => {
           <div className="row align-items-center">
             {/* Left Content - col-8 */}
             <div className="col-lg-8 col-md-12 hero-text-content">
-              <div className="legal-hero-badge">
-                Expert IP Law Support
-              </div>
+              <div className="legal-hero-badge">Expert IP Law Support</div>
               <h1 className="hero-title">Intellectual Property Law (IP Law)</h1>
               <p className="hero-description">
-                Boulou LPO provides expert paralegal assistance for intellectual property law firms, ensuring 
-                trademarks, copyrights, patents, and trade secrets are properly managed and protected. From 
-                filing applications to monitoring deadlines, we support attorneys in safeguarding clients’ valuable 
-                intellectual assets with precision and efficiency.
+                Boulou LPO provides expert paralegal assistance for intellectual
+                property law firms, ensuring trademarks, copyrights, patents,
+                and trade secrets are properly managed and protected. From
+                filing applications to monitoring deadlines, we support
+                attorneys in safeguarding clients’ valuable intellectual assets
+                with precision and efficiency.
               </p>
             </div>
 
             {/* Right Image Section - col-4 */}
             <div className="col-lg-4 col-md-12 hero-image-content">
               <div className="hero-main-image">
-                <img src="/assets/lpo/Intellectual Property Law (IP Law).png" alt="Intellectual Property" />
+                <img
+                  src="/assets/lpo/Intellectual Property Law (IP Law).png"
+                  alt="Intellectual Property"
+                />
                 {/* Floating Images */}
                 <div className="hero-floating-img hero-img1">
                   <img src="/assets/1.png" alt="Assistant" />
@@ -33,7 +36,8 @@ const Intellectual = () => {
                 </div>
               </div>
               <p className="hero-caption">
-                * At Boulou LPO, our paralegals provide comprehensive IP law assistance, including: *
+                * At Boulou LPO, our paralegals provide comprehensive IP law
+                assistance, including: *
               </p>
             </div>
           </div>
@@ -56,10 +60,13 @@ const Intellectual = () => {
                 Protecting Innovation Through Precise Support
               </h6>
               <p className="transform-description text-muted">
-                Intellectual property law requires accuracy, strict compliance, and careful monitoring of deadlines. 
-                Our team handles all the procedural and administrative work, from application filings to portfolio 
-                management, allowing your attorneys to focus on strategy, enforcement, and client counseling. 
-                This ensures IP assets are fully protected while reducing risk and administrative burden.
+                Intellectual property law requires accuracy, strict compliance,
+                and careful monitoring of deadlines. Our team handles all the
+                procedural and administrative work, from application filings to
+                portfolio management, allowing your attorneys to focus on
+                strategy, enforcement, and client counseling. This ensures IP
+                assets are fully protected while reducing risk and
+                administrative burden.
               </p>
             </div>
 
@@ -78,7 +85,9 @@ const Intellectual = () => {
                     <div className="transform-card-content">
                       <h5 className="fw-semibold">Safeguard IP Assets</h5>
                       <p>
-                        We ensure trademarks, copyrights, and patents are filed and managed with precision to protect your clients’ innovations.
+                        We ensure trademarks, copyrights, and patents are filed
+                        and managed with precision to protect your clients’
+                        innovations.
                       </p>
                     </div>
                   </div>
@@ -96,7 +105,8 @@ const Intellectual = () => {
                     <div className="transform-card-content">
                       <h5 className="fw-semibold">Ensure Compliance</h5>
                       <p>
-                        Our team monitors deadlines and maintains compliance with USPTO and international IP regulations.
+                        Our team monitors deadlines and maintains compliance
+                        with USPTO and international IP regulations.
                       </p>
                     </div>
                   </div>
@@ -114,7 +124,9 @@ const Intellectual = () => {
                     <div className="transform-card-content">
                       <h5 className="fw-semibold">Streamline IP Management</h5>
                       <p>
-                        We organize and maintain IP portfolios, ensuring accurate records and efficient communication with clients and inventors.
+                        We organize and maintain IP portfolios, ensuring
+                        accurate records and efficient communication with
+                        clients and inventors.
                       </p>
                     </div>
                   </div>
@@ -125,150 +137,55 @@ const Intellectual = () => {
         </div>
       </section>
 
-      <section className="features__area-two section-py-130 pt-0">
+      <div className="sub-page-baner pb-5" style={{ marginTop: "0px" }}>
         <div className="container">
-          <div className="row align-items-center justify-content-center">
-            <div className="col-lg-5 col-md-10 order-0 order-lg-2">
-              <div className="features__img">
-                <img src="/assets/img/special/Intellectual.jpg" alt="img" />
-              </div>
-            </div>
-            <div className="col-lg-7 col-md-10">
-              <div className="features__content-two">
-                <div className="section__title mb-25">
-                  <span className="sub-title">Types of Services We Offer</span>
-                  <h2>Expert Intellectual Property Paralegal Support</h2>
-                  <p>
-                    At Boulou LPO, our paralegals provide comprehensive IP law assistance, including:
-                  </p>
+          <section className="banner__area-five">
+            <div className="container custom-container-five">
+              <div
+                className="banner__bg-foura"
+                style={{
+                  backgroundImage: "url(assets/lpo/h8_hero_bg.jpg)",
+                }}
+              >
+                <div
+                  className="banner__bg-shape"
+                  style={{
+                    backgroundImage:
+                      "url(assets/img/banner/h8_hero_bg_shape.svg)",
+                  }}
+                ></div>
+                <div className="row">
+                  <div className="col-xl-8 col-lg-8">
+                    <div
+                      className="banner__content-five"
+                      style={{ padding: "30px" }}
+                    >
+                      <h2
+                        className="title"
+                        data-aos="fade-up"
+                        data-aos-delay="400"
+                      >
+                        Impact Statement
+                      </h2>
+                      <h4>
+                        Securing Your Clients’ Innovations with Confidence
+                      </h4>
+                      <p data-aos="fade-up" data-aos-delay="600">
+                        Boulou LPO provides reliable, detail-oriented support
+                        for every stage of intellectual property protection. We
+                        help your firm maintain compliance, meet deadlines, and
+                        safeguard valuable assets, giving your clients
+                        confidence that their intellectual property is in expert
+                        hands.
+                      </p>
+                    </div>
+                  </div>
                 </div>
-                <ul className="list-wrap about__list-item-two">
-                  <li>
-                    <div className="icon">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="14"
-                        height="11"
-                        viewBox="0 0 14 11"
-                        fill="none"
-                      >
-                        <path
-                          d="M12.091 2L5.091 9L1.90918 5.81818"
-                          stroke="currentColor"
-                          strokeWidth="2.1875"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        />
-                      </svg>
-                    </div>
-                    Preparing and filing trademark, copyright, and patent applications
-                  </li>
-                  <li>
-                    <div className="icon">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="14"
-                        height="11"
-                        viewBox="0 0 14 11"
-                        fill="none"
-                      >
-                        <path
-                          d="M12.091 2L5.091 9L1.90918 5.81818"
-                          stroke="currentColor"
-                          strokeWidth="2.1875"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        />
-                      </svg>
-                    </div>
-                    Drafting licensing agreements and non-disclosure agreements
-                  </li>
-                  <li>
-                    <div className="icon">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="14"
-                        height="11"
-                        viewBox="0 0 14 11"
-                        fill="none"
-                      >
-                        <path
-                          d="M12.091 2L5.091 9L1.90918 5.81818"
-                          stroke="currentColor"
-                          strokeWidth="2.1875"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        />
-                      </svg>
-                    </div>
-                    Monitoring deadlines for renewals, oppositions, and maintenance filings
-                  </li>
-                  <li>
-                    <div className="icon">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="14"
-                        height="11"
-                        viewBox="0 0 14 11"
-                        fill="none"
-                      >
-                        <path
-                          d="M12.091 2L5.091 9L1.90918 5.81818"
-                          stroke="currentColor"
-                          strokeWidth="2.1875"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        />
-                      </svg>
-                    </div>
-                    Organizing IP portfolios and maintaining accurate records
-                  </li>
-                  <li>
-                    <div className="icon">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="14"
-                        height="11"
-                        viewBox="0 0 14 11"
-                        fill="none"
-                      >
-                        <path
-                          d="M12.091 2L5.091 9L1.90918 5.81818"
-                          stroke="currentColor"
-                          strokeWidth="2.1875"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        />
-                      </svg>
-                    </div>
-                    Coordinating communications with clients, inventors, and the USPTO
-                  </li>
-                  <li>
-                    <div className="icon">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="14"
-                        height="11"
-                        viewBox="0 0 14 11"
-                        fill="none"
-                      >
-                        <path
-                          d="M12.091 2L5.091 9L1.90918 5.81818"
-                          stroke="currentColor"
-                          strokeWidth="2.1875"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        />
-                      </svg>
-                    </div>
-                    Conducting legal research on IP laws, precedents, and infringement cases
-                  </li>
-                </ul>
               </div>
             </div>
-          </div>
+          </section>
         </div>
-      </section>
+      </div>
 
       <section className="features__area-three section-py-130 pt-0">
         <div className="container">
@@ -353,46 +270,155 @@ const Intellectual = () => {
         </div>
       </section>
 
-      <div className="sub-page-baner pb-5" style={{ marginTop: "0px" }}>
+      <section className="features__area-two section-py-130 pt-0">
         <div className="container">
-          <section className="banner__area-five">
-            <div className="container custom-container-five">
-              <div
-                className="banner__bg-foura"
-                style={{
-                  backgroundImage: "url(assets/lpo/h8_hero_bg.jpg)",
-                }}
-              >
-                <div
-                  className="banner__bg-shape"
-                  style={{
-                    backgroundImage:
-                      "url(assets/img/banner/h8_hero_bg_shape.svg)",
-                  }}
-                ></div>
-                <div className="row">
-                  <div className="col-xl-8 col-lg-8">
-                    <div
-                      className="banner__content-five"
-                      style={{ padding: "30px" }}
-                    >
-                      <h2 className="title" data-aos="fade-up" data-aos-delay="400">
-                        Impact Statement
-                      </h2>
-                      <h4>Securing Your Clients’ Innovations with Confidence</h4>
-                      <p data-aos="fade-up" data-aos-delay="600">
-                        Boulou LPO provides reliable, detail-oriented support for every stage of intellectual property 
-                        protection. We help your firm maintain compliance, meet deadlines, and safeguard valuable 
-                        assets, giving your clients confidence that their intellectual property is in expert hands.
-                      </p>
-                    </div>
-                  </div>
-                </div>
+          <div className="row align-items-center justify-content-center">
+            <div className="col-lg-5 col-md-10 order-0 order-lg-2">
+              <div className="features__img">
+                <img src="/assets/img/special/Intellectual.jpg" alt="img" />
               </div>
             </div>
-          </section>
+            <div className="col-lg-7 col-md-10">
+              <div className="features__content-two">
+                <div className="section__title mb-25">
+                  <span className="sub-title">Types of Services We Offer</span>
+                  <h2>Expert Intellectual Property Paralegal Support</h2>
+                  <p>
+                    At Boulou LPO, our paralegals provide comprehensive IP law
+                    assistance, including:
+                  </p>
+                </div>
+                <ul className="list-wrap about__list-item-two">
+                  <li>
+                    <div className="icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="11"
+                        viewBox="0 0 14 11"
+                        fill="none"
+                      >
+                        <path
+                          d="M12.091 2L5.091 9L1.90918 5.81818"
+                          stroke="currentColor"
+                          strokeWidth="2.1875"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                    </div>
+                    Preparing and filing trademark, copyright, and patent
+                    applications
+                  </li>
+                  <li>
+                    <div className="icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="11"
+                        viewBox="0 0 14 11"
+                        fill="none"
+                      >
+                        <path
+                          d="M12.091 2L5.091 9L1.90918 5.81818"
+                          stroke="currentColor"
+                          strokeWidth="2.1875"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                    </div>
+                    Drafting licensing agreements and non-disclosure agreements
+                  </li>
+                  <li>
+                    <div className="icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="11"
+                        viewBox="0 0 14 11"
+                        fill="none"
+                      >
+                        <path
+                          d="M12.091 2L5.091 9L1.90918 5.81818"
+                          stroke="currentColor"
+                          strokeWidth="2.1875"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                    </div>
+                    Monitoring deadlines for renewals, oppositions, and
+                    maintenance filings
+                  </li>
+                  <li>
+                    <div className="icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="11"
+                        viewBox="0 0 14 11"
+                        fill="none"
+                      >
+                        <path
+                          d="M12.091 2L5.091 9L1.90918 5.81818"
+                          stroke="currentColor"
+                          strokeWidth="2.1875"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                    </div>
+                    Organizing IP portfolios and maintaining accurate records
+                  </li>
+                  <li>
+                    <div className="icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="11"
+                        viewBox="0 0 14 11"
+                        fill="none"
+                      >
+                        <path
+                          d="M12.091 2L5.091 9L1.90918 5.81818"
+                          stroke="currentColor"
+                          strokeWidth="2.1875"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                    </div>
+                    Coordinating communications with clients, inventors, and the
+                    USPTO
+                  </li>
+                  <li>
+                    <div className="icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="11"
+                        viewBox="0 0 14 11"
+                        fill="none"
+                      >
+                        <path
+                          d="M12.091 2L5.091 9L1.90918 5.81818"
+                          stroke="currentColor"
+                          strokeWidth="2.1875"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                    </div>
+                    Conducting legal research on IP laws, precedents, and
+                    infringement cases
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
+      </section>
 
       <section className="cta__area-two section-py-130 pt-0">
         <div className="container">

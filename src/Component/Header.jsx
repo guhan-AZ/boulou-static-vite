@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../assets/img/boulo-ipo-logo.png";  
+import logo from "../assets/img/boulo-ipo-logo.png";
 
 const Header = () => {
   return (
     <>
-      <header className="transparent-header desktop-header" >
+      <header className="transparent-header desktop-header">
         <div id="header-fixed-height"></div>
         <div
           id="sticky-header"
@@ -18,10 +18,7 @@ const Header = () => {
                   <nav className="tgmenu__nav">
                     <div className="logo">
                       <Link to="/">
-                        <img
-                          src={logo}
-                          alt="Main Logo"
-                        />
+                        <img src={logo} alt="Main Logo" />
                       </Link>
                     </div>
                     <div className="tgmenu__navbar-wrap tgmenu__main-menu d-none d-lg-flex">
@@ -33,11 +30,11 @@ const Header = () => {
                           <Link to="/about">About Us</Link>
                         </li>
 
-                         <li>
-                          <Link to="/Specialties">Internal Guide </Link>
+                        <li>
+                          <Link to="/internalguide">Internal Guide </Link>
                         </li>
-                        
-                         <li className="menu-item-has-children">
+
+                        <li className="menu-item-has-children">
                           <Link to="/roles">Roles</Link>
                           <ul className="sub-menu">
                             <li>
@@ -46,21 +43,23 @@ const Header = () => {
                               </Link>
                             </li>
                             <li>
-                              <Link to="/Case-Manager">
-                                Case Manager
-                              </Link>
+                              <Link to="/Case-Manager">Case Manager</Link>
                             </li>
                             <li>
                               <Link to="/Paralegal-Role">Paralegal</Link>
                             </li>
                             <li>
-                              <Link to="/Secretary-Receptionist">Secretary / Receptionist</Link>
+                              <Link to="/Secretary-Receptionist">
+                                Secretary / Receptionist
+                              </Link>
                             </li>
-                             <li>
+                            <li>
                               <Link to="/Legal-Admin">Legal Admin</Link>
                             </li>
-                             <li>
-                              <Link to="/Intake-Specialist">Intake Specialist</Link>
+                            <li>
+                              <Link to="/Intake-Specialist">
+                                Intake Specialist
+                              </Link>
                             </li>
                           </ul>
                         </li>
@@ -88,7 +87,6 @@ const Header = () => {
                         <li>
                           <Link to="/Blog">Blog</Link>
                         </li>
-                         
                       </ul>
                     </div>
                     <div className="tgmenu__action tgmenu__action-two">

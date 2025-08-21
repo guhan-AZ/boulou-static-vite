@@ -144,6 +144,49 @@ const Environmental = () => {
           </div>
         </div>
       </section>
+      {/* IMPACT STATEMENT BANNER */}
+      <div className="sub-page-baner pb-5" style={{ marginTop: "0px" }}>
+        <div className="container">
+          <section className="banner__area-five">
+            <div className="container custom-container-five">
+              <div
+                className="banner__bg-foura"
+                style={{
+                  backgroundImage: "url(assets/lpo/h8_hero_bg.jpg) ",
+                }}
+              >
+                <div
+                  className="banner__bg-shape"
+                  style={{
+                    backgroundImage:
+                      "url(assets/img/banner/h8_hero_bg_shape.svg)",
+                  }}
+                ></div>
+                <div className="row">
+                  <div className="col-xl-8 col-lg-8">
+                    <div
+                      className="banner__content-five"
+                      style={{ padding: "30px" }}
+                    >
+                      <h2 className="title">Impact Statement</h2>
+                      <h4>
+                        Reliable Support for Complex Environmental Matters
+                      </h4>
+                      <p>
+                        Boulou LPO ensures your environmental law practice runs
+                        smoothly and efficiently. We help your firm manage
+                        filings, deadlines, and communications accurately,
+                        allowing your attorneys to focus on client advocacy,
+                        litigation, and regulatory guidance with confidence.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
 
       {/* WHY CHOOSE SECTION */}
       <section className="features__area-three section-py-130 pt-0">
@@ -206,7 +249,10 @@ const Environmental = () => {
                 </div>
                 <div className="features__content-four">
                   <h3 className="title">Confidential & Compliant</h3>
-                  <p>Secure handling of sensitive client and regulatory information.</p>
+                  <p>
+                    Secure handling of sensitive client and regulatory
+                    information.
+                  </p>
                 </div>
               </div>
             </div>
@@ -228,47 +274,8 @@ const Environmental = () => {
         </div>
       </section>
 
-      {/* IMPACT STATEMENT BANNER */}
-      <div className="sub-page-baner pb-5" style={{ marginTop: "0px" }}>
-        <div className="container">
-          <section className="banner__area-five">
-            <div className="container custom-container-five">
-              <div
-                className="banner__bg-foura"
-                style={{
-                  backgroundImage: "url(assets/lpo/h8_hero_bg.jpg) ",
-                }}
-              >
-                <div
-                  className="banner__bg-shape"
-                  style={{
-                    backgroundImage:
-                      "url(assets/img/banner/h8_hero_bg_shape.svg)",
-                  }}
-                ></div>
-                <div className="row">
-                  <div className="col-xl-8 col-lg-8">
-                    <div className="banner__content-five" style={{ padding: "30px" }}>
-                      <h2 className="title">Impact Statement</h2>
-                      <h4>Reliable Support for Complex Environmental Matters</h4>
-                      <p>
-                        Boulou LPO ensures your environmental law practice runs
-                        smoothly and efficiently. We help your firm manage
-                        filings, deadlines, and communications accurately,
-                        allowing your attorneys to focus on client advocacy,
-                        litigation, and regulatory guidance with confidence.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-        </div>
-      </div>
-
       {/* SERVICES SECTION */}
-      <section className="features__area-two section-py-130 ">
+      <section className="features__area-two section-py-130 pt-0">
         <div className="container">
           <div className="row align-items-center justify-content-center">
             <div className="col-lg-5 col-md-10 order-0 order-lg-2">
@@ -276,24 +283,140 @@ const Environmental = () => {
                 <img src="assets/img/special/Environmental.jpg" alt="img" />
               </div>
             </div>
-            <div className="col-lg-7 col-md-10 order-2 ">
+            <div className="col-lg-7 col-md-10">
               <div className="features__content-two">
                 <div className="section__title mb-25">
-                  <span className="sub-title">Types of Services We Offer </span>
+                  <span className="sub-title">Types of Services We Offer</span>
                   <h2>Expert Environmental Law Paralegal Support</h2>
                   <p>
                     At Boulou LPO, our paralegals provide comprehensive
                     environmental law assistance, including:
                   </p>
                 </div>
-
                 <ul className="list-wrap about__list-item-two">
-                  <li>Preparing and filing permits, compliance reports, and regulatory filings</li>
-                  <li>Drafting legal correspondence, notices, and contracts</li>
-                  <li>Organizing case files and evidence for environmental litigation</li>
-                  <li>Conducting research on statutes, regulations, and case law</li>
-                  <li>Coordinating communications with clients, government agencies, and experts</li>
-                  <li>Managing deadlines and ensuring regulatory compliance</li>
+                  <li>
+                    <div className="icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="11"
+                        viewBox="0 0 14 11"
+                        fill="none"
+                      >
+                        <path
+                          d="M12.091 2L5.091 9L1.90918 5.81818"
+                          stroke="currentColor"
+                          strokeWidth="2.1875"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                    </div>
+                    Preparing and filing permits, compliance reports, and
+                    regulatory filings
+                  </li>
+                  <li>
+                    <div className="icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="11"
+                        viewBox="0 0 14 11"
+                        fill="none"
+                      >
+                        <path
+                          d="M12.091 2L5.091 9L1.90918 5.81818"
+                          stroke="currentColor"
+                          strokeWidth="2.1875"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                    </div>
+                    Drafting legal correspondence, notices, and contracts
+                  </li>
+                  <li>
+                    <div className="icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="11"
+                        viewBox="0 0 14 11"
+                        fill="none"
+                      >
+                        <path
+                          d="M12.091 2L5.091 9L1.90918 5.81818"
+                          stroke="currentColor"
+                          strokeWidth="2.1875"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                    </div>
+                    Organizing case files and evidence for environmental
+                    litigation
+                  </li>
+                  <li>
+                    <div className="icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="11"
+                        viewBox="0 0 14 11"
+                        fill="none"
+                      >
+                        <path
+                          d="M12.091 2L5.091 9L1.90918 5.81818"
+                          stroke="currentColor"
+                          strokeWidth="2.1875"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                    </div>
+                    Conducting research on statutes, regulations, and case law
+                  </li>
+                  <li>
+                    <div className="icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="11"
+                        viewBox="0 0 14 11"
+                        fill="none"
+                      >
+                        <path
+                          d="M12.091 2L5.091 9L1.90918 5.81818"
+                          stroke="currentColor"
+                          strokeWidth="2.1875"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                    </div>
+                    Coordinating communications with clients, government
+                    agencies, and experts parties
+                  </li>
+                  <li>
+                    <div className="icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="11"
+                        viewBox="0 0 14 11"
+                        fill="none"
+                      >
+                        <path
+                          d="M12.091 2L5.091 9L1.90918 5.81818"
+                          stroke="currentColor"
+                          strokeWidth="2.1875"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                    </div>
+                    Managing deadlines and ensuring regulatory compliance
+                  </li>
                 </ul>
               </div>
             </div>
@@ -308,7 +431,9 @@ const Environmental = () => {
             <div className="row align-items-center">
               <div className="col-lg-6">
                 <div className="cta__content-three">
-                  <h2 className="title">Click to get a free Consultation Now</h2>
+                  <h2 className="title">
+                    Click to get a free Consultation Now
+                  </h2>
                 </div>
               </div>
               <div className="col-lg-6">

@@ -37,8 +37,8 @@ const Transportation = () => {
                 </div>
               </div>
               <p className="hero-caption">
-                *Boulou LPO is not U.S.-based or licensed, but is trained by U.S.
-                attorneys and has experience working with U.S. law firms.*
+                *Boulou LPO is not U.S.-based or licensed, but is trained by
+                U.S. attorneys and has experience working with U.S. law firms.*
               </p>
             </div>
           </div>
@@ -106,8 +106,9 @@ const Transportation = () => {
                     <div className="transform-card-content">
                       <h5 className="fw-semibold">Access the Top 1%</h5>
                       <p>
-                        Work with experienced paralegals trained in transportation
-                        law and trusted by leading logistics firms worldwide.
+                        Work with experienced paralegals trained in
+                        transportation law and trusted by leading logistics
+                        firms worldwide.
                       </p>
                     </div>
                   </div>
@@ -138,93 +139,6 @@ const Transportation = () => {
           </div>
         </div>
       </section>
-
-      {/* WHY CHOOSE */}
-      <section className="features__area-three section-py-130 pt-0">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-6">
-              <div className="section__title text-center mb-40">
-                <h2 className="title">Why Choose Boulou LPO?</h2>
-              </div>
-            </div>
-          </div>
-          <div className="row gutter-y-24 justify-content-center">
-            <div className="col-lg-4 col-sm-6">
-              <div className="features__item-two">
-                <div className="features__icon-two">
-                  <i className="flaticon-partner"></i>
-                </div>
-                <div className="features__content-four">
-                  <h3 className="title">Skilled, Scalable Support</h3>
-                  <p>
-                    Paralegals trained in transportation law, handling contracts,
-                    claims, and compliance effectively.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-sm-6">
-              <div className="features__item-two">
-                <div className="features__icon-two">
-                  <i className="flaticon-health-insurance"></i>
-                </div>
-                <div className="features__content-four">
-                  <h3 className="title">Bilingual Capabilities</h3>
-                  <p>
-                    Seamless communication with English and Spanish-speaking
-                    clients, carriers, and agencies.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-sm-6">
-              <div className="features__item-two">
-                <div className="features__icon-two">
-                  <i className="flaticon-tax"></i>
-                </div>
-                <div className="features__content-four">
-                  <h3 className="title">Industry-Focused Expertise</h3>
-                  <p>
-                    Knowledgeable in federal and state transportation regulations
-                    and logistics industry practices.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-6 col-sm-6">
-              <div className="features__item-two">
-                <div className="features__icon-two">
-                  <i className="flaticon-report"></i>
-                </div>
-                <div className="features__content-four">
-                  <h3 className="title">Confidential & Compliant</h3>
-                  <p>
-                    Secure handling of contracts, regulatory filings, and case
-                    data.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6 col-sm-6">
-              <div className="features__item-two">
-                <div className="features__icon-two">
-                  <i className="flaticon-calculator"></i>
-                </div>
-                <div className="features__content-four">
-                  <h3 className="title">Cost-Effective Partnership</h3>
-                  <p>
-                    Enhance your legal practice without the expense of additional
-                    in-house hires.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* IMPACT STATEMENT */}
       <div className="sub-page-baner pb-5" style={{ marginTop: "0px" }}>
         <div className="container">
@@ -255,11 +169,12 @@ const Transportation = () => {
                         Logistics Law
                       </h4>
                       <p>
-                        With Boulou LPO, your legal team can manage transportation
-                        and logistics matters with precision and confidence. From
-                        contracts to regulatory filings, we ensure everything is
-                        handled accurately and cost-effectively while maintaining
-                        compliance across jurisdictions.
+                        With Boulou LPO, your legal team can manage
+                        transportation and logistics matters with precision and
+                        confidence. From contracts to regulatory filings, we
+                        ensure everything is handled accurately and
+                        cost-effectively while maintaining compliance across
+                        jurisdictions.
                       </p>
                     </div>
                   </div>
@@ -270,8 +185,94 @@ const Transportation = () => {
         </div>
       </div>
 
+      {/* WHY CHOOSE */}
+      <section className="features__area-three section-py-130 pt-0">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-lg-6">
+              <div className="section__title text-center mb-40">
+                <h2 className="title">Why Choose Boulou LPO?</h2>
+              </div>
+            </div>
+          </div>
+          <div className="row gutter-y-24 justify-content-center">
+            <div className="col-lg-4 col-sm-6">
+              <div className="features__item-two">
+                <div className="features__icon-two">
+                  <i className="flaticon-partner"></i>
+                </div>
+                <div className="features__content-four">
+                  <h3 className="title">Skilled, Scalable Support</h3>
+                  <p>
+                    Paralegals trained in transportation law, handling
+                    contracts, claims, and compliance effectively.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-sm-6">
+              <div className="features__item-two">
+                <div className="features__icon-two">
+                  <i className="flaticon-health-insurance"></i>
+                </div>
+                <div className="features__content-four">
+                  <h3 className="title">Bilingual Capabilities</h3>
+                  <p>
+                    Seamless communication with English and Spanish-speaking
+                    clients, carriers, and agencies.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-sm-6">
+              <div className="features__item-two">
+                <div className="features__icon-two">
+                  <i className="flaticon-tax"></i>
+                </div>
+                <div className="features__content-four">
+                  <h3 className="title">Industry-Focused Expertise</h3>
+                  <p>
+                    Knowledgeable in federal and state transportation
+                    regulations and logistics industry practices.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-6 col-sm-6">
+              <div className="features__item-two">
+                <div className="features__icon-two">
+                  <i className="flaticon-report"></i>
+                </div>
+                <div className="features__content-four">
+                  <h3 className="title">Confidential & Compliant</h3>
+                  <p>
+                    Secure handling of contracts, regulatory filings, and case
+                    data.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6 col-sm-6">
+              <div className="features__item-two">
+                <div className="features__icon-two">
+                  <i className="flaticon-calculator"></i>
+                </div>
+                <div className="features__content-four">
+                  <h3 className="title">Cost-Effective Partnership</h3>
+                  <p>
+                    Enhance your legal practice without the expense of
+                    additional in-house hires.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* SERVICES SECTION */}
-      <section className="features__area-two section-py-130 ">
+      <section className="features__area-two section-py-130 pt-0">
         <div className="container">
           <div className="row align-items-center justify-content-center">
             <div className="col-lg-5 col-md-10 order-0 order-lg-2">
@@ -279,7 +280,7 @@ const Transportation = () => {
                 <img src="assets/img/special/Transportation.jpg" alt="img" />
               </div>
             </div>
-            <div className="col-lg-7 col-md-10 order-2 ">
+            <div className="col-lg-7 col-md-10">
               <div className="features__content-two">
                 <div className="section__title mb-25">
                   <span className="sub-title">Types of Services We Offer</span>
@@ -289,14 +290,130 @@ const Transportation = () => {
                     including:
                   </p>
                 </div>
-
                 <ul className="list-wrap about__list-item-two">
-                  <li>Drafting and reviewing shipping contracts and freight agreements</li>
-                  <li>Preparing legal correspondence and compliance filings</li>
-                  <li>Coordinating with clients, carriers, insurers, and regulators</li>
-                  <li>Managing shipment documentation and case files</li>
-                  <li>Conducting research on transportation regulations and case law</li>
-                  <li>Assisting with dispute resolution and litigation support</li>
+                  <li>
+                    <div className="icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="11"
+                        viewBox="0 0 14 11"
+                        fill="none"
+                      >
+                        <path
+                          d="M12.091 2L5.091 9L1.90918 5.81818"
+                          stroke="currentColor"
+                          strokeWidth="2.1875"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                    </div>
+                    Drafting and reviewing shipping contracts and freight
+                    agreements
+                  </li>
+                  <li>
+                    <div className="icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="11"
+                        viewBox="0 0 14 11"
+                        fill="none"
+                      >
+                        <path
+                          d="M12.091 2L5.091 9L1.90918 5.81818"
+                          stroke="currentColor"
+                          strokeWidth="2.1875"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                    </div>
+                    Preparing legal correspondence and compliance filings
+                  </li>
+                  <li>
+                    <div className="icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="11"
+                        viewBox="0 0 14 11"
+                        fill="none"
+                      >
+                        <path
+                          d="M12.091 2L5.091 9L1.90918 5.81818"
+                          stroke="currentColor"
+                          strokeWidth="2.1875"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                    </div>
+                    Coordinating with clients, carriers, insurers, and
+                    regulators
+                  </li>
+                  <li>
+                    <div className="icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="11"
+                        viewBox="0 0 14 11"
+                        fill="none"
+                      >
+                        <path
+                          d="M12.091 2L5.091 9L1.90918 5.81818"
+                          stroke="currentColor"
+                          strokeWidth="2.1875"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                    </div>
+                    Managing shipment documentation and case files
+                  </li>
+                  <li>
+                    <div className="icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="11"
+                        viewBox="0 0 14 11"
+                        fill="none"
+                      >
+                        <path
+                          d="M12.091 2L5.091 9L1.90918 5.81818"
+                          stroke="currentColor"
+                          strokeWidth="2.1875"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                    </div>
+                    Conducting research on transportation regulations and case
+                    law
+                  </li>
+                  <li>
+                    <div className="icon">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="14"
+                        height="11"
+                        viewBox="0 0 14 11"
+                        fill="none"
+                      >
+                        <path
+                          d="M12.091 2L5.091 9L1.90918 5.81818"
+                          stroke="currentColor"
+                          strokeWidth="2.1875"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                    </div>
+                    Assisting with dispute resolution and litigation support
+                  </li>
                 </ul>
               </div>
             </div>
@@ -311,7 +428,9 @@ const Transportation = () => {
             <div className="row align-items-center">
               <div className="col-lg-6">
                 <div className="cta__content-three">
-                  <h2 className="title">Click to get a free Consultation Now</h2>
+                  <h2 className="title">
+                    Click to get a free Consultation Now
+                  </h2>
                 </div>
               </div>
               <div className="col-lg-6">
