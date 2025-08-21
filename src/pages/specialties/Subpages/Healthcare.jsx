@@ -205,7 +205,7 @@ const Healthcare = () => {
                   <h3 className="title">Skilled, Scalable Support</h3>
                   <p>
                     Paralegals experienced in healthcare contracts, regulatory
-                    filings, and compliance.
+                    filings, and legal documentation.
                   </p>
                 </div>
               </div>
@@ -364,7 +364,8 @@ const Healthcare = () => {
                         />
                       </svg>
                     </div>
-                    Conducting legal research on healthcare regulations
+                    Conducting legal research on healthcare regulations,
+                    licensing, and case law
                   </li>
                   <li>
                     <div className="icon">
@@ -384,7 +385,8 @@ const Healthcare = () => {
                         />
                       </svg>
                     </div>
-                    Coordinating communications with clients & providers parties
+                    Coordinating communications with clients, providers, and
+                    agencies
                   </li>
                   <li>
                     <div className="icon">
@@ -404,7 +406,7 @@ const Healthcare = () => {
                         />
                       </svg>
                     </div>
-                    Managing deadlines, audits, and compliance tracking
+                    Managing deadlines, audits, and compliance tracking.
                   </li>
                 </ul>
               </div>

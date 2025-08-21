@@ -57,6 +57,8 @@ import Consumerprotection from "./pages/Specialties/Subpages/Consumerprotection"
 import Transportation from "./pages/Specialties/Subpages/Transportation";
 import Education from "./pages/Specialties/Subpages/Education";
 import Municipal from "./pages/Specialties/Subpages/Municipal";
+import LemonLaw from "./pages/specialties/Subpages/LemonLaw";
+import HabitabilityLaw from "./pages/specialties/Subpages/HabitabilityLaw";
 // import "./App.css";
 
 const App = () => {
@@ -126,6 +128,8 @@ const App = () => {
         <Route path="/Municipal" element={<Municipal />} />
         <Route path="/Transportation" element={<Transportation />} />
         <Route path="/Education" element={<Education />} />
+        <Route path="/Lemonlaw" element={<LemonLaw />} />
+        <Route path="/Habitabilitylaw" element={<HabitabilityLaw />} />
       </Routes>
       <Footer />
     </>

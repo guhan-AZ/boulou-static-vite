@@ -166,7 +166,7 @@ const Taxlaw = () => {
                         Boulou LPO ensures your tax law cases and filings are
                         handled with accuracy, compliance, and efficiency. We
                         help your firm meet deadlines, manage complex
-                        documentation, and deliver high-quality service that
+                        documentation, and deliver high quality service that
                         keeps clients confident and satisfied.
                       </p>
                     </div>
@@ -381,7 +381,7 @@ const Taxlaw = () => {
                       </svg>
                     </div>
                     Coordinating with clients, accountants, and government
-                    agencies parties
+                    agencies
                   </li>
                   <li>
                     <div className="icon">

@@ -1,4 +1,5 @@
 import React from "react";
+import immgration from "../../../../public/assets/lpo/immigration-law.png";
 
 const Immigration = () => {
   return (
@@ -9,7 +10,7 @@ const Immigration = () => {
             {/* Left Content - col-8 */}
             <div className="col-lg-8 col-md-12 hero-text-content">
               <div className="legal-hero-badge">
-                Personalized and Affordable Solutions
+                Precision and Care for Every Client Journey
               </div>
               <h1 className="hero-title">Immigration Law</h1>
               <p className="hero-description">
@@ -24,7 +25,7 @@ const Immigration = () => {
             {/* Right Image Section - col-4 */}
             <div className="col-lg-4 col-md-12 hero-image-content">
               <div className="hero-main-image">
-                <img src="/assets/lpo/administration-law.png" alt="Lawyer" />
+                <img src={immgration} alt="Lawyer" />
                 {/* Floating Images */}
                 <div className="hero-floating-img hero-img1">
                   <img src="/assets/1.png" alt="Assistant" />
@@ -55,7 +56,7 @@ const Immigration = () => {
             </div>
             <div className="col-lg-6">
               <h6 style={{ color: "#002688" }}>
-                Sharper Preparation, Stronger Defense
+                From Paperwork Overload to Process Flow
               </h6>
               <p className="transform-description text-muted">
                 Immigration law is deadline-driven and detail-sensitive. Our
@@ -156,8 +157,8 @@ const Immigration = () => {
                 <div class="features__content-four">
                   <h3 class="title">Skilled, Scalable Support</h3>
                   <p>
-                    Paralegals trained in criminal case procedures and evidence
-                    handling.
+                    Paralegals experienced in family-based, employment-based,
+                    and humanitarian immigration matters.
                   </p>
                 </div>
               </div>
@@ -170,8 +171,8 @@ const Immigration = () => {
                 <div class="features__content-four">
                   <h3 class="title">Bilingual Capabilities</h3>
                   <p>
-                    Effective communication with English and Spanish-speaking
-                    clients and witnesses.
+                    Fluent support for English and Spanish-speaking clients,
+                    ensuring clear communication.
                   </p>
                 </div>
               </div>
@@ -184,8 +185,8 @@ const Immigration = () => {
                 <div class="features__content-four">
                   <h3 class="title">Industry-Focused Expertise</h3>
                   <p>
-                    Deep familiarity with criminal defense timelines, filings,
-                    and procedural rules.
+                    Knowledge of USCIS procedures, deadlines, and documentation
+                    requirements.
                   </p>
                 </div>
               </div>
@@ -198,9 +199,7 @@ const Immigration = () => {
                 </div>
                 <div class="features__content-four">
                   <h3 class="title">Confidential & Compliant</h3>
-                  <p>
-                    Secure handling of sensitive case files and client records.
-                  </p>
+                  <p>Secure management of sensitive immigration records.</p>
                 </div>
               </div>
             </div>
@@ -212,8 +211,8 @@ const Immigration = () => {
                 <div class="features__content-four">
                   <h3 class="title">Cost-Effective Partnership</h3>
                   <p>
-                    Professional legal support without the overhead of in-house
-                    hires.
+                    Quality paralegal services without the overhead of in-house
+                    hiring.
                   </p>
                 </div>
               </div>

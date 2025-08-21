@@ -144,6 +144,7 @@ const Environmental = () => {
           </div>
         </div>
       </section>
+
       {/* IMPACT STATEMENT BANNER */}
       <div className="sub-page-baner pb-5" style={{ marginTop: "0px" }}>
         <div className="container">
@@ -173,11 +174,11 @@ const Environmental = () => {
                         Reliable Support for Complex Environmental Matters
                       </h4>
                       <p>
-                        Boulou LPO ensures your environmental law practice runs
-                        smoothly and efficiently. We help your firm manage
-                        filings, deadlines, and communications accurately,
-                        allowing your attorneys to focus on client advocacy,
-                        litigation, and regulatory guidance with confidence.
+                        Boulou LPO ensures your environmental law cases are
+                        managed accurately, efficiently, and in full compliance
+                        with regulations. We help your firm stay organized, meet
+                        deadlines, and deliver professional service that
+                        strengthens client trust and outcomes.
                       </p>
                     </div>
                   </div>
@@ -395,7 +396,7 @@ const Environmental = () => {
                       </svg>
                     </div>
                     Coordinating communications with clients, government
-                    agencies, and experts parties
+                    agencies, and experts 
                   </li>
                   <li>
                     <div className="icon">

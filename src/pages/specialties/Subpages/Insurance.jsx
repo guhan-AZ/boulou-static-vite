@@ -1,4 +1,5 @@
 import React from "react";
+import insurance from "../../../../public/assets/lpo/insurance-law.png";
 
 const Insurance = () => {
   return (
@@ -25,7 +26,7 @@ const Insurance = () => {
             {/* Right Image Section - col-4 */}
             <div className="col-lg-4 col-md-12 hero-image-content">
               <div className="hero-main-image">
-                <img src="/assets/lpo/administration-law.png" alt="Lawyer" />
+                <img src={insurance} alt="Lawyer" />
                 {/* Floating Images */}
                 <div className="hero-floating-img hero-img1">
                   <img src="/assets/1.png" alt="Assistant" />
@@ -159,8 +160,8 @@ const Insurance = () => {
                 <div class="features__content-four">
                   <h3 class="title">Skilled, Scalable Support</h3>
                   <p>
-                    Paralegals trained in employment agreements, workplace
-                    investigations, and labor disputes.
+                    Paralegals experienced in insurance claims, litigation, and
+                    regulatory compliance.
                   </p>
                 </div>
               </div>
@@ -174,7 +175,7 @@ const Insurance = () => {
                   <h3 class="title">Bilingual Capabilities</h3>
                   <p>
                     Clear communication with English and Spanish-speaking
-                    clients, witnesses, and HR teams.
+                    clients, insurers, and stakeholders
                   </p>
                 </div>
               </div>
@@ -187,8 +188,8 @@ const Insurance = () => {
                 <div class="features__content-four">
                   <h3 class="title">Industry-Focused Expertise</h3>
                   <p>
-                    Knowledge of employment law procedures, EEOC filings, and
-                    compliance requirements.
+                    Knowledge of policy interpretation, claims handling, and
+                    insurance regulations.
                   </p>
                 </div>
               </div>
@@ -202,7 +203,8 @@ const Insurance = () => {
                 <div class="features__content-four">
                   <h3 class="title">Confidential & Compliant</h3>
                   <p>
-                    Secure handling of sensitive employee and company records.
+                    Secure handling of sensitive client and insurance
+                    information.
                   </p>
                 </div>
               </div>
@@ -215,8 +217,8 @@ const Insurance = () => {
                 <div class="features__content-four">
                   <h3 class="title">Cost-Effective Partnership</h3>
                   <p>
-                    Professional support without the expense of expanding your
-                    in house staff.
+                    Professional support without the expense of hiring
+                    additional in-house staff.
                   </p>
                 </div>
               </div>

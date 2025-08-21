@@ -1,4 +1,5 @@
 import React from "react";
+import contracts from "../../../../public/assets/lpo/Contract Law.png";
 
 const ContractLaw = () => {
   return (
@@ -10,7 +11,7 @@ const ContractLaw = () => {
             {/* Left Content */}
             <div className="col-lg-8 col-md-12 hero-text-content">
               <div className="legal-hero-badge">
-                Personalized and Affordable Solutions
+                Paralegals Provide Comprehensive Contract Law Assistance
               </div>
               <h1 className="hero-title">Contract Law</h1>
               <p className="hero-description">
@@ -27,7 +28,7 @@ const ContractLaw = () => {
             {/* Right Image */}
             <div className="col-lg-4 col-md-12 hero-image-content">
               <div className="hero-main-image">
-                <img src="/assets/lpo/Contract Law.png" alt="Contract Law" />
+                <img src={contracts} alt="Contract Law" />
                 {/* Floating Images */}
                 <div className="hero-floating-img hero-img1">
                   <img src="/assets/1.png" alt="Assistant" />
@@ -178,58 +179,84 @@ const ContractLaw = () => {
       </div>
 
       {/* WHY CHOOSE */}
-      <section className="features__area-three section-py-130 pt-0">
-        <div className="container">
-          <div className="row justify-content-center">
-            <div className="col-lg-6">
-              <div className="section__title text-center mb-40">
-                <h2 className="title">Why Choose Boulou LPO?</h2>
+      <section class="features__area-three section-py-130 pt-0">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-6">
+              <div class="section__title text-center mb-40">
+                <h2 class="title">Why Choose Boulou LPO?</h2>
               </div>
             </div>
           </div>
-          <div className="row gutter-y-24 justify-content-center">
-            <div className="col-lg-4 col-sm-6">
-              <div className="features__item-two">
-                <h3 className="title">Skilled, Scalable Support</h3>
-                <p>
-                  Paralegals experienced in drafting, reviewing, and managing
-                  various contracts.
-                </p>
+          <div class="row gutter-y-24 justify-content-center">
+            <div class="col-lg-4 col-sm-6">
+              <div class="features__item-two">
+                <div class="features__icon-two">
+                  <i class="flaticon-partner"></i>
+                </div>
+                <div class="features__content-four">
+                  <h3 class="title">Skilled, Scalable Support</h3>
+                  <p>
+                    Paralegals experienced in drafting, reviewing, and managing
+                    various contracts.
+                  </p>
+                </div>
               </div>
             </div>
-            <div className="col-lg-4 col-sm-6">
-              <div className="features__item-two">
-                <h3 className="title">Bilingual Capabilities</h3>
-                <p>
-                  Clear communication with English and Spanish-speaking clients,
-                  partners, and vendors.
-                </p>
+            <div class="col-lg-4 col-sm-6">
+              <div class="features__item-two">
+                <div class="features__icon-two">
+                  <i class="flaticon-health-insurance"></i>
+                </div>
+                <div class="features__content-four">
+                  <h3 class="title">Bilingual Capabilities</h3>
+                  <p>
+                    Clear communication with English and Spanish-speaking
+                    clients, partners, and vendors.
+                  </p>
+                </div>
               </div>
             </div>
-            <div className="col-lg-4 col-sm-6">
-              <div className="features__item-two">
-                <h3 className="title">Industry-Focused Expertise</h3>
-                <p>
-                  Knowledge of contract law principles, compliance, and
-                  enforcement procedures.
-                </p>
+            <div class="col-lg-4 col-sm-6">
+              <div class="features__item-two">
+                <div class="features__icon-two">
+                  <i class="flaticon-tax"></i>
+                </div>
+                <div class="features__content-four">
+                  <h3 class="title">Industry-Focused Expertise</h3>
+                  <p>
+                    Knowledge of contract law principles, compliance, and
+                    enforcement procedures.
+                  </p>
+                </div>
               </div>
             </div>
-            <div className="col-lg-6 col-sm-6">
-              <div className="features__item-two">
-                <h3 className="title">Confidential & Compliant</h3>
-                <p>
-                  Secure handling of sensitive agreements and legal documents.
-                </p>
+
+            <div class="col-lg-6 col-sm-6">
+              <div class="features__item-two">
+                <div class="features__icon-two">
+                  <i class="flaticon-report"></i>
+                </div>
+                <div class="features__content-four">
+                  <h3 class="title">Confidential & Compliant</h3>
+                  <p>
+                    Secure handling of sensitive agreements and legal documents.
+                  </p>
+                </div>
               </div>
             </div>
-            <div className="col-lg-6 col-sm-6">
-              <div className="features__item-two">
-                <h3 className="title">Cost-Effective Partnership</h3>
-                <p>
-                  Expand contract management capabilities without the overhead
-                  of in-house hires.
-                </p>
+            <div class="col-lg-6 col-sm-6">
+              <div class="features__item-two">
+                <div class="features__icon-two">
+                  <i class="flaticon-calculator"></i>
+                </div>
+                <div class="features__content-four">
+                  <h3 class="title">Cost-Effective Partnership</h3>
+                  <p>
+                    Expand contract management capabilities without the overhead
+                    of in-house hires.
+                  </p>
+                </div>
               </div>
             </div>
           </div>

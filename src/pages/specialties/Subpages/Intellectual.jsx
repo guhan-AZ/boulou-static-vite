@@ -205,8 +205,8 @@ const Intellectual = () => {
                 <div className="features__content-four">
                   <h3 className="title">Skilled, Scalable Support</h3>
                   <p>
-                    Paralegals trained in employment agreements, workplace
-                    investigations, and labor disputes.
+                    Paralegals experienced in IP filings, prosecution, and
+                    enforcement matters.
                   </p>
                 </div>
               </div>
@@ -220,7 +220,7 @@ const Intellectual = () => {
                   <h3 className="title">Bilingual Capabilities</h3>
                   <p>
                     Clear communication with English and Spanish-speaking
-                    clients, witnesses, and HR teams.
+                    clients and collaborators.
                   </p>
                 </div>
               </div>
@@ -233,8 +233,8 @@ const Intellectual = () => {
                 <div className="features__content-four">
                   <h3 className="title">Industry-Focused Expertise</h3>
                   <p>
-                    Knowledge of employment law procedures, EEOC filings, and
-                    compliance requirements.
+                    Knowledge of USPTO procedures, copyright law, and patent
+                    regulations.
                   </p>
                 </div>
               </div>
@@ -247,7 +247,8 @@ const Intellectual = () => {
                 <div className="features__content-four">
                   <h3 className="title">Confidential & Compliant</h3>
                   <p>
-                    Secure handling of sensitive employee and company records.
+                    Secure handling of proprietary and confidential intellectual
+                    property information.
                   </p>
                 </div>
               </div>
@@ -260,8 +261,8 @@ const Intellectual = () => {
                 <div className="features__content-four">
                   <h3 className="title">Cost-Effective Partnership</h3>
                   <p>
-                    Professional support without the expense of expanding your
-                    in-house staff.
+                    High-quality IP support without the expense of hiring
+                    additional in-house staff.
                   </p>
                 </div>
               </div>

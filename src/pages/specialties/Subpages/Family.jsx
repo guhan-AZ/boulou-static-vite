@@ -1,4 +1,5 @@
 import React from "react";
+import familys from "../../../../public/assets/lpo/family-law.png"
 
 const Family = () => {
   return (
@@ -9,7 +10,7 @@ const Family = () => {
             {/* Left Content - col-8 */}
             <div className="col-lg-8 col-md-12 hero-text-content">
               <div className="legal-hero-badge">
-                Personalized and Affordable Solutions
+                Trusted Support When It Matters Most
               </div>
               <h1 className="hero-title">Family Law</h1>
               <p className="hero-description">
@@ -25,7 +26,7 @@ const Family = () => {
             {/* Right Image Section - col-4 */}
             <div className="col-lg-4 col-md-12 hero-image-content">
               <div className="hero-main-image">
-                <img src="/assets/lpo/administration-law.png" alt="Lawyer" />
+                <img src={familys} alt="Lawyer" />
                 {/* Floating Images */}
                 <div className="hero-floating-img hero-img1">
                   <img src="/assets/1.png" alt="Assistant" />

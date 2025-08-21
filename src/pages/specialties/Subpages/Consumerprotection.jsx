@@ -63,14 +63,15 @@ const Consumerprotection = () => {
             </div>
             <div className="col-lg-6">
               <h6 style={{ color: "#002688" }}>
-                Efficient Support for Complex Litigation Matters
+                How We Can Transform Your Consumer Protection / Class Action
+                Operations
               </h6>
               <p className="transform-description text-muted">
-                Consumer protection and class action cases involve strict
-                deadlines, large volumes of documentation, and coordinated
-                client communication. Our team handles filings, discovery,
-                research, and document management so attorneys can focus on
-                advocacy, strategy, and courtroom representation.
+                Boulou LPO streamlines case management, document preparation,
+                and client communications, allowing attorneys to focus on
+                litigation strategy and negotiations. Our support ensures
+                deadlines are met, documents are accurate, and cases move
+                efficiently through complex litigation processes.
               </p>
             </div>
 
@@ -202,6 +203,13 @@ const Consumerprotection = () => {
             </div>
           </div>
           <div className="row gutter-y-24 justify-content-center">
+            <div>
+              <p className="text-center mb-5">
+                We provide law firms with reliable, specialized paralegal
+                support tailored to consumer protection and class action
+                matters.
+              </p>
+            </div>
             <div className="col-lg-4 col-sm-6">
               <div className="features__item-two">
                 <div className="features__icon-two">

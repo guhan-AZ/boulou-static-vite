@@ -1,4 +1,5 @@
 import React from "react";
+import criminal from "../../../../public/assets/lpo/criminal-law.png";
 
 const Criminal = () => {
   return (
@@ -9,7 +10,7 @@ const Criminal = () => {
             {/* Left Content - col-8 */}
             <div className="col-lg-8 col-md-12 hero-text-content">
               <div className="legal-hero-badge">
-                Personalized and Affordable Solutions
+                Precision Support for High-Stakes Cases
               </div>
               <h1 className="hero-title">Criminal Law</h1>
               <p className="hero-description">
@@ -25,7 +26,7 @@ const Criminal = () => {
             {/* Right Image Section - col-4 */}
             <div className="col-lg-4 col-md-12 hero-image-content">
               <div className="hero-main-image">
-                <img src="/assets/lpo/administration-law.png" alt="Lawyer" />
+                <img src={criminal} alt="Lawyer" />
                 {/* Floating Images */}
                 <div className="hero-floating-img hero-img1">
                   <img src="/assets/1.png" alt="Assistant" />
@@ -140,6 +141,49 @@ const Criminal = () => {
           </div>
         </div>
       </section>
+      <div className="sub-page-baner pb-5" style={{ marginTop: "0px" }}>
+        <div className="container">
+          <section class="banner__area-five">
+            <div class="container custom-container-five">
+              <div
+                class="banner__bg-foura"
+                style={{
+                  backgroundImage: "url(assets/lpo/h8_hero_bg.jpg) ",
+                }}
+              >
+                <div
+                  class="banner__bg-shape"
+                  style={{
+                    backgroundImage:
+                      "url(assets/img/banner/h8_hero_bg_shape.svg)",
+                  }}
+                ></div>
+                <div class="row">
+                  <div class="col-xl-8 col-lg-8">
+                    <div
+                      class="banner__content-five"
+                      style={{ padding: "30px" }}
+                    >
+                      <h2 class="title" data-aos="fade-up" data-aos-delay="400">
+                        Impact Statement
+                      </h2>
+                      <h4>Precision Support for High-Stakes Cases</h4>
+                      <p data-aos="fade-up" data-aos-delay="600">
+                        Boulou LPO brings discipline, accuracy, and urgency to
+                        your criminal law cases, ensuring nothing slips through
+                        the cracks. We help you operate at peak efficiency,
+                        defend more clients effectively, and maintain the
+                        highest professional standards in even the most complex
+                        and time-sensitive matters.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
 
       <section class="features__area-three section-py-130 pt-0">
         <div class="container">
@@ -224,50 +268,6 @@ const Criminal = () => {
           </div>
         </div>
       </section>
-
-      <div className="sub-page-baner pb-5" style={{ marginTop: "0px" }}>
-        <div className="container">
-          <section class="banner__area-five">
-            <div class="container custom-container-five">
-              <div
-                class="banner__bg-foura"
-                style={{
-                  backgroundImage: "url(assets/lpo/h8_hero_bg.jpg) ",
-                }}
-              >
-                <div
-                  class="banner__bg-shape"
-                  style={{
-                    backgroundImage:
-                      "url(assets/img/banner/h8_hero_bg_shape.svg)",
-                  }}
-                ></div>
-                <div class="row">
-                  <div class="col-xl-8 col-lg-8">
-                    <div
-                      class="banner__content-five"
-                      style={{ padding: "30px" }}
-                    >
-                      <h2 class="title" data-aos="fade-up" data-aos-delay="400">
-                        Impact Statement
-                      </h2>
-                      <h4>Precision Support for High-Stakes Cases</h4>
-                      <p data-aos="fade-up" data-aos-delay="600">
-                        Boulou LPO brings discipline, accuracy, and urgency to
-                        your criminal law cases, ensuring nothing slips through
-                        the cracks. We help you operate at peak efficiency,
-                        defend more clients effectively, and maintain the
-                        highest professional standards in even the most complex
-                        and time-sensitive matters.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
-        </div>
-      </div>
 
       <section class="features__area-two section-py-130 pt-0">
         <div class="container">
