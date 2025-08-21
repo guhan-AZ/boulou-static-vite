@@ -758,9 +758,8 @@ const InternalGuide = () => {
                     <Link to="/Lemonlaw">Lemon Law</Link>
                   </h4>
                   <p>
-                    Protects consumers who purchase defective vehicles, ensuring
-                    replacement or refund when manufacturers fail to fix
-                    recurring issues under warranty.
+                    Protects consumers stuck with defective vehicles by ensuring
+                    their right to a fair remedy
                   </p>
                   <Link to="/Lemonlaw" className="tg-btn tg-btn-two">
                     Read More{" "}
@@ -788,9 +787,8 @@ const InternalGuide = () => {
                     <Link to="/Habitabilitylaw">Habitability Law</Link>
                   </h4>
                   <p>
-                    Protects consumers who purchase defective vehicles, ensuring
-                    replacement or refund when manufacturers fail to fix
-                    recurring issues under warranty.
+                    Safeguards tenants’ rights to safe, livable, and
+                    well-maintained housing.
                   </p>
                   <Link to="/Habitabilitylaw" className="tg-btn tg-btn-two">
                     Read More{" "}
