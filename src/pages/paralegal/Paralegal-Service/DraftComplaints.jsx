@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { useParams } from "react-router-dom";
+import { Helmet } from "react-helmet";
 import { draftComplaintSlug, contractServiceSlug, documentReviewSlug, adminSupportsSlug } from "../../../Component/slug.js";
 
 const DraftComplaints = () => {
@@ -18,6 +19,7 @@ const DraftComplaints = () => {
   const [headingThree, setHeadingThree] = useState("");
   const [headingThreeAlt, setHeadingThreeAlt] = useState("");
   const [boloueContent, setBoloueContent] = useState([]);
+  const [helmetContent, setHelmetContent] = useState("");
 
   const [headingThreeName, setHeadingThreeName] = useState("");
   const [descriptionThree, setDescriptionThree] = useState("");
@@ -82,6 +84,7 @@ const DraftComplaints = () => {
 
         // get_data7
         setCategoryName(res7.data.service_name || "");
+        setHelmetContent(res7.data);
         setDescription(res7.data.description || "");
         setHeadingOne(res7.data.heading_name || "");
         setBottomHeadingOne(res7.data.bottomheading_name || "");
@@ -98,6 +101,10 @@ const DraftComplaints = () => {
 
   return (
     <>
+      <Helmet>
+        <title>{helmetContent.meta_tag_title}</title>
+        <meta name="description" content={helmetContent.meta_tag} />
+      </Helmet>
       {/* Banner Section */}
       {(categoryName?.trim() || description?.trim()) && (
         <div className="sub-page-baner">
