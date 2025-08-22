@@ -1,4 +1,7 @@
 import React from "react";
+import right from "../../../../public/assets/img/icons/right_arrow.svg";
+import h2_cta_shape from "../../../../public/assets/img/images/h2_cta_shape.svg";
+
 
 const DraftCorrespondence = () => {
   return (
@@ -229,7 +232,7 @@ const DraftCorrespondence = () => {
                   >
                     Call Now{" "}
                     <img
-                      src="assets/img/icons/right_arrow.svg"
+                      src={right}
                       alt=""
                       className="injectable"
                     />
@@ -238,7 +241,7 @@ const DraftCorrespondence = () => {
               </div>
             </div>
             <div className="cta__shape-three">
-              <img src="assets/img/images/h2_cta_shape.svg" alt="shape" />
+              <img src={h2_cta_shape}  alt="shape" />
             </div>
           </div>
         </div>

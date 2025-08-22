@@ -1,5 +1,13 @@
 import React from "react";
 import peronsals from "../../../../public/assets/lpo/personal-injury.png";
+import assets1 from "../../../../public/assets/1.png";
+import assets3 from "../../../../public/assets/3.png";
+import lpoinc from "../../../../public/assets/lpo/inc.png";
+import topinc from "../../../../public/assets/lpo/top.png";
+import cxxinc from "../../../../public/assets/lpo/cxx.jpg";
+import h2_cta_shape from "../../../../public/assets/img/images/h2_cta_shape.svg";
+import right from "../../../../public/assets/img/icons/right_arrow.svg";
+
 
 const Personal = () => {
   return (
@@ -29,10 +37,10 @@ const Personal = () => {
                 <img src={peronsals} alt="Lawyer" />
                 {/* Floating Images */}
                 <div className="hero-floating-img hero-img1">
-                  <img src="/assets/1.png" alt="Assistant" />
+                  <img src={assets1} alt="Assistant" />
                 </div>
                 <div className="hero-floating-img hero-img2">
-                  <img src="/assets/3.png" alt="Attorney" />
+                  <img src={assets3} alt="Attorney" />
                 </div>
               </div>
               <p className="hero-caption">
@@ -79,7 +87,7 @@ const Personal = () => {
                 <div className="col-12 col-sm-6">
                   <div className="transform-card">
                     <img
-                      src="assets/lpo/inc.png"
+                      src={lpoinc}
                       className="transform-card-img"
                       alt="Maximize Compensation"
                     />
@@ -99,7 +107,7 @@ const Personal = () => {
                 <div className="col-12 col-sm-6">
                   <div className="transform-card">
                     <img
-                      src="assets/lpo/top.png"
+                      src={topinc}
                       className="transform-card-img"
                       alt="Justice You Deserve"
                     />
@@ -119,7 +127,7 @@ const Personal = () => {
                 <div className="col-12">
                   <div className="transform-card">
                     <img
-                      src="assets/lpo/cxx.jpg"
+                      src={cxxinc}
                       className="transform-card-img"
                       alt="Compassionate Support"
                     />
@@ -276,7 +284,7 @@ const Personal = () => {
           <div class="row align-items-center justify-content-center">
             <div class="col-lg-5 col-md-10 order-0 order-lg-2">
               <div class="features__img">
-                <img src="assets/img/special/Personal.jpg" alt="img" />
+                <img src={peronsals} alt="img" />
               </div>
             </div>
             <div class="col-lg-7 col-md-10  ">
@@ -446,7 +454,7 @@ const Personal = () => {
                   >
                     Call Now{" "}
                     <img
-                      src="assets/img/icons/right_arrow.svg"
+                      src={right}
                       alt=""
                       className="injectable"
                     />
@@ -455,7 +463,7 @@ const Personal = () => {
               </div>
             </div>
             <div className="cta__shape-three">
-              <img src="assets/img/images/h2_cta_shape.svg" alt="shape" />
+              <img src={h2_cta_shape} alt="shape" />
             </div>
           </div>
         </div>

@@ -1,4 +1,9 @@
 import React from "react";
+import h8_hero_bg from "../../../../public/assets/img/banner/h8_hero_bg.jpg";
+import h8_hero_bg_shape from "../../../../public/assets/img/banner/h8_hero_bg_shape.svg";
+import right from "../../../../public/assets/img/icons/right_arrow.svg";
+import h2_cta_shape from "../../../../public/assets/img/images/h2_cta_shape.svg";
+
 
 const Legal = () => {
   return (
@@ -10,14 +15,14 @@ const Legal = () => {
               <div
                 class="banner__bg-four"
                 style={{
-                  backgroundImage: "url(assets/img/banner/h8_hero_bg.jpg)",
+                  backgroundImage: {h8_hero_bg},
                 }}
               >
                 <div
                   class="banner__bg-shape"
                   style={{
                     backgroundImage:
-                      "url(assets/img/banner/h8_hero_bg_shape.svg)",
+                     {h8_hero_bg_shape},
                   }}
                 ></div>
                 <div class="row">
@@ -233,7 +238,7 @@ const Legal = () => {
                   >
                     Call Now{" "}
                     <img
-                      src="assets/img/icons/right_arrow.svg"
+                      src={right}
                       alt=""
                       className="injectable"
                     />
@@ -242,7 +247,7 @@ const Legal = () => {
               </div>
             </div>
             <div className="cta__shape-three">
-              <img src="assets/img/images/h2_cta_shape.svg" alt="shape" />
+              <img src={h2_cta_shape} alt="shape" />
             </div>
           </div>
         </div>

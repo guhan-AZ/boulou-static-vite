@@ -2,7 +2,17 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { useParams } from "react-router-dom";
 import { Helmet } from "react-helmet";
-import { draftComplaintSlug, contractServiceSlug, documentReviewSlug, adminSupportsSlug } from "../../../Component/slug.js";
+import {
+  draftComplaintSlug,
+  contractServiceSlug,
+  documentReviewSlug,
+  adminSupportsSlug,
+} from "../../../Component/slug.js";
+import h8_hero_bg from "../../../../public/assets/img/banner/h8_hero_bg.jpg";
+import h8_hero_bg_shape from "../../../../public/assets/img/banner/h8_hero_bg_shape.svg";
+import comment from "../../../../public/assets/img/icons/comment.svg";
+import right from "../../../../public/assets/img/icons/right_arrow.svg";
+import h2_cta_shape from "../../../../public/assets/img/images/h2_cta_shape.svg";
 
 const DraftComplaints = () => {
   const { slug } = useParams();
@@ -35,15 +45,17 @@ const DraftComplaints = () => {
       documentReviewSlug.find((item) => item.slug === slug) ||
       adminSupportsSlug.find((item) => item.slug === slug);
 
-    if (!service) return; 
+    if (!service) return;
     setServiceId(service.id);
 
-    const id = service.id; 
+    const id = service.id;
 
     // ✅ Run all API calls in parallel
     Promise.all([
       axios.get(`https://bouloulpo.com/bouloulpo_admin/api/get_data10/${id}`),
-      axios.get(`https://bouloulpo.com/bouloulpo_admin/api/get_datathree/${id}`),
+      axios.get(
+        `https://bouloulpo.com/bouloulpo_admin/api/get_datathree/${id}`
+      ),
       axios.get(`https://bouloulpo.com/bouloulpo_admin/api/get_data66/${id}`),
       axios.get(`https://bouloulpo.com/bouloulpo_admin/api/get_data5/${id}`),
       axios.get(`https://bouloulpo.com/bouloulpo_admin/api/get_data7/${id}`),
@@ -113,14 +125,13 @@ const DraftComplaints = () => {
               <div
                 className="banner__bg-four"
                 style={{
-                  backgroundImage: "url(assets/img/banner/h8_hero_bg.jpg)",
+                  backgroundImage: { h8_hero_bg },
                 }}
               >
                 <div
                   className="banner__bg-shape"
                   style={{
-                    backgroundImage:
-                      "url(assets/img/banner/h8_hero_bg_shape.svg)",
+                    backgroundImage: { h8_hero_bg_shape },
                   }}
                 ></div>
                 <div className="row">
@@ -187,7 +198,7 @@ const DraftComplaints = () => {
                           alt={`icon-${index}`}
                           onError={(e) => {
                             e.target.onerror = null;
-                            e.target.src = "/assets/img/icons/comment.svg";
+                            e.target.src = { comment };
                           }}
                         />
                       </div>
@@ -246,7 +257,7 @@ const DraftComplaints = () => {
                             alt={`icon-${index}`}
                             onError={(e) => {
                               e.target.onerror = null;
-                              e.target.src = "/assets/img/icons/comment.svg";
+                              e.target.src = { comment };
                             }}
                           />
                         </div>
@@ -295,7 +306,7 @@ const DraftComplaints = () => {
                           alt={`icon-${index}`}
                           onError={(e) => {
                             e.target.onerror = null;
-                            e.target.src = "/assets/img/icons/comment.svg";
+                            e.target.src = { comment };
                           }}
                         />
                       </div>
@@ -352,18 +363,13 @@ const DraftComplaints = () => {
                     href="tel:1 (561) 409-5858"
                     className="tg-btn tg-border-btn"
                   >
-                    Call Now{" "}
-                    <img
-                      src="assets/img/icons/right_arrow.svg"
-                      alt=""
-                      className="injectable"
-                    />
+                    Call Now <img src={right} alt="" className="injectable" />
                   </a>
                 </div>
               </div>
             </div>
             <div className="cta__shape-three">
-              <img src="assets/img/images/h2_cta_shape.svg" alt="shape" />
+              <img src={h2_cta_shape} alt="shape" />
             </div>
           </div>
         </div>

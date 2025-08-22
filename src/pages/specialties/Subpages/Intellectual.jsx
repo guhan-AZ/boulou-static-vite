@@ -1,5 +1,15 @@
 import React from "react";
+import assets1 from "../../../../public/assets/1.png";
+import assets3 from "../../../../public/assets/3.png";
+import lpoinc from "../../../../public/assets/lpo/inc.png";
+import topinc from "../../../../public/assets/lpo/top.png";
+import cxxinc from "../../../../public/assets/lpo/cxx.jpg";
+import h2_cta_shape from "../../../../public/assets/img/images/h2_cta_shape.svg";
+import right from "../../../../public/assets/img/icons/right_arrow.svg";
+import IntellectualPropertyLaw from "../../../../public/assets/lpo/Intellectual Property Law (IP Law).png";
 
+  
+  
 const Intellectual = () => {
   return (
     <>
@@ -24,15 +34,15 @@ const Intellectual = () => {
             <div className="col-lg-4 col-md-12 hero-image-content">
               <div className="hero-main-image">
                 <img
-                  src="/assets/lpo/Intellectual Property Law (IP Law).png"
+                  src={IntellectualPropertyLaw}
                   alt="Intellectual Property"
                 />
                 {/* Floating Images */}
                 <div className="hero-floating-img hero-img1">
-                  <img src="/assets/1.png" alt="Assistant" />
+                  <img src={assets1} alt="Assistant" />
                 </div>
                 <div className="hero-floating-img hero-img2">
-                  <img src="/assets/3.png" alt="Attorney" />
+                  <img src={assets3} alt="Attorney" />
                 </div>
               </div>
               <p className="hero-caption">
@@ -77,7 +87,7 @@ const Intellectual = () => {
                 <div className="col-12 col-sm-6">
                   <div className="transform-card">
                     <img
-                      src="assets/lpo/personal-injury.png"
+                      src={lpoinc}
                       className="transform-card-img"
                       alt="Safeguard IP Assets"
                     />
@@ -97,7 +107,7 @@ const Intellectual = () => {
                 <div className="col-12 col-sm-6">
                   <div className="transform-card">
                     <img
-                      src="assets/lpo/Intellectual Property Law (IP Law).png"
+                      src={topinc}
                       className="transform-card-img"
                       alt="Ensure Compliance"
                     />
@@ -116,7 +126,7 @@ const Intellectual = () => {
                 <div className="col-12">
                   <div className="transform-card">
                     <img
-                      src="assets/lpo/Civil Litigation.png"
+                      src={cxxinc}
                       className="transform-card-img"
                       alt="Streamline IP Management"
                     />
@@ -448,7 +458,7 @@ const Intellectual = () => {
                   >
                     Call Now{" "}
                     <img
-                      src="assets/img/icons/right_arrow.svg"
+                      src={right}
                       alt=""
                       className="injectable"
                     />
@@ -457,7 +467,7 @@ const Intellectual = () => {
               </div>
             </div>
             <div className="cta__shape-three">
-              <img src="assets/img/images/h2_cta_shape.svg" alt="shape" />
+              <img src={h2_cta_shape} alt="shape" />
             </div>
           </div>
         </div>
