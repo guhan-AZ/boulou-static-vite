@@ -1,6 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
+import h9_history_bg from "../../../public/assets/img/bg/h9_history_bg.jpg";
+import admin from "../../../public/assets/img/admin.jpg";
+import right from "../../../public/assets/img/icons/right_arrow.svg";
+import h2_cta_shape from "../../../public/assets/img/images/h2_cta_shape.svg";
+
+
 const LegalAdmin = () => {
   return (
     <>
@@ -12,18 +18,15 @@ const LegalAdmin = () => {
         <meta
           name="description"
           content="Boulou LPO offers expert legal administrative support services. From filings and scheduling to client correspondence—we handle your law firm’s admin tasks efficiently."
-        />  
+        />
       </Helmet>
       <section className="history__area-five section-py-130">
-        <div
-          className="history__bg-two"
-          data-background="assets/img/bg/h9_history_bg.jpg"
-        ></div>
+        <div className="history__bg-two" data-background={h9_history_bg}></div>
         <div className="container">
           <div className="row align-items-center justify-content-center">
             <div className="col-lg-6 col-md-9">
               <div className="history__img-wrap-five">
-                <img src="assets/img/admin.jpg" alt="img" />
+                <img src={admin} alt="img" />
               </div>
             </div>
             <div className="col-lg-6">
@@ -278,12 +281,7 @@ const LegalAdmin = () => {
                 </div>
                 <div class="pricing__button">
                   <Link to="/Booking/Legal-Admin$15" class="tg-btn">
-                    Get Started{" "}
-                    <img
-                      src="assets/img/icons/right_arrow.svg"
-                      alt=""
-                      class="injectable"
-                    />
+                    Get Started <img src={right} alt="" class="injectable" />
                   </Link>
                 </div>
               </div>
@@ -381,12 +379,7 @@ const LegalAdmin = () => {
                 </div>
                 <div class="pricing__button">
                   <Link to="/Booking/Legal-Admin$15" class="tg-btn">
-                    Get Started{" "}
-                    <img
-                      src="assets/img/icons/right_arrow.svg"
-                      alt=""
-                      class="injectable"
-                    />
+                    Get Started <img src={right} alt="" class="injectable" />
                   </Link>
                 </div>
               </div>
@@ -486,12 +479,7 @@ const LegalAdmin = () => {
                 </div>
                 <div class="pricing__button">
                   <Link to="/Booking/Legal-Admin$18" class="tg-btn">
-                    Get Started{" "}
-                    <img
-                      src="assets/img/icons/right_arrow.svg"
-                      alt=""
-                      class="injectable"
-                    />
+                    Get Started <img src={right} alt="" class="injectable" />
                   </Link>
                 </div>
               </div>
@@ -603,18 +591,13 @@ const LegalAdmin = () => {
                     href="tel:1 (561) 409-5858"
                     className="tg-btn tg-border-btn "
                   >
-                    Call Now{" "}
-                    <img
-                      src="assets/img/icons/right_arrow.svg"
-                      alt=""
-                      className="injectable"
-                    />
+                    Call Now <img src={right} alt="" className="injectable" />
                   </a>
                 </div>
               </div>
             </div>
             <div className="cta__shape-three">
-              <img src="assets/img/images/h2_cta_shape.svg" alt="shape" />
+              <img src={h2_cta_shape} alt="shape" />
             </div>
           </div>
         </div>

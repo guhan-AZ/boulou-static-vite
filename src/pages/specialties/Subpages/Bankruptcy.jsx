@@ -1,4 +1,14 @@
 import React from "react";
+import Bankruptcyimg from "../../../../public/assets/img/special/Bankruptcy.jpg";
+import assets1 from "../../../../public/assets/1.png";
+import assets3 from "../../../../public/assets/3.png";
+import lpoinc from "../../../../public/assets/lpo/inc.png";
+import topinc from "../../../../public/assets/lpo/top.png";
+import cxxinc from "../../../../public/assets/lpo/cxx.jpg";
+import h2_cta_shape from "../../../../public/assets/img/images/h2_cta_shape.svg";
+import right from "../../../../public/assets/img/icons/right_arrow.svg";
+
+
 
 const Bankruptcy = () => {
   return (
@@ -22,12 +32,12 @@ const Bankruptcy = () => {
             </div>
             <div className="col-lg-4 col-md-12 hero-image-content">
               <div className="hero-main-image">
-                <img src="assets/img/special/Bankruptcy.jpg" alt="Bankruptcy Law" />
+                <img src={Bankruptcyimg} alt="Bankruptcy Law" />
                 <div className="hero-floating-img hero-img1">
-                  <img src="/assets/1.png" alt="Assistant" />
+                  <img src={assets1} alt="Assistant" />
                 </div>
                 <div className="hero-floating-img hero-img2">
-                  <img src="/assets/3.png" alt="Attorney" />
+                  <img src={assets3} alt="Attorney" />
                 </div>
               </div>
               <p className="hero-caption">
@@ -68,7 +78,7 @@ const Bankruptcy = () => {
                 <div className="col-12 col-sm-6">
                   <div className="transform-card">
                     <img
-                      src="assets/lpo/inc.png"
+                      src={lpoinc}
                       className="transform-card-img"
                       alt="Document Precision"
                     />
@@ -85,7 +95,7 @@ const Bankruptcy = () => {
                 <div className="col-12 col-sm-6">
                   <div className="transform-card">
                     <img
-                      src="assets/lpo/top.png"
+                      src={topinc}
                       className="transform-card-img"
                       alt="Seamless Coordination"
                     />
@@ -93,8 +103,8 @@ const Bankruptcy = () => {
                     <div className="transform-card-content">
                       <h5 className="fw-semibold">Seamless Coordination</h5>
                       <p>
-                        Our team coordinates with creditors, trustees, and clients
-                        to keep cases on track.
+                        Our team coordinates with creditors, trustees, and
+                        clients to keep cases on track.
                       </p>
                     </div>
                   </div>
@@ -102,7 +112,7 @@ const Bankruptcy = () => {
                 <div className="col-12">
                   <div className="transform-card">
                     <img
-                      src="assets/lpo/cxx.jpg"
+                      src={cxxinc}
                       className="transform-card-img"
                       alt="Compliance and Efficiency"
                     />
@@ -217,22 +227,30 @@ const Bankruptcy = () => {
                 <div
                   className="banner__bg-shape"
                   style={{
-                    backgroundImage: "url(assets/img/banner/h8_hero_bg_shape.svg)",
+                    backgroundImage:
+                      "url(assets/img/banner/h8_hero_bg_shape.svg)",
                   }}
                 ></div>
                 <div className="row">
                   <div className="col-xl-8 col-lg-8">
-                    <div className="banner__content-five" style={{ padding: "30px" }}>
-                      <h2 className="title" data-aos="fade-up" data-aos-delay="400">
+                    <div
+                      className="banner__content-five"
+                      style={{ padding: "30px" }}
+                    >
+                      <h2
+                        className="title"
+                        data-aos="fade-up"
+                        data-aos-delay="400"
+                      >
                         Impact Statement
                       </h2>
                       <h4>Efficient, Accurate Support for Every Case</h4>
                       <p data-aos="fade-up" data-aos-delay="600">
-                        Boulou LPO helps your bankruptcy practice operate smoothly,
-                        reduce errors, and maintain compliance with court
-                        requirements. With our support, you can manage more cases
-                        effectively while delivering confident, professional
-                        service to your clients.
+                        Boulou LPO helps your bankruptcy practice operate
+                        smoothly, reduce errors, and maintain compliance with
+                        court requirements. With our support, you can manage
+                        more cases effectively while delivering confident,
+                        professional service to your clients.
                       </p>
                     </div>
                   </div>
@@ -248,7 +266,7 @@ const Bankruptcy = () => {
           <div className="row align-items-center justify-content-center">
             <div className="col-lg-5 col-md-10 order-0 order-lg-2">
               <div className="features__img">
-                <img src="assets/img/special/Bankruptcy.jpg" alt="img" />
+                <img src={Bankruptcyimg} alt="img" />
               </div>
             </div>
             <div className="col-lg-7 col-md-10">
@@ -257,8 +275,8 @@ const Bankruptcy = () => {
                   <span className="sub-title">Types of Services We Offer</span>
                   <h2>Expert Bankruptcy Law Paralegal Support</h2>
                   <p>
-                    At Boulou LPO, our paralegals provide comprehensive bankruptcy
-                    assistance, including:
+                    At Boulou LPO, our paralegals provide comprehensive
+                    bankruptcy assistance, including:
                   </p>
                 </div>
                 <ul className="list-wrap about__list-item-two">
@@ -398,7 +416,9 @@ const Bankruptcy = () => {
             <div className="row align-items-center">
               <div className="col-lg-6">
                 <div className="cta__content-three">
-                  <h2 className="title">Click to get a free Consultation Now</h2>
+                  <h2 className="title">
+                    Click to get a free Consultation Now
+                  </h2>
                 </div>
               </div>
               <div className="col-lg-6">
@@ -411,19 +431,17 @@ const Bankruptcy = () => {
                       <a href="tel:1 (561) 409-5858">1 (561) 409-5858</a>
                     </div>
                   </div>
-                  <a href="tel:1 (561) 409-5858" className="tg-btn tg-border-btn">
-                    Call Now{" "}
-                    <img
-                      src="assets/img/icons/right_arrow.svg"
-                      alt=""
-                      className="injectable"
-                    />
+                  <a
+                    href="tel:1 (561) 409-5858"
+                    className="tg-btn tg-border-btn"
+                  >
+                    Call Now <img src={right} alt="" className="injectable" />
                   </a>
                 </div>
               </div>
             </div>
             <div className="cta__shape-three">
-              <img src="assets/img/images/h2_cta_shape.svg" alt="shape" />
+              <img src={h2_cta_shape} alt="shape" />
             </div>
           </div>
         </div>

@@ -1,6 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from 'react-helmet';
+import subAboutImg from "../../../public/assets/img/Intake.jpg";
+import right from "../../../public/assets/img/icons/right_arrow.svg";
+import h2_cta_shape from "../../../public/assets/img/images/h2_cta_shape.svg";
+
 const IntakeSpecialist = () => {
   const role = {
     heading: "Intake Specialist",
@@ -8,8 +12,8 @@ const IntakeSpecialist = () => {
       "At Boulou LPO, our Intake Specialist services ensure every potential client receives prompt, professional, and compassionate attention—the crucial first step in building trust and securing new cases.",
   };
 
-  const subAboutImg = "assets/img/Intake.jpg";
-  const whyChooseimg = "assets/img/images/h2_history_img.jpg";
+ 
+  // const whyChooseimg = "assets/img/images/h2_history_img.jpg";
 
   const AboutroleList = [
     "Handling initial client inquiries via phone and email",
@@ -22,16 +26,14 @@ const IntakeSpecialist = () => {
 
   return (
     <>
-     <Helmet>
-            <title>
-             Legal Intake Specialist Services | Boulou LPO
-
-            </title>
-            <meta
-              name="description"
-              content="Streamline client onboarding with a trained legal intake specialist from Boulou LPO. We manage intake calls, client screening, and initial case documentation professionally.
-" />
-          </Helmet>
+      <Helmet>
+        <title>Legal Intake Specialist Services | Boulou LPO</title>
+        <meta
+          name="description"
+          content="Streamline client onboarding with a trained legal intake specialist from Boulou LPO. We manage intake calls, client screening, and initial case documentation professionally.
+"
+        />
+      </Helmet>
       {/* Role Overview */}
       <section className="history__area-five section-py-130">
         <div
@@ -42,11 +44,7 @@ const IntakeSpecialist = () => {
           <div className="row align-items-center justify-content-center">
             <div className="col-lg-6 col-md-9">
               <div className="history__img-wrap-five">
-                <img
-                  src={subAboutImg}
-                  alt="img"
-               
-                />
+                <img src={subAboutImg} alt="img" />
               </div>
             </div>
             <div className="col-lg-6">
@@ -198,12 +196,7 @@ const IntakeSpecialist = () => {
                 </div>
                 <div class="pricing__button">
                   <Link to="/Booking/Intake-Specialist$12" class="tg-btn">
-                    Get Started{" "}
-                    <img
-                      src="assets/img/icons/right_arrow.svg"
-                      alt=""
-                      class="injectable"
-                    />
+                    Get Started <img src={right} alt="" class="injectable" />
                   </Link>
                 </div>
               </div>
@@ -304,12 +297,7 @@ const IntakeSpecialist = () => {
                 </div>
                 <div class="pricing__button">
                   <Link to="/Booking/Intake-Specialist$12" class="tg-btn">
-                    Get Started{" "}
-                    <img
-                      src="assets/img/icons/right_arrow.svg"
-                      alt=""
-                      class="injectable"
-                    />
+                    Get Started <img src={right} alt="" class="injectable" />
                   </Link>
                 </div>
               </div>
@@ -409,12 +397,7 @@ const IntakeSpecialist = () => {
                 </div>
                 <div class="pricing__button">
                   <Link to="/Booking/Intake-Specialist$15" class="tg-btn">
-                    Get Started{" "}
-                    <img
-                      src="assets/img/icons/right_arrow.svg"
-                      alt=""
-                      class="injectable"
-                    />
+                    Get Started <img src={right} alt="" class="injectable" />
                   </Link>
                 </div>
               </div>
@@ -428,7 +411,6 @@ const IntakeSpecialist = () => {
           <div class="row justify-content-center">
             <div class="col-lg-6">
               <div class="section__title text-center mb-40">
-                
                 <h2 class="title">Why Choose Boulou LPO?</h2>
               </div>
             </div>
@@ -465,7 +447,7 @@ const IntakeSpecialist = () => {
             <div class="col-lg-4 col-sm-6">
               <div class="features__item-two">
                 <div class="features__icon-two">
-                 <i class="flaticon-tax"></i>
+                  <i class="flaticon-tax"></i>
                 </div>
                 <div class="features__content-four">
                   <h3 class="title">Industry-Focused Expertise</h3>
@@ -480,7 +462,7 @@ const IntakeSpecialist = () => {
             <div class="col-lg-6 col-sm-6">
               <div class="features__item-two">
                 <div class="features__icon-two">
-                <i class="flaticon-report"></i>
+                  <i class="flaticon-report"></i>
                 </div>
                 <div class="features__content-four">
                   <h3 class="title">Confidential & Compliant</h3>
@@ -534,23 +516,18 @@ const IntakeSpecialist = () => {
                     href="tel:1 (561) 409-5858"
                     className="tg-btn tg-border-btn "
                   >
-                    Call Now{" "}
-                    <img
-                      src="assets/img/icons/right_arrow.svg"
-                      alt=""
-                      className="injectable"
-                    />
+                    Call Now <img src={right} alt="" className="injectable" />
                   </a>
                 </div>
               </div>
             </div>
             <div className="cta__shape-three">
-              <img src="assets/img/images/h2_cta_shape.svg" alt="shape" />
+              <img src={h2_cta_shape} alt="shape" />
             </div>
           </div>
         </div>
       </section>
-        <section class="pricing__area section-py-130 pt-0">
+      <section class="pricing__area section-py-130 pt-0">
         <div class="container">
           <div className="row justify-content-center">
             <div className="col-lg-10">

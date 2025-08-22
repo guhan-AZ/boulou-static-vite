@@ -1,4 +1,13 @@
 import React from "react";
+import assets1 from "../../../../public/assets/1.png";
+import assets3 from "../../../../public/assets/3.png";
+import lpoinc from "../../../../public/assets/lpo/inc.png";
+import topinc from "../../../../public/assets/lpo/top.png";
+import cxxinc from "../../../../public/assets/lpo/cxx.jpg";
+import h2_cta_shape from "../../../../public/assets/img/images/h2_cta_shape.svg";
+import right from "../../../../public/assets/img/icons/right_arrow.svg";
+import Employmentimg from "../../../../public/assets/img/special/Employment.jpg";
+import Employmentlaw from "../../../../public/assets/lpo/Employment & Labor Law.png";
 
 const Employment = () => {
   return (
@@ -16,27 +25,27 @@ const Employment = () => {
                 Boulou LPO provides precise, reliable paralegal assistance to
                 employment and labor law attorneys, helping manage workplace
                 dispute cases, compliance matters, and contract reviews. We
-                ensure your firm stays organized, meets deadlines, and
-                maintains a smooth workflow while you focus on advising and
-                representing clients.
+                ensure your firm stays organized, meets deadlines, and maintains
+                a smooth workflow while you focus on advising and representing
+                clients.
               </p>
             </div>
 
             {/* Right Image Section - col-4 */}
             <div className="col-lg-4 col-md-12 hero-image-content">
               <div className="hero-main-image">
-                <img src="/assets/lpo/Employment & Labor Law.png" alt="Employment Law" />
+                <img src={Employmentlaw} alt="Employment Law" />
                 {/* Floating Images */}
                 <div className="hero-floating-img hero-img1">
-                  <img src="/assets/1.png" alt="Assistant" />
+                  <img src={assets1} alt="Assistant" />
                 </div>
                 <div className="hero-floating-img hero-img2">
-                  <img src="/assets/3.png" alt="Attorney" />
+                  <img src={assets3} alt="Attorney" />
                 </div>
               </div>
               <p className="hero-caption">
-                * At Boulou LPO, our paralegals provide comprehensive
-                employment and labor law assistance, including:*
+                * At Boulou LPO, our paralegals provide comprehensive employment
+                and labor law assistance, including:*
               </p>
             </div>
           </div>
@@ -59,12 +68,12 @@ const Employment = () => {
                 Efficient Support for Complex Workplace Matters
               </h6>
               <p className="transform-description text-muted">
-                Employment and labor cases require careful documentation,
-                strict adherence to compliance, and well-organized case
-                management. Our team takes on the administrative and
-                procedural work — from preparing filings to organizing
-                case evidence — so your attorneys can focus on strategy,
-                client relations, and successful resolution of disputes.
+                Employment and labor cases require careful documentation, strict
+                adherence to compliance, and well-organized case management. Our
+                team takes on the administrative and procedural work — from
+                preparing filings to organizing case evidence — so your
+                attorneys can focus on strategy, client relations, and
+                successful resolution of disputes.
               </p>
             </div>
 
@@ -75,7 +84,7 @@ const Employment = () => {
                 <div className="col-12 col-sm-6">
                   <div className="transform-card">
                     <img
-                      src="assets/lpo/inc.png"
+                      src={lpoinc}
                       className="transform-card-img"
                       alt="Streamlined Compliance"
                     />
@@ -84,8 +93,8 @@ const Employment = () => {
                       <h5 className="fw-semibold">Streamlined Compliance</h5>
                       <p>
                         We ensure accurate preparation and filing of EEOC
-                        complaints and related legal documents to meet regulatory
-                        requirements.
+                        complaints and related legal documents to meet
+                        regulatory requirements.
                       </p>
                     </div>
                   </div>
@@ -95,7 +104,7 @@ const Employment = () => {
                 <div className="col-12 col-sm-6">
                   <div className="transform-card">
                     <img
-                      src="assets/lpo/top.png"
+                      src={topinc}
                       className="transform-card-img"
                       alt="Robust Case Preparation"
                     />
@@ -114,7 +123,7 @@ const Employment = () => {
                 <div className="col-12">
                   <div className="transform-card">
                     <img
-                      src="assets/lpo/cxx.jpg"
+                      src={cxxinc}
                       className="transform-card-img"
                       alt="Efficient Workflow"
                     />
@@ -242,7 +251,11 @@ const Employment = () => {
                       className="banner__content-five"
                       style={{ padding: "30px" }}
                     >
-                      <h2 className="title" data-aos="fade-up" data-aos-delay="400">
+                      <h2
+                        className="title"
+                        data-aos="fade-up"
+                        data-aos-delay="400"
+                      >
                         Impact Statement
                       </h2>
                       <h4>Stronger Cases, Faster Resolutions</h4>
@@ -250,8 +263,8 @@ const Employment = () => {
                         With Boulou LPO as your support partner, your firm can
                         handle more employment and labor matters without
                         sacrificing quality or compliance. We provide the
-                        behind-the-scenes organization, speed, and accuracy needed
-                        to deliver better results for your clients.
+                        behind-the-scenes organization, speed, and accuracy
+                        needed to deliver better results for your clients.
                       </p>
                     </div>
                   </div>
@@ -267,7 +280,7 @@ const Employment = () => {
           <div className="row align-items-center justify-content-center">
             <div className="col-lg-5 col-md-10 order-0 order-lg-2">
               <div className="features__img">
-                <img src="assets/img/special/Employment.jpg" alt="img" />
+                <img src={Employmentimg} alt="img" />
               </div>
             </div>
             <div className="col-lg-7 col-md-10">
@@ -438,18 +451,13 @@ const Employment = () => {
                     href="tel:1 (561) 409-5858"
                     className="tg-btn tg-border-btn "
                   >
-                    Call Now{" "}
-                    <img
-                      src="assets/img/icons/right_arrow.svg"
-                      alt=""
-                      className="injectable"
-                    />
+                    Call Now <img src={right} alt="" className="injectable" />
                   </a>
                 </div>
               </div>
             </div>
             <div className="cta__shape-three">
-              <img src="assets/img/images/h2_cta_shape.svg" alt="shape" />
+              <img src={h2_cta_shape} alt="shape" />
             </div>
           </div>
         </div>

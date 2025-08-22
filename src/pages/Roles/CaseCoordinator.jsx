@@ -1,28 +1,29 @@
 import { Link } from "react-router-dom";
 import { Helmet } from 'react-helmet';
+import h9_history_bg from "../../../public/assets/img/bg/h9_history_bg.jpg"
+import Ordinator from "../../../public/assets/img/Case-Co-Ordinator.jpg"
+import right from "../../../public/assets/img/icons/right_arrow.svg";
+import h2_cta_shape from "../../../public/assets/img/images/h2_cta_shape.svg";
+
+
 
 const CaseCoordinator = () => {
   return (
     <>
-    <Helmet>
-            <title>
-             Legal Case Coordinator Services | Boulou LPO
-
-            </title>
-            <meta
-              name="description"
-              content="Streamline your legal workflows with Boulou LPO’s case coordinator services. Expert support in case management, scheduling, and documentation for law firms." />
-          </Helmet>
+      <Helmet>
+        <title>Legal Case Coordinator Services | Boulou LPO</title>
+        <meta
+          name="description"
+          content="Streamline your legal workflows with Boulou LPO’s case coordinator services. Expert support in case management, scheduling, and documentation for law firms."
+        />
+      </Helmet>
       <section className="history__area-five section-py-130">
-        <div
-          className="history__bg-two"
-          data-background="assets/img/bg/h9_history_bg.jpg"
-        ></div>
+        <div className="history__bg-two" data-background={h9_history_bg}></div>
         <div className="container">
           <div className="row align-items-center justify-content-center">
             <div className="col-lg-6 col-md-9">
               <div className="history__img-wrap-five">
-                <img src="assets/img/Case-Co-Ordinator.jpg" alt="img" />
+                <img src={Ordinator} alt="img" />
               </div>
             </div>
             <div className="col-lg-6">
@@ -277,7 +278,7 @@ const CaseCoordinator = () => {
                   <Link to="/Booking/Case-Coordinator$14" class="tg-btn">
                     Get Started{" "}
                     <img
-                      src="assets/img/icons/right_arrow.svg"
+                      src={right}
                       alt=""
                       class="injectable"
                     />
@@ -381,7 +382,7 @@ const CaseCoordinator = () => {
                   <Link to="/Booking/Case-Coordinator$14" class="tg-btn">
                     Get Started{" "}
                     <img
-                      src="assets/img/icons/right_arrow.svg"
+                      src={right}
                       alt=""
                       class="injectable"
                     />
@@ -484,7 +485,7 @@ const CaseCoordinator = () => {
                   <Link to="/Booking/Case-Coordinator$17" class="tg-btn">
                     Get Started{" "}
                     <img
-                      src="assets/img/icons/right_arrow.svg"
+                      src={right}
                       alt=""
                       class="injectable"
                     />
@@ -601,7 +602,7 @@ const CaseCoordinator = () => {
                   >
                     Call Now{" "}
                     <img
-                      src="assets/img/icons/right_arrow.svg"
+                      src={right}
                       alt=""
                       className="injectable"
                     />
@@ -610,7 +611,7 @@ const CaseCoordinator = () => {
               </div>
             </div>
             <div className="cta__shape-three">
-              <img src="assets/img/images/h2_cta_shape.svg" alt="shape" />
+              <img src={h2_cta_shape} alt="shape" />
             </div>
           </div>
         </div>

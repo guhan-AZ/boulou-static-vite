@@ -1,4 +1,14 @@
 import React from "react";
+import assets1 from "../../../../public/assets/1.png";
+import assets3 from "../../../../public/assets/3.png";
+import lpoinc from "../../../../public/assets/lpo/inc.png";
+import topinc from "../../../../public/assets/lpo/top.png";
+import cxxinc from "../../../../public/assets/lpo/cxx.jpg";
+import h2_cta_shape from "../../../../public/assets/img/images/h2_cta_shape.svg";
+import right from "../../../../public/assets/img/icons/right_arrow.svg";
+import Estateimg from "../../../../public/assets/img/special/Estate.jpg";
+
+
 
 const EstatePlanning = () => {
   return (
@@ -12,21 +22,27 @@ const EstatePlanning = () => {
               </div>
               <h1 className="hero-title">Estate Planning & Probate Law</h1>
               <p className="hero-description">
-                Boulou LPO offers meticulous, reliable paralegal assistance for estate planning and probate matters, ensuring documents are prepared accurately and cases move smoothly through the legal process. From drafting wills to managing probate filings, we help your firm provide timely, compassionate service to clients during important life transitions.
+                Boulou LPO offers meticulous, reliable paralegal assistance for
+                estate planning and probate matters, ensuring documents are
+                prepared accurately and cases move smoothly through the legal
+                process. From drafting wills to managing probate filings, we
+                help your firm provide timely, compassionate service to clients
+                during important life transitions.
               </p>
             </div>
             <div className="col-lg-4 col-md-12 hero-image-content">
               <div className="hero-main-image">
-                <img src="assets/img/special/Estate.jpg" alt="Estate Planning Law" />
+                <img src={Estateimg} alt="Estate Planning Law" />
                 <div className="hero-floating-img hero-img1">
-                  <img src="/assets/1.png" alt="Assistant" />
+                  <img src={assets1} alt="Assistant" />
                 </div>
                 <div className="hero-floating-img hero-img2">
-                  <img src="/assets/3.png" alt="Attorney" />
+                  <img src={assets3} alt="Attorney" />
                 </div>
               </div>
               <p className="hero-caption">
-                * At Boulou LPO, our paralegals provide comprehensive estate planning and probate assistance, including: *
+                * At Boulou LPO, our paralegals provide comprehensive estate
+                planning and probate assistance, including: *
               </p>
             </div>
           </div>
@@ -49,7 +65,11 @@ const EstatePlanning = () => {
                 From Document Drafting to Court Filings Without Delays
               </h6>
               <p className="transform-description text-muted">
-                Estate planning and probate matters require precision, empathy, and strict compliance with procedural requirements. Our team handles the detailed legal and administrative work so your attorneys can focus on client consultations, complex planning strategies, and guiding families through the process with care.
+                Estate planning and probate matters require precision, empathy,
+                and strict compliance with procedural requirements. Our team
+                handles the detailed legal and administrative work so your
+                attorneys can focus on client consultations, complex planning
+                strategies, and guiding families through the process with care.
               </p>
             </div>
             <div className="col-lg-12">
@@ -57,7 +77,7 @@ const EstatePlanning = () => {
                 <div className="col-12 col-sm-6">
                   <div className="transform-card">
                     <img
-                      src="assets/lpo/inc.png"
+                      src={lpoinc}
                       className="transform-card-img"
                       alt="Document Accuracy"
                     />
@@ -65,7 +85,8 @@ const EstatePlanning = () => {
                     <div className="transform-card-content">
                       <h5 className="fw-semibold">Document Accuracy</h5>
                       <p>
-                        We draft wills, trusts, powers of attorney, and healthcare directives with precision.
+                        We draft wills, trusts, powers of attorney, and
+                        healthcare directives with precision.
                       </p>
                     </div>
                   </div>
@@ -73,7 +94,7 @@ const EstatePlanning = () => {
                 <div className="col-12 col-sm-6">
                   <div className="transform-card">
                     <img
-                      src="assets/lpo/top.png"
+                      src={topinc}
                       className="transform-card-img"
                       alt="Probate Efficiency"
                     />
@@ -81,7 +102,8 @@ const EstatePlanning = () => {
                     <div className="transform-card-content">
                       <h5 className="fw-semibold">Probate Efficiency</h5>
                       <p>
-                        Our team prepares and files probate petitions and court documents to keep cases on track.
+                        Our team prepares and files probate petitions and court
+                        documents to keep cases on track.
                       </p>
                     </div>
                   </div>
@@ -89,7 +111,7 @@ const EstatePlanning = () => {
                 <div className="col-12">
                   <div className="transform-card">
                     <img
-                      src="assets/lpo/cxx.jpg"
+                      src={cxxinc}
                       className="transform-card-img"
                       alt="Client Coordination"
                     />
@@ -97,7 +119,8 @@ const EstatePlanning = () => {
                     <div className="transform-card-content">
                       <h5 className="fw-semibold">Client Coordination</h5>
                       <p>
-                        We coordinate with beneficiaries, executors, and financial institutions for seamless case management.
+                        We coordinate with beneficiaries, executors, and
+                        financial institutions for seamless case management.
                       </p>
                     </div>
                   </div>
@@ -126,7 +149,8 @@ const EstatePlanning = () => {
                 <div className="features__content-four">
                   <h3 className="title">Skilled, Scalable Support</h3>
                   <p>
-                    Paralegals experienced in estate planning documents, probate procedures, and trust administration.
+                    Paralegals experienced in estate planning documents, probate
+                    procedures, and trust administration.
                   </p>
                 </div>
               </div>
@@ -139,7 +163,8 @@ const EstatePlanning = () => {
                 <div className="features__content-four">
                   <h3 className="title">Bilingual Capabilities</h3>
                   <p>
-                    Clear communication with English and Spanish-speaking clients and beneficiaries.
+                    Clear communication with English and Spanish-speaking
+                    clients and beneficiaries.
                   </p>
                 </div>
               </div>
@@ -152,7 +177,8 @@ const EstatePlanning = () => {
                 <div className="features__content-four">
                   <h3 className="title">Industry-Focused Expertise</h3>
                   <p>
-                    Knowledge of state-specific requirements for estate and probate filings.
+                    Knowledge of state-specific requirements for estate and
+                    probate filings.
                   </p>
                 </div>
               </div>
@@ -165,7 +191,8 @@ const EstatePlanning = () => {
                 <div className="features__content-four">
                   <h3 className="title">Confidential & Compliant</h3>
                   <p>
-                    Secure handling of sensitive financial and personal information.
+                    Secure handling of sensitive financial and personal
+                    information.
                   </p>
                 </div>
               </div>
@@ -178,7 +205,8 @@ const EstatePlanning = () => {
                 <div className="features__content-four">
                   <h3 className="title">Cost-Effective Partnership</h3>
                   <p>
-                    High-quality legal support without the added expense of in-house hiring.
+                    High-quality legal support without the added expense of
+                    in-house hiring.
                   </p>
                 </div>
               </div>
@@ -198,18 +226,30 @@ const EstatePlanning = () => {
                 <div
                   className="banner__bg-shape"
                   style={{
-                    backgroundImage: "url(assets/img/banner/h8_hero_bg_shape.svg)",
+                    backgroundImage:
+                      "url(assets/img/banner/h8_hero_bg_shape.svg)",
                   }}
                 ></div>
                 <div className="row">
                   <div className="col-xl-8 col-lg-8">
-                    <div className="banner__content-five" style={{ padding: "30px" }}>
-                      <h2 className="title" data-aos="fade-up" data-aos-delay="400">
+                    <div
+                      className="banner__content-five"
+                      style={{ padding: "30px" }}
+                    >
+                      <h2
+                        className="title"
+                        data-aos="fade-up"
+                        data-aos-delay="400"
+                      >
                         Impact Statement
                       </h2>
                       <h4>Trusted Support for Life’s Most Important Matters</h4>
                       <p data-aos="fade-up" data-aos-delay="600">
-                        Boulou LPO ensures every estate planning and probate case is managed with accuracy, timeliness, and professionalism. We help your firm deliver peace of mind to clients while keeping the process organized and efficient from start to finish.
+                        Boulou LPO ensures every estate planning and probate
+                        case is managed with accuracy, timeliness, and
+                        professionalism. We help your firm deliver peace of mind
+                        to clients while keeping the process organized and
+                        efficient from start to finish.
                       </p>
                     </div>
                   </div>
@@ -225,7 +265,7 @@ const EstatePlanning = () => {
           <div className="row align-items-center justify-content-center">
             <div className="col-lg-5 col-md-10 order-0 order-lg-2">
               <div className="features__img">
-                <img src="assets/img/special/Estate.jpg" alt="img" />
+                <img src={Estateimg} alt="img" />
               </div>
             </div>
             <div className="col-lg-7 col-md-10">
@@ -234,7 +274,8 @@ const EstatePlanning = () => {
                   <span className="sub-title">Types of Services We Offer</span>
                   <h2>Expert Estate Planning & Probate Paralegal Support</h2>
                   <p>
-                    At Boulou LPO, our paralegals provide comprehensive estate planning and probate assistance, including:
+                    At Boulou LPO, our paralegals provide comprehensive estate
+                    planning and probate assistance, including:
                   </p>
                 </div>
                 <ul className="list-wrap about__list-item-two">
@@ -256,7 +297,8 @@ const EstatePlanning = () => {
                         />
                       </svg>
                     </div>
-                    Drafting wills, trusts, powers of attorney, and healthcare directives
+                    Drafting wills, trusts, powers of attorney, and healthcare
+                    directives
                   </li>
                   <li>
                     <div className="icon">
@@ -276,7 +318,8 @@ const EstatePlanning = () => {
                         />
                       </svg>
                     </div>
-                    Preparing and filing probate petitions and related court documents
+                    Preparing and filing probate petitions and related court
+                    documents
                   </li>
                   <li>
                     <div className="icon">
@@ -316,7 +359,8 @@ const EstatePlanning = () => {
                         />
                       </svg>
                     </div>
-                    Coordinating with beneficiaries, executors, and financial institutions
+                    Coordinating with beneficiaries, executors, and financial
+                    institutions
                   </li>
                   <li>
                     <div className="icon">
@@ -371,7 +415,9 @@ const EstatePlanning = () => {
             <div className="row align-items-center">
               <div className="col-lg-6">
                 <div className="cta__content-three">
-                  <h2 className="title">Click to get a free Consultation Now</h2>
+                  <h2 className="title">
+                    Click to get a free Consultation Now
+                  </h2>
                 </div>
               </div>
               <div className="col-lg-6">
@@ -384,10 +430,13 @@ const EstatePlanning = () => {
                       <a href="tel:1 (561) 409-5858">1 (561) 409-5858</a>
                     </div>
                   </div>
-                  <a href="tel:1 (561) 409-5858" className="tg-btn tg-border-btn">
+                  <a
+                    href="tel:1 (561) 409-5858"
+                    className="tg-btn tg-border-btn"
+                  >
                     Call Now{" "}
                     <img
-                      src="assets/img/icons/right_arrow.svg"
+                      src={right}
                       alt=""
                       className="injectable"
                     />
@@ -396,7 +445,7 @@ const EstatePlanning = () => {
               </div>
             </div>
             <div className="cta__shape-three">
-              <img src="assets/img/images/h2_cta_shape.svg" alt="shape" />
+              <img src={h2_cta_shape} alt="shape" />
             </div>
           </div>
         </div>

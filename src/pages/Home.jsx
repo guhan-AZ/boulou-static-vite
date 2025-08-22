@@ -1,22 +1,40 @@
 import { Link } from "react-router-dom";
-
 import "swiper/css"; // Core Swiper styles
 import "swiper/css/autoplay";
-
 import Popup from "reactjs-popup";
 import "reactjs-popup/dist/index.css";
 import { useState } from "react";
-import { Helmet } from 'react-helmet';
+import { Helmet } from "react-helmet";
+import baner from "../../public/assets/img/home-page/baner.jpg";
+import about from "../../public/assets/img/home-page/about.jpg";
+import right from "../../public/assets/img/icons/right_arrow.svg";
+import icons6 from "../../public/assets/img/lpo-icons/6.png";
+import icons18 from "../../public/assets/img/lpo-icons/18.png";
+import icons17 from "../../public/assets/img/lpo-icons/17.png";
+import icons14 from "../../public/assets/img/lpo-icons/14.png";
+import icons15 from "../../public/assets/img/lpo-icons/15.png";
+import icons8 from "../../public/assets/img/lpo-icons/8.png";
+import h2_project_img01 from "../../public/assets/img/project/h2_project_img01.jpg";
+import h2_project_img02 from "../../public/assets/img/project/h2_project_img02.jpg";
+import h2_project_img03 from "../../public/assets/img/project/h2_project_img03.jpg";
+import h2_project_img04 from "../../public/assets/img/project/h2_project_img04.jpg";
+import project_item_shape from "../../public/assets/img/project/project_item_shape.svg";
+import whychoose from "../../public/assets/img/whychoose.jpg";
+import h2_cta_shape from "../../public/assets/img/images/h2_cta_shape.svg";
+
 const Home = () => {
   const [open, setOpen] = useState(false);
 
   return (
     <>
-     <Helmet>
+      <Helmet>
         <title>Trusted Legal Process Outsourcing Partner | Boulou LPO</title>
-        <meta name="description" content="Partner with Boulou LPO for reliable legal process outsourcing. 
+        <meta
+          name="description"
+          content="Partner with Boulou LPO for reliable legal process outsourcing. 
         We help law firms & attorneys with contract lifecycle management, paralegal services & document review.
-" />
+"
+        />
       </Helmet>
       <section className="banner__area-two fix">
         <div className="container">
@@ -24,7 +42,7 @@ const Home = () => {
             <div className="col-lg-6 col-md-10 order-0 order-lg-2">
               <div className="banner__img-two">
                 <div className="main-img">
-                  <img src="assets/img/home-page/baner.jpg" alt="img" />
+                  <img src={baner} alt="img" />
                 </div>
 
                 <div className="shape-wrap">
@@ -60,7 +78,7 @@ const Home = () => {
           <div className="row align-items-center justify-content-center">
             <div className="col-lg-6 col-md-9">
               <div className="about__img-wrap-two">
-                <img src="assets/img/home-page/about.jpg" alt="img" />
+                <img src={about} alt="img" />
               </div>
             </div>
             <div className="col-lg-6">
@@ -82,11 +100,7 @@ const Home = () => {
 
                 <a href="/about" className="tg-btn">
                   Know More
-                  <img
-                    src="assets/img/icons/right_arrow.svg"
-                    alt=""
-                    className="injectable"
-                  />
+                  <img src={right} alt="arrow" className="injectable" />
                 </a>
               </div>
             </div>
@@ -116,7 +130,7 @@ const Home = () => {
               <div className="services__item-two home-rols-card">
                 <div className="roles-card">
                   <div className="services__icon-two">
-                    <img src="assets/img/lpo-icons/6.png" alt="" />
+                    <img src={icons6} alt="img" />
                   </div>
                   <div className="services__content-two">
                     <h4 className="title">
@@ -131,7 +145,7 @@ const Home = () => {
                 <Link to="/Case-Coordinator" className="tg-btn tg-btn-two">
                   Read More
                   <img
-                    src="assets/img/icons/right_arrow.svg"
+                    src={right}
                     alt=""
                     className="injectable home-rols-readmore-icon"
                   />
@@ -143,7 +157,7 @@ const Home = () => {
               <div className="services__item-two home-rols-card">
                 <div className="roles-card">
                   <div className="services__icon-two">
-                    <img src="assets/img/lpo-icons/18.png" alt="" />
+                    <img src={icons18} alt="img" />
                   </div>
                   <div className="services__content-two">
                     <h4 className="title">
@@ -158,7 +172,7 @@ const Home = () => {
                 <Link to="/Case-Manager" className="tg-btn tg-btn-two">
                   Read More
                   <img
-                    src="assets/img/icons/right_arrow.svg"
+                    src={right}
                     alt=""
                     className="injectable home-rols-readmore-icon"
                   />
@@ -170,7 +184,7 @@ const Home = () => {
               <div className="services__item-two home-rols-card">
                 <div className="roles-card">
                   <div className="services__icon-two">
-                    <img src="assets/img/lpo-icons/17.png" alt="" />
+                    <img src={icons17} alt="" />
                   </div>
                   <div className="services__content-two">
                     <h4 className="title">
@@ -185,7 +199,7 @@ const Home = () => {
                 <Link to="/Paralegal-Role" className="tg-btn tg-btn-two">
                   Read More
                   <img
-                    src="assets/img/icons/right_arrow.svg"
+                    src={right}
                     alt=""
                     className="injectable home-rols-readmore-icon"
                   />
@@ -197,7 +211,7 @@ const Home = () => {
               <div className="services__item-two home-rols-card">
                 <div className="roles-card">
                   <div className="services__icon-two">
-                    <img src="assets/img/lpo-icons/14.png" alt="" />
+                    <img src={icons14} alt="" />
                   </div>
                   <div className="services__content-two">
                     <h4 className="title">
@@ -217,7 +231,7 @@ const Home = () => {
                 >
                   Read More
                   <img
-                    src="assets/img/icons/right_arrow.svg"
+                    src={right}
                     alt=""
                     className="injectable home-rols-readmore-icon"
                   />
@@ -229,7 +243,7 @@ const Home = () => {
               <div className="services__item-two home-rols-card">
                 <div className="roles-card">
                   <div className="services__icon-two">
-                    <img src="assets/img/lpo-icons/15.png" alt="" />
+                    <img src={icons15} alt="" />
                   </div>
                   <div className="services__content-two">
                     <h4 className="title">
@@ -244,7 +258,7 @@ const Home = () => {
                 <Link to="/Legal-Admin" className="tg-btn tg-btn-two">
                   Read More
                   <img
-                    src="assets/img/icons/right_arrow.svg"
+                    src={right}
                     alt=""
                     className="injectable home-rols-readmore-icon"
                   />
@@ -256,7 +270,7 @@ const Home = () => {
               <div className="services__item-two home-rols-card">
                 <div className="roles-card">
                   <div className="services__icon-two">
-                    <img src="assets/img/lpo-icons/8.png" alt="" />
+                    <img src={icons8} alt="" />
                   </div>
                   <div className="services__content-two">
                     <h4 className="title">
@@ -271,7 +285,7 @@ const Home = () => {
                 <Link to="/Intake-Specialist" className="tg-btn tg-btn-two">
                   Read More
                   <img
-                    src="assets/img/icons/right_arrow.svg"
+                    src={right}
                     alt=""
                     className="injectable home-rols-readmore-icon"
                   />
@@ -300,10 +314,7 @@ const Home = () => {
               <div className="project__item-two">
                 <div className="project__thumb-two">
                   <Link to="/paralegal-service">
-                    <img
-                      src="assets/img/project/h2_project_img01.jpg"
-                      alt="img"
-                    />
+                    <img src={h2_project_img01} alt="img" />
                   </Link>
                 </div>
                 <div className="project__content-two">
@@ -315,18 +326,11 @@ const Home = () => {
                     drafting to streamline the legal process.
                   </span>
                   <Link to="/paralegal-service">
-                    <img
-                      src="assets/img/icons/right_arrow.svg"
-                      alt=""
-                      className="injectable"
-                    />
+                    <img src={right} alt="" className="injectable" />
                   </Link>
                 </div>
                 <div className="shape">
-                  <img
-                    src="assets/img/project/project_item_shape.svg"
-                    alt="shape"
-                  />
+                  <img src={project_item_shape} alt="shape" />
                 </div>
               </div>
             </div>
@@ -336,10 +340,7 @@ const Home = () => {
               <div className="project__item-two">
                 <div className="project__thumb-two">
                   <Link to="/contract-life-cycle-management">
-                    <img
-                      src="assets/img/project/h2_project_img02.jpg"
-                      alt="img"
-                    />
+                    <img src={h2_project_img02} alt="img" />
                   </Link>
                 </div>
                 <div className="project__content-two">
@@ -353,18 +354,11 @@ const Home = () => {
                     execution, ensuring compliance and efficiency.
                   </span>
                   <Link to="/contract-life-cycle-management">
-                    <img
-                      src="assets/img/icons/right_arrow.svg"
-                      alt=""
-                      className="injectable"
-                    />
+                    <img src={right} alt="" className="injectable" />
                   </Link>
                 </div>
                 <div className="shape">
-                  <img
-                    src="assets/img/project/project_item_shape.svg"
-                    alt="shape"
-                  />
+                  <img src={project_item_shape} alt="shape" />
                 </div>
               </div>
             </div>
@@ -374,10 +368,7 @@ const Home = () => {
               <div className="project__item-two">
                 <div className="project__thumb-two">
                   <Link to="/document-review">
-                    <img
-                      src="assets/img/project/h2_project_img03.jpg"
-                      alt="img"
-                    />
+                    <img src={h2_project_img03} alt="img" />
                   </Link>
                 </div>
                 <div className="project__content-two">
@@ -389,18 +380,11 @@ const Home = () => {
                     identify risks, gaps, and required changes.
                   </span>
                   <Link to="/document-review">
-                    <img
-                      src="assets/img/icons/right_arrow.svg"
-                      alt=""
-                      className="injectable"
-                    />
+                    <img src={right} alt="" className="injectable" />
                   </Link>
                 </div>
                 <div className="shape">
-                  <img
-                    src="assets/img/project/project_item_shape.svg"
-                    alt="shape"
-                  />
+                  <img src={project_item_shape} alt="shape" />
                 </div>
               </div>
             </div>
@@ -410,10 +394,7 @@ const Home = () => {
               <div className="project__item-two">
                 <div className="project__thumb-two">
                   <Link to="/admin-supports">
-                    <img
-                      src="assets/img/project/h2_project_img04.jpg"
-                      alt="img"
-                    />
+                    <img src={h2_project_img04} alt="img" />
                   </Link>
                 </div>
                 <div className="project__content-two">
@@ -425,18 +406,11 @@ const Home = () => {
                     management, data entry, and reporting tasks.
                   </span>
                   <Link to="/admin-supports">
-                    <img
-                      src="assets/img/icons/right_arrow.svg"
-                      alt=""
-                      className="injectable"
-                    />
+                    <img src={right} alt="" className="injectable" />
                   </Link>
                 </div>
                 <div className="shape">
-                  <img
-                    src="assets/img/project/project_item_shape.svg"
-                    alt="shape"
-                  />
+                  <img src={project_item_shape} alt="shape" />
                 </div>
               </div>
             </div>
@@ -620,11 +594,7 @@ const Home = () => {
           <div className="row align-items-center justify-content-center">
             <div className="col-lg-6 col-md-10">
               <div className="choose__img-two" style={{ position: "relative" }}>
-                <img
-                  src="/assets/img/whychoose.jpg"
-                  alt="img"
-                  style={{ width: "100%" }}
-                />
+                <img src={whychoose} alt="img" style={{ width: "100%" }} />
                 <button
                   className="play-btn"
                   onClick={() => setOpen(true)}
@@ -769,11 +739,7 @@ const Home = () => {
                 </div>
                 <Link to="/contact" className="tg-btn">
                   Contact With Us
-                  <img
-                    src="assets/img/icons/right_arrow.svg"
-                    alt=""
-                    className="injectable"
-                  />
+                  <img src={right} alt="" className="injectable" />
                 </Link>
               </div>
             </div>
@@ -806,18 +772,13 @@ const Home = () => {
                     href="tel:1 (561) 409-5858"
                     className="tg-btn tg-border-btn "
                   >
-                    Call Now{" "}
-                    <img
-                      src="assets/img/icons/right_arrow.svg"
-                      alt=""
-                      className="injectable"
-                    />
+                    Call Now <img src={right} alt="" className="injectable" />
                   </a>
                 </div>
               </div>
             </div>
             <div className="cta__shape-three">
-              <img src="assets/img/images/h2_cta_shape.svg" alt="shape" />
+              <img src={h2_cta_shape} alt="shape" />
             </div>
           </div>
         </div>

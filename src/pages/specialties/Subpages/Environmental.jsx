@@ -1,4 +1,13 @@
 import React from "react";
+import assets1 from "../../../../public/assets/1.png";
+import assets3 from "../../../../public/assets/3.png";
+import lpoinc from "../../../../public/assets/lpo/inc.png";
+import topinc from "../../../../public/assets/lpo/top.png";
+import cxxinc from "../../../../public/assets/lpo/cxx.jpg";
+import h2_cta_shape from "../../../../public/assets/img/images/h2_cta_shape.svg";
+import right from "../../../../public/assets/img/icons/right_arrow.svg";
+import Environmentalimg from "../../../../public/assets/img/special/Environmental.jpg";
+import enviro from "../../../../public/assets/lpo/environmental.png";
 
 const Environmental = () => {
   return (
@@ -28,14 +37,14 @@ const Environmental = () => {
             <div className="col-lg-4 col-md-12 hero-image-content">
               <div className="hero-main-image">
                 <img
-                  src="/assets/lpo/environmental.png"
+                  src={enviro}
                   alt="Environmental Law"
                 />
                 <div className="hero-floating-img hero-img1">
-                  <img src="/assets/1.png" alt="Assistant" />
+                  <img src={assets1} alt="Assistant" />
                 </div>
                 <div className="hero-floating-img hero-img2">
-                  <img src="/assets/3.png" alt="Attorney" />
+                  <img src={assets3} alt="Attorney" />
                 </div>
               </div>
               <p className="hero-caption">
@@ -80,7 +89,7 @@ const Environmental = () => {
                 <div className="col-12 col-sm-6">
                   <div className="transform-card">
                     <img
-                      src="assets/lpo/inc.png"
+                      src={lpoinc}
                       className="transform-card-img"
                       alt="Increase Profitability"
                     />
@@ -100,7 +109,7 @@ const Environmental = () => {
                 <div className="col-12 col-sm-6">
                   <div className="transform-card">
                     <img
-                      src="assets/lpo/top.png"
+                      src={topinc}
                       className="transform-card-img"
                       alt="Access the Top 1%"
                     />
@@ -120,7 +129,7 @@ const Environmental = () => {
                 <div className="col-12">
                   <div className="transform-card">
                     <img
-                      src="assets/lpo/cxx.jpg"
+                      src={cxxinc}
                       className="transform-card-img"
                       alt="Save Time"
                     />
@@ -281,7 +290,7 @@ const Environmental = () => {
           <div className="row align-items-center justify-content-center">
             <div className="col-lg-5 col-md-10 order-0 order-lg-2">
               <div className="features__img">
-                <img src="assets/img/special/Environmental.jpg" alt="img" />
+                <img src={Environmentalimg} alt="img" />
               </div>
             </div>
             <div className="col-lg-7 col-md-10">
@@ -396,7 +405,7 @@ const Environmental = () => {
                       </svg>
                     </div>
                     Coordinating communications with clients, government
-                    agencies, and experts 
+                    agencies, and experts
                   </li>
                   <li>
                     <div className="icon">
@@ -451,18 +460,13 @@ const Environmental = () => {
                     href="tel:1 (561) 409-5858"
                     className="tg-btn tg-border-btn "
                   >
-                    Call Now{" "}
-                    <img
-                      src="assets/img/icons/right_arrow.svg"
-                      alt=""
-                      className="injectable"
-                    />
+                    Call Now <img src={right} alt="" className="injectable" />
                   </a>
                 </div>
               </div>
             </div>
             <div className="cta__shape-three">
-              <img src="assets/img/images/h2_cta_shape.svg" alt="shape" />
+              <img src={h2_cta_shape} alt="shape" />
             </div>
           </div>
         </div>

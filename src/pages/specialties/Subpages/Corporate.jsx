@@ -1,4 +1,12 @@
 import React from "react";
+import assets1 from "../../../../public/assets/1.png";
+import assets3 from "../../../../public/assets/3.png";
+import lpoinc from "../../../../public/assets/lpo/inc.png";
+import topinc from "../../../../public/assets/lpo/top.png";
+import cxxinc from "../../../../public/assets/lpo/cxx.jpg";
+import h2_cta_shape from "../../../../public/assets/img/images/h2_cta_shape.svg";
+import right from "../../../../public/assets/img/icons/right_arrow.svg";
+import Corporateimg from "../../../../public/assets/img/special/Corporate.jpg";
 
 const Corporate = () => {
   return (
@@ -13,21 +21,21 @@ const Corporate = () => {
               <h1 className="hero-title">Corporate & Business Law</h1>
               <p className="hero-description">
                 Boulou LPO delivers reliable paralegal assistance for corporate
-                and business law firms, helping manage contracts, compliance, and
-                transactional matters with precision. Our support ensures your
-                business clients receive timely, organized, and accurate legal
-                services while you focus on advising, negotiating, and closing
-                deals.
+                and business law firms, helping manage contracts, compliance,
+                and transactional matters with precision. Our support ensures
+                your business clients receive timely, organized, and accurate
+                legal services while you focus on advising, negotiating, and
+                closing deals.
               </p>
             </div>
             <div className="col-lg-4 col-md-12 hero-image-content">
               <div className="hero-main-image">
-                <img src="assets/img/special/Corporate.jpg" alt="Corporate Law" />
+                <img src={Corporateimg} alt="Corporate Law" />
                 <div className="hero-floating-img hero-img1">
-                  <img src="/assets/1.png" alt="Assistant" />
+                  <img src={assets1} alt="Assistant" />
                 </div>
                 <div className="hero-floating-img hero-img2">
-                  <img src="/assets/3.png" alt="Attorney" />
+                  <img src={assets3} alt="Attorney" />
                 </div>
               </div>
               <p className="hero-caption">
@@ -55,11 +63,11 @@ const Corporate = () => {
                 Streamlined Support for Every Stage of Business
               </h6>
               <p className="transform-description text-muted">
-                Corporate law requires meticulous attention to detail and ongoing
-                compliance management. Our team takes on the essential legal
-                support tasks — from contract preparation to regulatory filings —
-                allowing your attorneys to focus on strategic advising,
-                negotiations, and high-value client interactions.
+                Corporate law requires meticulous attention to detail and
+                ongoing compliance management. Our team takes on the essential
+                legal support tasks — from contract preparation to regulatory
+                filings — allowing your attorneys to focus on strategic
+                advising, negotiations, and high-value client interactions.
               </p>
             </div>
             <div className="col-lg-12">
@@ -67,7 +75,7 @@ const Corporate = () => {
                 <div className="col-12 col-sm-6">
                   <div className="transform-card">
                     <img
-                      src="assets/lpo/inc.png"
+                      src={lpoinc}
                       className="transform-card-img"
                       alt="Efficient Compliance"
                     />
@@ -84,7 +92,7 @@ const Corporate = () => {
                 <div className="col-12 col-sm-6">
                   <div className="transform-card">
                     <img
-                      src="assets/lpo/top.png"
+                      src={topinc}
                       className="transform-card-img"
                       alt="Contract Precision"
                     />
@@ -101,7 +109,7 @@ const Corporate = () => {
                 <div className="col-12">
                   <div className="transform-card">
                     <img
-                      src="assets/lpo/cxx.jpg"
+                      src={cxxinc}
                       className="transform-card-img"
                       alt="Transactional Support"
                     />
@@ -109,8 +117,9 @@ const Corporate = () => {
                     <div className="transform-card-content">
                       <h5 className="fw-semibold">Transactional Support</h5>
                       <p>
-                        We organize due diligence materials and maintain corporate
-                        records to support seamless mergers and acquisitions.
+                        We organize due diligence materials and maintain
+                        corporate records to support seamless mergers and
+                        acquisitions.
                       </p>
                     </div>
                   </div>
@@ -255,7 +264,7 @@ const Corporate = () => {
           <div className="row align-items-center justify-content-center">
             <div className="col-lg-5 col-md-10 order-0 order-lg-2">
               <div className="features__img">
-                <img src="assets/img/special/Corporate.jpg" alt="img" />
+                <img src={Corporateimg} alt="img" />
               </div>
             </div>
             <div className="col-lg-7 col-md-10">
@@ -405,7 +414,9 @@ const Corporate = () => {
             <div className="row align-items-center">
               <div className="col-lg-6">
                 <div className="cta__content-three">
-                  <h2 className="title">Click to get a free Consultation Now</h2>
+                  <h2 className="title">
+                    Click to get a free Consultation Now
+                  </h2>
                 </div>
               </div>
               <div className="col-lg-6">
@@ -424,7 +435,7 @@ const Corporate = () => {
                   >
                     Call Now{" "}
                     <img
-                      src="assets/img/icons/right_arrow.svg"
+                      src={right}
                       alt=""
                       className="injectable"
                     />
@@ -433,7 +444,7 @@ const Corporate = () => {
               </div>
             </div>
             <div className="cta__shape-three">
-              <img src="assets/img/images/h2_cta_shape.svg" alt="shape" />
+              <img src={h2_cta_shape} alt="shape" />
             </div>
           </div>
         </div>
