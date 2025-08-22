@@ -1,4 +1,8 @@
 import React from "react";
+import right from "../../../../public/assets/img/icons/right_arrow.svg";
+import h2_cta_shape from "../../../../public/assets/img/images/h2_cta_shape.svg";
+import h8_hero_bg from "../../../../public/assets/img/banner/h8_hero_bg.jpg";
+import h8_hero_bg_shape from "../../../../public/assets/img/banner/h8_hero_bg_shape.svg";
 
 const DraftCaseStatus = () => {
   return (
@@ -10,14 +14,13 @@ const DraftCaseStatus = () => {
               <div
                 class="banner__bg-four"
                 style={{
-                  backgroundImage: "url(assets/img/banner/h8_hero_bg.jpg)",
+                  backgroundImage: { h8_hero_bg },
                 }}
               >
                 <div
                   class="banner__bg-shape"
                   style={{
-                    backgroundImage:
-                      "url(assets/img/banner/h8_hero_bg_shape.svg)",
+                    backgroundImage: { h8_hero_bg_shape },
                   }}
                 ></div>
                 <div class="row">
@@ -223,7 +226,7 @@ const DraftCaseStatus = () => {
         </div>
       </section>
 
-          <section className="cta__area-two section-py-130 pt-0">
+      <section className="cta__area-two section-py-130 pt-0">
         <div className="container">
           <div className="cta__inner-wrap-two">
             <div className="row align-items-center">
@@ -248,18 +251,13 @@ const DraftCaseStatus = () => {
                     href="tel:1 (561) 409-5858"
                     className="tg-btn tg-border-btn "
                   >
-                    Call Now{" "}
-                    <img
-                      src="assets/img/icons/right_arrow.svg"
-                      alt=""
-                      className="injectable"
-                    />
+                    Call Now <img src={right} alt="" className="injectable" />
                   </a>
                 </div>
               </div>
             </div>
             <div className="cta__shape-three">
-              <img src="assets/img/images/h2_cta_shape.svg" alt="shape" />
+              <img src={h2_cta_shape} alt="shape" />
             </div>
           </div>
         </div>
