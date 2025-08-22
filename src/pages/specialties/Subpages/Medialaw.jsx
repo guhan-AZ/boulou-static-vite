@@ -7,6 +7,7 @@ import cxxinc from "../../../../public/assets/lpo/cxx.jpg";
 import h2_cta_shape from "../../../../public/assets/img/images/h2_cta_shape.svg";
 import right from "../../../../public/assets/img/icons/right_arrow.svg";
 import enter from "../../../../public/assets/img/special/Entertainment.jpg";
+import enter1 from "../../../../public/assets/img/newimage/EntertainmentMedia Law.jpg";
 
 const MediaLaw = () => {
   return (
@@ -25,7 +26,7 @@ const MediaLaw = () => {
             </div>
             <div className="col-lg-4 col-md-12 hero-image-content">
               <div className="hero-main-image">
-                <img src={enter} alt="Entertainment Law" />
+                <img src={enter1} alt="Entertainment Law" />
                 <div className="hero-floating-img hero-img1">
                   <img src={assets1} alt="Assistant" />
                 </div>

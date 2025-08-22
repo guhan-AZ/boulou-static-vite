@@ -12867,9 +12867,9 @@ textarea {
 .history__img-wrap-five::before {
   content: "";
   position: absolute;
-  right: 75px;
+  right: 3px !important;
   bottom: 0px;
-  width: 80%;
+  width: 93% !important;
   height: 95%;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;

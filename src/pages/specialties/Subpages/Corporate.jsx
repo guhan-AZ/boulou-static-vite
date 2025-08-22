@@ -7,6 +7,7 @@ import cxxinc from "../../../../public/assets/lpo/cxx.jpg";
 import h2_cta_shape from "../../../../public/assets/img/images/h2_cta_shape.svg";
 import right from "../../../../public/assets/img/icons/right_arrow.svg";
 import Corporateimg from "../../../../public/assets/img/special/Corporate.jpg";
+import Corporateimg1 from "../../../../public/assets/img/newimage/Corporate & Business Law.jpg";
 
 const Corporate = () => {
   return (
@@ -30,7 +31,7 @@ const Corporate = () => {
             </div>
             <div className="col-lg-4 col-md-12 hero-image-content">
               <div className="hero-main-image">
-                <img src={Corporateimg} alt="Corporate Law" />
+                <img src={Corporateimg1} alt="Corporate Law" />
                 <div className="hero-floating-img hero-img1">
                   <img src={assets1} alt="Assistant" />
                 </div>

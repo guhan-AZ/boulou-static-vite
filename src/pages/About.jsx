@@ -10,10 +10,11 @@ import services_img04 from "../../public/assets/img/services/services_img04.jpg"
 import about4 from "../../public/assets/img/home-page/about4.jpg";
 import right from "../../public/assets/img/icons/right_arrow.svg";
 import h2_cta_shape from "../../public/assets/img/images/h2_cta_shape.svg";
+import Faq from "./Accordain";
 
 const About = () => {
   return (
-    <div>
+    <div style={{overflow: "hidden"}}>
       <Helmet>
         <title>About Bouloulpo| U.S.-Based Legal Support Firm</title>
         <meta
@@ -443,7 +444,7 @@ const About = () => {
         </div>
       </section>
 
-      <section class="faq__area-three section-py-130 pt-0">
+      {/* <section class="faq__area-three section-py-130 pt-0">
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-lg-6">
@@ -632,7 +633,9 @@ const About = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
+      
+      <Faq/>
 
       <section className="cta__area-two section-py-130 pt-0">
         <div className="container">

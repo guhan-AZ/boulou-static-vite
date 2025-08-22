@@ -7,6 +7,7 @@ import cxxinc from "../../../../public/assets/lpo/cxx.jpg";
 import h2_cta_shape from "../../../../public/assets/img/images/h2_cta_shape.svg";
 import right from "../../../../public/assets/img/icons/right_arrow.svg";
 import real from "../../../../public/assets/img/special/Real-Estate.jpg";
+import real1 from "../../../../public/assets/img/newimage/Real Estate Law.jpg";
 
 const RealEstate = () => {
   return (
@@ -29,7 +30,7 @@ const RealEstate = () => {
             </div>
             <div className="col-lg-4 col-md-12 hero-image-content">
               <div className="hero-main-image">
-                <img src={real} alt="Real Estate Law" />
+                <img src={real1} alt="Real Estate Law" />
                 <div className="hero-floating-img hero-img1">
                   <img src={assets1} alt="Assistant" />
                 </div>

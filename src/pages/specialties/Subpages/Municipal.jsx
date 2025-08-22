@@ -7,6 +7,7 @@ import cxxinc from "../../../../public/assets/lpo/cxx.jpg";
 import h2_cta_shape from "../../../../public/assets/img/images/h2_cta_shape.svg";
 import right from "../../../../public/assets/img/icons/right_arrow.svg";
 import munci from "../../../../public/assets/img/special/Municipal.jpg";
+import munci1 from "../../../../public/assets/img/newimage/Municipal or local government.jpg";
 
 const Municipal = () => {
   return (
@@ -29,7 +30,7 @@ const Municipal = () => {
             </div>
             <div className="col-lg-4 col-md-12 hero-image-content">
               <div className="hero-main-image">
-                <img src={munci} alt="Municipal Law" />
+                <img src={munci1} alt="Municipal Law" />
                 <div className="hero-floating-img hero-img1">
                   <img src={assets1} alt="Assistant" />
                 </div>

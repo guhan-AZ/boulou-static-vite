@@ -1,5 +1,6 @@
 import React from "react";
 import constructionimg from "../../../../public/assets/img/special/Construction.jpg";
+import constructionimg1 from "../../../../public/assets/img/newimage/Construction law.jpg";
 import assets1 from "../../../../public/assets/1.png";
 import assets3 from "../../../../public/assets/3.png";
 import lpoinc from "../../../../public/assets/lpo/inc.png";
@@ -35,7 +36,7 @@ const Construction = () => {
             {/* Right Image Section - col-4 */}
             <div className="col-lg-4 col-md-12 hero-image-content">
               <div className="hero-main-image">
-                <img src={constructionimg} alt="Lawyer" />
+                <img src={constructionimg1} alt="Lawyer" />
                 {/* Floating Images */}
                 <div className="hero-floating-img hero-img1">
                   <img src={assets1} alt="Assistant" />

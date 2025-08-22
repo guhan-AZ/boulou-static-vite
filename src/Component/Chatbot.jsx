@@ -4,7 +4,7 @@ import styles from "/src/Chatbox.module.css";
 import { FaMicrophone } from "react-icons/fa";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
-import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+// import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
 function Chatbot() {
   const [open, setOpen] = useState(false);

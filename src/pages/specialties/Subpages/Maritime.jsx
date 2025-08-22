@@ -1,5 +1,5 @@
 import React from "react";
-import maritime from "../../../../public/assets/img/special/Maritime.jpg";
+// import maritime from "../../../../public/assets/img/special/Maritime.jpg";
 import assets1 from "../../../../public/assets/1.png";
 import assets3 from "../../../../public/assets/3.png";
 import lpoinc from "../../../../public/assets/lpo/inc.png";
@@ -8,6 +8,7 @@ import cxxinc from "../../../../public/assets/lpo/cxx.jpg";
 import h2_cta_shape from "../../../../public/assets/img/images/h2_cta_shape.svg";
 import right from "../../../../public/assets/img/icons/right_arrow.svg";
 import maritimeimg from "../../../../public/assets/img/special/Maritime.jpg";
+import maritimeimg1 from "../../../../public/assets/img/newimage/Maritime  Admiralty Law.jpg";
 
 const Maritime = () => {
   return (
@@ -34,7 +35,7 @@ const Maritime = () => {
             {/* Right Image Section - col-4 */}
             <div className="col-lg-4 col-md-12 hero-image-content">
               <div className="hero-main-image">
-                <img src={maritime} alt="Lawyer" />
+                <img src={maritimeimg1} alt="Lawyer" />
                 {/* Floating Images */}
                 <div className="hero-floating-img hero-img1">
                   <img src={assets1} alt="Assistant" />

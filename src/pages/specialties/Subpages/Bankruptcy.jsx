@@ -1,5 +1,6 @@
 import React from "react";
-import Bankruptcyimg from "../../../../public/assets/img/special/Bankruptcy.jpg";
+import Bankruptcyimg from "../../../../public/assets/img/newimage/Bankruptcy.jpg";
+import Bankruptcyimg1 from "../../../../public/assets/img/special/Bankruptcy.jpg";
 import assets1 from "../../../../public/assets/1.png";
 import assets3 from "../../../../public/assets/3.png";
 import lpoinc from "../../../../public/assets/lpo/inc.png";
@@ -32,7 +33,7 @@ const Bankruptcy = () => {
             </div>
             <div className="col-lg-4 col-md-12 hero-image-content">
               <div className="hero-main-image">
-                <img src={Bankruptcyimg} alt="Bankruptcy Law" />
+                <img src={Bankruptcyimg1} alt="Bankruptcy Law" />
                 <div className="hero-floating-img hero-img1">
                   <img src={assets1} alt="Assistant" />
                 </div>

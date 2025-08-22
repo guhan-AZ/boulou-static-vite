@@ -7,6 +7,7 @@ import cxxinc from "../../../../public/assets/lpo/cxx.jpg";
 import h2_cta_shape from "../../../../public/assets/img/images/h2_cta_shape.svg";
 import right from "../../../../public/assets/img/icons/right_arrow.svg";
 import healthcareimg from "../../../../public/assets/img/special/Healthcare.jpg";
+import healthcareimg1 from "../../../../public/assets/img/newimage/Healthcare law.jpg";
 
 const Healthcare = () => {
   return (
@@ -35,7 +36,7 @@ const Healthcare = () => {
             {/* Right Image */}
             <div className="col-lg-4 col-md-12 hero-image-content">
               <div className="hero-main-image">
-                <img src={healthcareimg} alt="Healthcare Law" />
+                <img src={healthcareimg1} alt="Healthcare Law" />
                 {/* Floating Images */}
                 <div className="hero-floating-img hero-img1">
                   <img src={assets1} alt="Assistant" />

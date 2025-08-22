@@ -1,5 +1,5 @@
 import React from "react";
-import immgration from "../../../../public/assets/lpo/immigration-law.png";
+import immgration from "../../../../public/assets/img/newimage/Immigration Law.jpg";
 import assets1 from "../../../../public/assets/1.png";
 import assets3 from "../../../../public/assets/3.png";
 import lpoinc from "../../../../public/assets/lpo/inc.png";

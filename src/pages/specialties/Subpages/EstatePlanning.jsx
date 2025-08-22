@@ -7,6 +7,7 @@ import cxxinc from "../../../../public/assets/lpo/cxx.jpg";
 import h2_cta_shape from "../../../../public/assets/img/images/h2_cta_shape.svg";
 import right from "../../../../public/assets/img/icons/right_arrow.svg";
 import Estateimg from "../../../../public/assets/img/special/Estate.jpg";
+import Estateimg1 from "../../../../public/assets/img/newimage/Estate Planning & Probate Law.jpg";
 
 
 
@@ -32,7 +33,7 @@ const EstatePlanning = () => {
             </div>
             <div className="col-lg-4 col-md-12 hero-image-content">
               <div className="hero-main-image">
-                <img src={Estateimg} alt="Estate Planning Law" />
+                <img src={Estateimg1} alt="Estate Planning Law" />
                 <div className="hero-floating-img hero-img1">
                   <img src={assets1} alt="Assistant" />
                 </div>
