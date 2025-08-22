@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import right_arrow from "../../public/assets/img/icons/right_arrow.svg"
 
 const Roles = () => {
   return (
@@ -40,7 +41,7 @@ const Roles = () => {
                   <Link to="/Case-Coordinator" className="tg-btn tg-btn-two">
                     Read More{" "}
                     <img
-                      src="assets/img/icons/right_arrow.svg"
+                      src={right_arrow}
                       alt=""
                       className="injectable"
                     />
@@ -65,7 +66,7 @@ const Roles = () => {
                   <Link to="/Case-Manager" className="tg-btn tg-btn-two">
                     Read More{" "}
                     <img
-                      src="assets/img/icons/right_arrow.svg"
+                      src={right_arrow}
                       alt=""
                       className="injectable"
                     />
@@ -90,7 +91,7 @@ const Roles = () => {
                   <Link to="/Paralegal-Role" className="tg-btn tg-btn-two">
                     Read More{" "}
                     <img
-                      src="assets/img/icons/right_arrow.svg"
+                    src={right_arrow}
                       alt=""
                       className="injectable"
                     />
@@ -115,7 +116,7 @@ const Roles = () => {
                   <Link to="/Secretary-Receptionist" className="tg-btn tg-btn-two">
                     Read More{" "}
                     <img
-                      src="assets/img/icons/right_arrow.svg"
+                      src={right_arrow}
                       alt=""
                       className="injectable"
                     />
@@ -140,7 +141,7 @@ const Roles = () => {
                   <Link to="/Legal-Admin" className="tg-btn tg-btn-two">
                     Read More{" "}
                     <img
-                      src="assets/img/icons/right_arrow.svg"
+                     src={right_arrow}
                       alt=""
                       className="injectable"
                     />
@@ -165,7 +166,7 @@ const Roles = () => {
                   <Link to="/Intake-Specialist" className="tg-btn tg-btn-two">
                     Read More{" "}
                     <img
-                      src="assets/img/icons/right_arrow.svg"
+                    src={right_arrow}
                       alt=""
                       className="injectable"
                     />

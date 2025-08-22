@@ -1,4 +1,5 @@
- 
+
+import career from "../../public/assets/img/career.jpg"
 
 const CareerNew = () => {
   return (
@@ -25,7 +26,7 @@ const CareerNew = () => {
           <div className="row justify-content-center">
             <div className="col-xl-10">
               <div className="career__img">
-                <img src="assets/img/career.jpg" alt="Career Banner" />
+                <img src={career} alt="Career Banner" />
               </div>
               <div className="career__content">
                 <p>
