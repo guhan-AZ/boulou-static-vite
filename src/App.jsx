@@ -1,4 +1,5 @@
 import { Routes, Route } from "react-router-dom";
+import { useEffect, useState } from "react";
 import Header from "./Component/Header";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -59,9 +60,49 @@ import Education from "./pages/Specialties/Subpages/Education";
 import Municipal from "./pages/Specialties/Subpages/Municipal";
 import LemonLaw from "./pages/specialties/Subpages/LemonLaw";
 import HabitabilityLaw from "./pages/specialties/Subpages/HabitabilityLaw";
-// import "./App.css";
+
+import "./assets/css/bootstrap.min.css";
+import "./assets/css/animate.min.css";
+import "./assets/css/magnific-popup.css";
+import "./assets/css/fontawesome-all.min.css";
+// import "./assets/css/tg-flaticon.css";
+import "../public/assets/css/tg-flaticon.css";
+import "./assets/css/swiper-bundle.min.css";
+import "./assets/css/default.css";
+import "./assets/css/default-icons.css";
+import "./assets/css/odometer.css";
+// import "./assets/css/aos.css";
+import "./assets/css/tg-cursor.css";
+import "./assets/css/main.css";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+import Preloader from "./Component/Preloader"; // 👈 loader import
 
 const App = () => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // Show loader only for 2 seconds
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 1000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
+  useEffect(() => {
+    AOS.init({
+      duration: 800,
+      once: true,
+    });
+  }, []);
+
+  if (loading) {
+    return <Preloader fullscreen size={60} />;
+  }
+
   return (
     <>
       <ScrollToTop />

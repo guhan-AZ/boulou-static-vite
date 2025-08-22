@@ -24,7 +24,6 @@ import h2_cta_shape from "../../public/assets/img/images/h2_cta_shape.svg";
 
 const Home = () => {
   const [open, setOpen] = useState(false);
-
   return (
     <>
       <Helmet>
@@ -59,9 +58,9 @@ const Home = () => {
                 <h2 className="title" data-aos="fade-up" data-aos-delay="0">
                   Reliable Legal Process Outsourcing for Law Firms & Attorneys
                 </h2>
-                <p data-aos="fade-up" data-aos-delay="300">
+                <p data-aos="fade-right" data-aos-delay="400">
                   Whether English-speaking or bilingual support, Boulou LPO
-                  delivers expert legal assistance to boost efficiency and keep
+                  delivers expert legal asistance to boost efficiency and keep
                   your workflow running smoothly.
                 </p>
                 <a href="contact" className="tg-btn">

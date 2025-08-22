@@ -16,8 +16,10 @@ $(window).on('load', function () {
 	=            Preloader          =fadeInDown
 =============================================*/
 function preloader() {
-	$('.preloader').delay(0).fadeOut();
+  $('.preloader').delay(300).fadeOut('slow', function () {
+  });
 };
+
 
 
 /*===========================================

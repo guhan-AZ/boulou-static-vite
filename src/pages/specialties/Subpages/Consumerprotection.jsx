@@ -8,6 +8,7 @@ import right from "../../../../public/assets/img/icons/right_arrow.svg";
 import h2_cta_shape from "../../../../public/assets/img/images/h2_cta_shape.svg";
 import consumerimg from "../../../../public/assets/img/special/Consumer.jpg";
 import Corporateandbusinesslaw from "../../../../public/assets/lpo/Corporate and business law.png";
+import Corporateandbusinesslaw1 from "../../../../public/assets/img/newimage/consumer protection law class action lawsuit.jpg";
 
 const Consumerprotection = () => {
   return (
@@ -37,7 +38,7 @@ const Consumerprotection = () => {
             {/* Right Image Section - col-4 */}
             <div className="col-lg-4 col-md-12 hero-image-content">
               <div className="hero-main-image">
-                <img src={Corporateandbusinesslaw} alt="Lawyer" />
+                <img src={Corporateandbusinesslaw1} alt="Lawyer" />
                 {/* Floating Images */}
                 <div className="hero-floating-img hero-img1">
                   <img src={assets1} alt="Assistant" />
