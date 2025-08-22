@@ -1,5 +1,11 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import h2_project_img01 from "../../public/assets/img/project/h2_project_img01.jpg"
+import right_arrow from "../../public/assets/img/icons/right_arrow.svg"
+import project_item_shape from "../../public/assets/img/project/project_item_shape.svg"
+import h2_project_img02 from "../../public/assets/img/project/h2_project_img02.jpg"
+import h2_project_img03 from "../../public/assets/img/project/h2_project_img03.jpg"
+import h2_project_img04 from "../../public/assets/img/project/h2_project_img04.jpg"
 
 const Service = () => {
   return (
@@ -30,7 +36,7 @@ const Service = () => {
                 <div className="project__thumb-two">
                   <Link to="/paralegal-service">
                     <img
-                      src="assets/img/project/h2_project_img01.jpg"
+                      src={h2_project_img01}
                       alt="img"
                     />
                   </Link>
@@ -45,7 +51,7 @@ const Service = () => {
                   </span>
                   <Link to="/paralegal-service">
                     <img
-                      src="assets/img/icons/right_arrow.svg"
+                      src={right_arrow}
                       alt=""
                       className="injectable"
                     />
@@ -53,7 +59,7 @@ const Service = () => {
                 </div>
                 <div className="shape">
                   <img
-                    src="assets/img/project/project_item_shape.svg"
+                    src={project_item_shape}
                     alt="shape"
                   />
                 </div>
@@ -66,7 +72,7 @@ const Service = () => {
                 <div className="project__thumb-two">
                   <Link to="/contract-life-cycle-management">
                     <img
-                      src="assets/img/project/h2_project_img02.jpg"
+                      src={h2_project_img02}
                       alt="img"
                     />
                   </Link>
@@ -81,7 +87,7 @@ const Service = () => {
                   </span>
                   <Link to="/contract-life-cycle-management">
                     <img
-                      src="assets/img/icons/right_arrow.svg"
+                      src={right_arrow}
                       alt=""
                       className="injectable"
                     />
@@ -89,7 +95,7 @@ const Service = () => {
                 </div>
                 <div className="shape">
                   <img
-                    src="assets/img/project/project_item_shape.svg"
+                    src={project_item_shape}
                     alt="shape"
                   />
                 </div>
@@ -102,7 +108,7 @@ const Service = () => {
                 <div className="project__thumb-two">
                   <Link to="/document-review">
                     <img
-                      src="assets/img/project/h2_project_img03.jpg"
+                      src={h2_project_img03}
                       alt="img"
                     />
                   </Link>
@@ -117,7 +123,7 @@ const Service = () => {
                   </span>
                   <Link to="/document-review">
                     <img
-                      src="assets/img/icons/right_arrow.svg"
+                      src={right_arrow}
                       alt=""
                       className="injectable"
                     />
@@ -125,7 +131,7 @@ const Service = () => {
                 </div>
                 <div className="shape">
                   <img
-                    src="assets/img/project/project_item_shape.svg"
+                    src={project_item_shape}
                     alt="shape"
                   />
                 </div>
@@ -138,7 +144,7 @@ const Service = () => {
                 <div className="project__thumb-two">
                   <Link to="/admin-supports">
                     <img
-                      src="assets/img/project/h2_project_img04.jpg"
+                      src={h2_project_img04}
                       alt="img"
                     />
                   </Link>
@@ -153,7 +159,7 @@ const Service = () => {
                   </span>
                   <Link to="/admin-supports">
                     <img
-                      src="assets/img/icons/right_arrow.svg"
+                      src={right_arrow}
                       alt=""
                       className="injectable"
                     />
@@ -161,7 +167,7 @@ const Service = () => {
                 </div>
                 <div className="shape">
                   <img
-                    src="assets/img/project/project_item_shape.svg"
+                    src={project_item_shape}
                     alt="shape"
                   />
                 </div>

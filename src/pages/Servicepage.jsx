@@ -1,4 +1,10 @@
-import React from "react";
+import h2_project_img01 from "../../public/assets/img/project/h2_project_img01.jpg"
+import right_arrow from "../../public/assets/img/icons/right_arrow.svg"
+import project_item_shape from "../../public/assets/img/project/project_item_shape.svg"
+import h2_project_img02 from "../../public/assets/img/project/h2_project_img02.jpg"
+import h2_project_img03 from "../../public/assets/img/project/h2_project_img03.jpg"
+import h2_project_img04 from "../../public/assets/img/project/h2_project_img04.jpg"
+
 
 const Servicepage = () => {
   return (
@@ -22,7 +28,7 @@ const Servicepage = () => {
                 <div className="project__thumb-two">
                   <a href="paralegal.html">
                     <img
-                      src="assets/img/project/h2_project_img01.jpg"
+                      src={h2_project_img01}
                       alt="img"
                     />
                   </a>
@@ -37,7 +43,7 @@ const Servicepage = () => {
                   </span>
                   <a href="paralegal.html">
                     <img
-                      src="assets/img/icons/right_arrow.svg"
+                      src={right_arrow}
                       alt=""
                       className="injectable"
                     />
@@ -45,7 +51,7 @@ const Servicepage = () => {
                 </div>
                 <div className="shape">
                   <img
-                    src="assets/img/project/project_item_shape.svg"
+                    src={project_item_shape}
                     alt="shape"
                   />
                 </div>
@@ -58,7 +64,7 @@ const Servicepage = () => {
                 <div className="project__thumb-two">
                   <a href="contract-life-cycle.html">
                     <img
-                      src="assets/img/project/h2_project_img02.jpg"
+                      src={h2_project_img02}
                       alt="img"
                     />
                   </a>
@@ -73,7 +79,7 @@ const Servicepage = () => {
                   </span>
                   <a href="contract-life-cycle.html">
                     <img
-                      src="assets/img/icons/right_arrow.svg"
+                      src={right_arrow}
                       alt=""
                       className="injectable"
                     />
@@ -81,7 +87,7 @@ const Servicepage = () => {
                 </div>
                 <div className="shape">
                   <img
-                    src="assets/img/project/project_item_shape.svg"
+                    src={project_item_shape}
                     alt="shape"
                   />
                 </div>
@@ -94,7 +100,7 @@ const Servicepage = () => {
                 <div className="project__thumb-two">
                   <a href="document-review.html">
                     <img
-                      src="assets/img/project/h2_project_img03.jpg"
+                      src={h2_project_img03}
                       alt="img"
                     />
                   </a>
@@ -109,7 +115,7 @@ const Servicepage = () => {
                   </span>
                   <a href="document-review.html">
                     <img
-                      src="assets/img/icons/right_arrow.svg"
+                      src={right_arrow}
                       alt=""
                       className="injectable"
                     />
@@ -117,7 +123,7 @@ const Servicepage = () => {
                 </div>
                 <div className="shape">
                   <img
-                    src="assets/img/project/project_item_shape.svg"
+                    src={project_item_shape}
                     alt="shape"
                   />
                 </div>
@@ -130,7 +136,7 @@ const Servicepage = () => {
                 <div className="project__thumb-two">
                   <a href="admin-supports.html">
                     <img
-                      src="assets/img/project/h2_project_img04.jpg"
+                      src={h2_project_img04}
                       alt="img"
                     />
                   </a>
@@ -145,7 +151,7 @@ const Servicepage = () => {
                   </span>
                   <a href="admin-supports.html">
                     <img
-                      src="assets/img/icons/right_arrow.svg"
+                      src={right_arrow}
                       alt=""
                       className="injectable"
                     />
@@ -153,7 +159,7 @@ const Servicepage = () => {
                 </div>
                 <div className="shape">
                   <img
-                    src="assets/img/project/project_item_shape.svg"
+                    src={project_item_shape}
                     alt="shape"
                   />
                 </div>

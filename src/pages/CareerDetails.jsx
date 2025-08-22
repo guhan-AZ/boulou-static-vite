@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import axios from "axios";
+import benefit_icon01 from "../../public/assets/img/icons/benefit_icon01.svg"
+import benefit_icon02 from "../../public/assets/img/icons/benefit_icon03.svg"
+import benefit_icon03 from "../../public/assets/img/icons/benefit_icon03.svg"
 
 const CareerDetails = () => {
   const { id } = useParams();
@@ -28,7 +31,6 @@ const CareerDetails = () => {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="career__details-content">
-                 
                 <h2 className="title">{job.job_name}</h2>
                 <h3 className="salary">
                   ${job.price1} - ${job.price2} <span>USD/ Monthly</span>
@@ -41,7 +43,8 @@ const CareerDetails = () => {
                     <span>Location</span> {job.location || "Not specified"}
                   </li>
                   <li>
-                    <span>Employment Type</span> {job.employment_type || "Full-time"}
+                    <span>Employment Type</span>{" "}
+                    {job.employment_type || "Full-time"}
                   </li>
                 </ul>
               </div>
@@ -50,22 +53,22 @@ const CareerDetails = () => {
               <div className="apply__box">
                 <span>Ready to apply? We can't wait to meet you!</span>
 
-  <Link
-  to={`/ApplyForm/${[
-    job.job_name,
-    job.price1,
-    job.price2,
-    job.validity,
-    job.location,
-    job.employment_type,
-    job.position,
-  ]
-    .map((val) => encodeURIComponent(val))
-    .join("-")}`}
-  className="tg-btn tg-btn-three"
->
-  Apply Now
-</Link>
+                <Link
+                  to={`/ApplyForm/${[
+                    job.job_name,
+                    job.price1,
+                    job.price2,
+                    job.validity,
+                    job.location,
+                    job.employment_type,
+                    job.position,
+                  ]
+                    .map((val) => encodeURIComponent(val))
+                    .join("-")}`}
+                  className="tg-btn tg-btn-three"
+                >
+                  Apply Now
+                </Link>
 
                 <p>
                   Next, you'll face an assessment to proceed. Apply for one job
@@ -95,9 +98,18 @@ const CareerDetails = () => {
               <div className="career__details-benefit">
                 <h4 className="title">Benefit</h4>
                 <ul className="list-wrap">
-                  <li><img src="/assets/img/icons/benefit_icon01.svg" alt="" /> Competitive Salary</li>
-                  <li><img src="/assets/img/icons/benefit_icon02.svg" alt="" /> Health Coverage</li>
-                  <li><img src="/assets/img/icons/benefit_icon03.svg" alt="" /> Development Opportunities</li>
+                  <li>
+                    <img src={benefit_icon01} alt="" />{" "}
+                    Competitive Salary
+                  </li>
+                  <li>
+                    <img src={benefit_icon02} alt="" />{" "}
+                    Health Coverage
+                  </li>
+                  <li>
+                    <img src={benefit_icon03} alt="" />{" "}
+                    Development Opportunities
+                  </li>
                 </ul>
               </div>
             </div>
