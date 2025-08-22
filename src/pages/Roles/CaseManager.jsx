@@ -1,6 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
+import h9_history_bg from "../../../public/assets/img/bg/h9_history_bg.jpg"
+import Casemanager from "../../../public/assets/img/Case-Manager.jpg"
+import right from "../../../public/assets/img/icons/right_arrow.svg";
+import h2_cta_shape from "../../../public/assets/img/images/h2_cta_shape.svg";
+
 const CaseManager = () => {
   return (
     <>
@@ -12,15 +17,12 @@ const CaseManager = () => {
         />
       </Helmet>
       <section className="history__area-five section-py-130">
-        <div
-          className="history__bg-two"
-          data-background="assets/img/bg/h9_history_bg.jpg"
-        ></div>
+        <div className="history__bg-two" data-background={h9_history_bg}></div>
         <div className="container">
           <div className="row align-items-center justify-content-center">
             <div className="col-lg-6 col-md-9">
               <div className="history__img-wrap-five">
-                <img src="assets/img/Case-Manager.jpg" alt="img" />
+                <img src={Casemanager} alt="img" />
               </div>
             </div>
             <div className="col-lg-6">
@@ -183,7 +185,7 @@ const CaseManager = () => {
                   <Link to="/Booking/Case-Manager$14" class="tg-btn">
                     Get Started{" "}
                     <img
-                      src="assets/img/icons/right_arrow.svg"
+                      src={right}
                       alt=""
                       class="injectable"
                     />
@@ -285,7 +287,7 @@ const CaseManager = () => {
                   <Link to="/Booking/Case-Manager$14" class="tg-btn">
                     Get Started{" "}
                     <img
-                      src="assets/img/icons/right_arrow.svg"
+                      src={right}
                       alt=""
                       class="injectable"
                     />
@@ -387,7 +389,7 @@ const CaseManager = () => {
                   <Link to="/Booking/Case-Manager$17" class="tg-btn">
                     Get Started{" "}
                     <img
-                      src="assets/img/icons/right_arrow.svg"
+                      src={right}
                       alt=""
                       class="injectable"
                     />
@@ -511,7 +513,7 @@ const CaseManager = () => {
                   >
                     Call Now{" "}
                     <img
-                      src="assets/img/icons/right_arrow.svg"
+                      src={right}
                       alt=""
                       className="injectable"
                     />
@@ -520,7 +522,7 @@ const CaseManager = () => {
               </div>
             </div>
             <div className="cta__shape-three">
-              <img src="assets/img/images/h2_cta_shape.svg" alt="shape" />
+              <img src={h2_cta_shape} alt="shape" />
             </div>
           </div>
         </div>
@@ -575,7 +577,7 @@ const RoleCard = ({ title, hours, Price, link, contentTitle, features }) => (
                   <Link to={link} className="tg-btn tg-btn-two">
                     Book Now
                     <img
-                      src="assets/img/icons/right_arrow.svg"
+                      src={right}
                       alt="arrow"
                       className="injectable"
                     />

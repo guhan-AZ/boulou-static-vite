@@ -1,12 +1,25 @@
-import React from "react";
 import { Link } from "react-router-dom";
-import { Helmet } from 'react-helmet';
+import { Helmet } from "react-helmet";
+import about2 from "../../public/assets/img/home-page/about2.jpg";
+import about3 from "../../public/assets/img/home-page/about3.jpg";
+import services10 from "../../public/assets/img/bg/h10_services_bg.jpg";
+import service1 from "../../public/assets/img/services/services_img01.jpg";
+import services_img02 from "../../public/assets/img/services/services_img02.jpg";
+import services_img03 from "../../public/assets/img/services/services_img03.jpg";
+import services_img04 from "../../public/assets/img/services/services_img04.jpg";
+import about4 from "../../public/assets/img/home-page/about4.jpg";
+import right from "../../public/assets/img/icons/right_arrow.svg";
+import h2_cta_shape from "../../public/assets/img/images/h2_cta_shape.svg";
+
 const About = () => {
   return (
     <div>
       <Helmet>
-        <title>About Bouloulpo|  U.S.-Based Legal Support Firm</title>
-        <meta name="description" content="Learn about Bouloulpo, your U.S.-based boutique legal support partner offering trusted paralegal, CLM, document review, and admin services for law firms." />
+        <title>About Bouloulpo| U.S.-Based Legal Support Firm</title>
+        <meta
+          name="description"
+          content="Learn about Bouloulpo, your U.S.-based boutique legal support partner offering trusted paralegal, CLM, document review, and admin services for law firms."
+        />
       </Helmet>
       <div className="container">
         <div className="breadcum-sub">
@@ -28,10 +41,7 @@ const About = () => {
           <div class="row align-items-center justify-content-center">
             <div class="col-lg-5 col-md-8">
               <div class="history__img-wrap-six">
-                <img
-                  src="assets/img/home-page/about2.jpg"
-                  alt="BoulouLPO Office"
-                />
+                <img src={about2} alt="BoulouLPO Office" />
               </div>
             </div>
             <div class="col-lg-7">
@@ -113,10 +123,7 @@ const About = () => {
                     </ul>
                   </div>
                   <div class="history__inner-img">
-                    <img
-                      src="assets/img/home-page/about3.jpg"
-                      alt="Legal Team Experience"
-                    />
+                    <img src={about3} alt="Legal Team Experience" />
                     <div class="experience__wrap-five">
                       <h2 class="count">5</h2>
                       <span>
@@ -194,7 +201,7 @@ const About = () => {
 
       <section
         class="services__area-ten services__bg-five section-py-130 pt-0"
-        data-background="assets/img/bg/h10_services_bg.jpg"
+        data-background={services10}
       >
         <div class="container">
           <div class="row justify-content-center">
@@ -219,10 +226,7 @@ const About = () => {
               <div class="services__item-eleven shine__animate-item">
                 <div class="services__thumb-eleven shine__animate-link">
                   <a href="#">
-                    <img
-                      src="assets/img/services/services_img01.jpg"
-                      alt="Consultation"
-                    />
+                    <img src={service1} alt="Consultation" />
                   </a>
                   <div class="services__icon-eight">1</div>
                 </div>
@@ -242,10 +246,7 @@ const About = () => {
               <div class="services__item-eleven shine__animate-item">
                 <div class="services__thumb-eleven shine__animate-link">
                   <a href="#">
-                    <img
-                      src="assets/img/services/services_img02.jpg"
-                      alt="Match Professionals"
-                    />
+                    <img src={services_img02} alt="Match Professionals" />
                   </a>
                   <div class="services__icon-eight">2</div>
                 </div>
@@ -265,10 +266,7 @@ const About = () => {
               <div class="services__item-eleven shine__animate-item">
                 <div class="services__thumb-eleven shine__animate-link">
                   <a href="#">
-                    <img
-                      src="assets/img/services/services_img03.jpg"
-                      alt="Onboarding"
-                    />
+                    <img src={services_img03} alt="Onboarding" />
                   </a>
                   <div class="services__icon-eight">3</div>
                 </div>
@@ -288,10 +286,7 @@ const About = () => {
               <div class="services__item-eleven shine__animate-item">
                 <div class="services__thumb-eleven shine__animate-link">
                   <a href="#">
-                    <img
-                      src="assets/img/services/services_img04.jpg"
-                      alt="Ongoing Support"
-                    />
+                    <img src={services_img04} alt="Ongoing Support" />
                   </a>
                   <div class="services__icon-eight">4</div>
                 </div>
@@ -310,15 +305,13 @@ const About = () => {
         </div>
       </section>
 
-      
-
       <section class="choose__area-five section-py-130 pt-0">
         <div class="container">
           <div class="row align-items-center justify-content-center">
             <div class="col-lg-7 col-md-9 order-0 order-lg-2">
               <div class="choose__img-wrap-four">
                 <img
-                  src="assets/img/home-page/about4.jpg"
+                  src={about4}
                   alt="img"
                   data-aos="fade-left"
                   data-aos-delay="200"
@@ -641,8 +634,6 @@ const About = () => {
         </div>
       </section>
 
-     
-
       <section className="cta__area-two section-py-130 pt-0">
         <div className="container">
           <div className="cta__inner-wrap-two">
@@ -669,17 +660,13 @@ const About = () => {
                     className="tg-btn tg-border-btn "
                   >
                     Call Now{" "}
-                    <img
-                      src="assets/img/icons/right_arrow.svg"
-                      alt=""
-                      className="injectable"
-                    />
+                    <img src={right} alt="right" className="injectable" />
                   </a>
                 </div>
               </div>
             </div>
             <div className="cta__shape-three">
-              <img src="assets/img/images/h2_cta_shape.svg" alt="shape" />
+              <img src={h2_cta_shape} alt="shape" />
             </div>
           </div>
         </div>

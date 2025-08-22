@@ -1,35 +1,31 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
+import h9_history_bg from "../../../public/assets/img/bg/h9_history_bg.jpg"
+import paralegal from "../../../public/assets/img/Paralegal.jpg"
+import right from "../../../public/assets/img/icons/right_arrow.svg"
+import h2_cta_shape from "../../../public/assets/img/images/h2_cta_shape.svg"
+
 
 
 const ParalegalRole = () => {
   return (
     <>
-    <Helmet>
-        <title>
-         Paralegal Roles & Responsibilities | Boulou LPO
-
-        </title>
+      <Helmet>
+        <title>Paralegal Roles & Responsibilities | Boulou LPO</title>
         <meta
           name="description"
           content="Explore the paralegal role at Boulou LPO: specialized paralegal services including legal research, drafting, filings, and admin support tailored for law firms.
-" />
+"
+        />
       </Helmet>
       <section className="history__area-five section-py-130">
-        <div
-          className="history__bg-two"
-          data-background="assets/img/bg/h9_history_bg.jpg"
-        ></div>
+        <div className="history__bg-two" data-background={h9_history_bg}></div>
         <div className="container">
           <div className="row align-items-center justify-content-center">
             <div className="col-lg-6 col-md-9">
               <div className="history__img-wrap-five">
-                <img
-                  src="assets/img/Paralegal.jpg"
-                  alt="Paralegal"
-                  
-                />
+                <img src={paralegal} alt="Paralegal" />
               </div>
             </div>
             <div className="col-lg-6">
@@ -186,12 +182,7 @@ const ParalegalRole = () => {
                 </div>
                 <div class="pricing__button">
                   <Link to="/Booking/Paralegal-Role$14" class="tg-btn">
-                    Get Started{" "}
-                    <img
-                      src="assets/img/icons/right_arrow.svg"
-                      alt=""
-                      class="injectable"
-                    />
+                    Get Started <img src={right} alt="" class="injectable" />
                   </Link>
                 </div>
               </div>
@@ -287,12 +278,7 @@ const ParalegalRole = () => {
                 </div>
                 <div class="pricing__button">
                   <Link to="/Booking/Paralegal-Role$14" class="tg-btn">
-                    Get Started{" "}
-                    <img
-                      src="assets/img/icons/right_arrow.svg"
-                      alt=""
-                      class="injectable"
-                    />
+                    Get Started <img src={right} alt="" class="injectable" />
                   </Link>
                 </div>
               </div>
@@ -393,12 +379,7 @@ const ParalegalRole = () => {
                 </div>
                 <div class="pricing__button">
                   <Link to="/Booking/Paralegal-Role$17" class="tg-btn">
-                    Get Started{" "}
-                    <img
-                      src="assets/img/icons/right_arrow.svg"
-                      alt=""
-                      class="injectable"
-                    />
+                    Get Started <img src={right} alt="" class="injectable" />
                   </Link>
                 </div>
               </div>
@@ -420,7 +401,7 @@ const ParalegalRole = () => {
             <div class="col-lg-4 col-sm-6">
               <div class="features__item-two">
                 <div class="features__icon-two">
-                 <i class="flaticon-partner"></i>
+                  <i class="flaticon-partner"></i>
                 </div>
                 <div class="features__content-four">
                   <h3 class="title">Skilled, Scalable Support</h3>
@@ -450,7 +431,7 @@ const ParalegalRole = () => {
             <div class="col-lg-4 col-sm-6">
               <div class="features__item-two">
                 <div class="features__icon-two">
-                 <i class="flaticon-tax"></i>
+                  <i class="flaticon-tax"></i>
                 </div>
                 <div class="features__content-four">
                   <h3 class="title">Industry-Focused Expertise</h3>
@@ -466,7 +447,7 @@ const ParalegalRole = () => {
             <div class="col-lg-6 col-sm-6">
               <div class="features__item-two">
                 <div class="features__icon-two">
-                       <i class="flaticon-report"></i>
+                  <i class="flaticon-report"></i>
                 </div>
                 <div class="features__content-four">
                   <h3 class="title">Confidential & Compliant</h3>
@@ -480,7 +461,7 @@ const ParalegalRole = () => {
             <div class="col-lg-6 col-sm-6">
               <div class="features__item-two">
                 <div class="features__icon-two">
-             <i class="flaticon-calculator"></i>
+                  <i class="flaticon-calculator"></i>
                 </div>
                 <div class="features__content-four">
                   <h3 class="title">Cost-Effective Partnership</h3>
@@ -521,23 +502,18 @@ const ParalegalRole = () => {
                     href="tel:1 (561) 409-5858"
                     className="tg-btn tg-border-btn "
                   >
-                    Call Now{" "}
-                    <img
-                      src="assets/img/icons/right_arrow.svg"
-                      alt=""
-                      className="injectable"
-                    />
+                    Call Now <img src={right} alt="" className="injectable" />
                   </a>
                 </div>
               </div>
             </div>
             <div className="cta__shape-three">
-              <img src="assets/img/images/h2_cta_shape.svg" alt="shape" />
+              <img src={h2_cta_shape} alt="shape" />
             </div>
           </div>
         </div>
       </section>
-        <section class="pricing__area section-py-130 pt-0">
+      <section class="pricing__area section-py-130 pt-0">
         <div class="container">
           <div className="row justify-content-center">
             <div className="col-lg-10">

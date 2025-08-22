@@ -2,6 +2,33 @@ import { Link } from "react-router-dom";
 import "./Specialties.css";
 import FAQSection from "../../Component/FAQSection";
 import TrustedBy from "../../Component/TrustedBy";
+import hero_img from "../../../public/assets/img/banner/hero_img.png";
+import estimate_img from "../../../public/assets/img/images/estimate_img.png";
+import lpo1 from "../../../public/assets/lpo-icons/1.png";
+import lpo2 from "../../../public/assets/lpo-icons/2.png";
+import lpo3 from "../../../public/assets/lpo-icons/3.png";
+import lpo4 from "../../../public/assets/lpo-icons/4.png";
+import lpo5 from "../../../public/assets/lpo-icons/5.png";
+import lpo6 from "../../../public/assets/lpo-icons/6.png";
+import lpo7 from "../../../public/assets/lpo-icons/7.png";
+import lpo8 from "../../../public/assets/lpo-icons/8.png";
+import lpo9 from "../../../public/assets/lpo-icons/9.png";
+import lpo10 from "../../../public/assets/lpo-icons/10.png";
+import lpo11 from "../../../public/assets/lpo-icons/11.png";
+import lpo12 from "../../../public/assets/lpo-icons/12.png";
+import lpo13 from "../../../public/assets/lpo-icons/13.png";
+import lpo14 from "../../../public/assets/lpo-icons/14.png";
+import lpo15 from "../../../public/assets/lpo-icons/15.png";
+import lpo16 from "../../../public/assets/lpo-icons/16.png";
+import lpo17 from "../../../public/assets/lpo-icons/17.png";
+import lpo18 from "../../../public/assets/lpo-icons/18.png";
+import right from "../../../public/assets/img/icons/right_arrow.svg"
+import h2_cta_shape from "../../../public/assets/img/images/h2_cta_shape.svg";
+
+
+
+
+
 const InternalGuide = () => {
   return (
     <>
@@ -40,10 +67,10 @@ const InternalGuide = () => {
 
         {/* Floating Images */}
         <div className="legal-hero-floating legal-hero-left">
-          <img src="assets/img/banner/hero_img.png" alt="Lawyer" />
+          <img src={hero_img} alt="Lawyer" />
         </div>
         <div className="legal-hero-floating legal-hero-right">
-          <img src="assets/img/images/estimate_img.png" alt="Lawyer" />
+          <img src={estimate_img} alt="Lawyer" />
         </div>
       </section>
 
@@ -54,11 +81,7 @@ const InternalGuide = () => {
             <div className="col-lg-3 col-md-6">
               <div className="services__item-two role-service-card">
                 <div className="services__icon-two">
-                  <img
-                    src="assets/lpo-icons/1.png"
-                    style={{ width: "65px" }}
-                    alt=""
-                  />
+                  <img src={lpo1} style={{ width: "65px" }} alt="" />
                 </div>
                 <div className="services__content-two">
                   <h4 className="title">
@@ -70,12 +93,7 @@ const InternalGuide = () => {
                     falls, medical malpractice).
                   </p>
                   <Link to="/Personal" className="tg-btn tg-btn-two">
-                    Read More{" "}
-                    <img
-                      src="assets/img/icons/right_arrow.svg"
-                      alt=""
-                      className="injectable"
-                    />
+                    Read More <img src={right} alt="" className="injectable" />
                   </Link>
                 </div>
               </div>
@@ -84,11 +102,7 @@ const InternalGuide = () => {
             <div className="col-lg-3 col-md-6">
               <div className="services__item-two role-service-card">
                 <div className="services__icon-two">
-                  <img
-                    src="assets/lpo-icons/2.png"
-                    style={{ width: "65px" }}
-                    alt=""
-                  />
+                  <img src={lpo2} style={{ width: "65px" }} alt="" />
                 </div>
                 <div className="services__content-two">
                   <h4 className="title">
@@ -100,12 +114,7 @@ const InternalGuide = () => {
                     crimes).
                   </p>
                   <Link to="/Criminal" className="tg-btn tg-btn-two">
-                    Read More{" "}
-                    <img
-                      src="assets/img/icons/right_arrow.svg"
-                      alt=""
-                      className="injectable"
-                    />
+                    Read More <img src={right} alt="" className="injectable" />
                   </Link>
                 </div>
               </div>
@@ -114,11 +123,7 @@ const InternalGuide = () => {
             <div className="col-lg-3 col-md-6">
               <div className="services__item-two role-service-card">
                 <div className="services__icon-two">
-                  <img
-                    src="assets/lpo-icons/3.png"
-                    style={{ width: "65px" }}
-                    alt=""
-                  />
+                  <img src={lpo3} style={{ width: "65px" }} alt="" />
                 </div>
                 <div className="services__content-two">
                   <h4 className="title">
@@ -129,12 +134,7 @@ const InternalGuide = () => {
                     alimony, and domestic violence.
                   </p>
                   <Link to="/Family" className="tg-btn tg-btn-two">
-                    Read More{" "}
-                    <img
-                      src="assets/img/icons/right_arrow.svg"
-                      alt=""
-                      className="injectable"
-                    />
+                    Read More <img src={right} alt="" className="injectable" />
                   </Link>
                 </div>
               </div>
@@ -143,11 +143,7 @@ const InternalGuide = () => {
             <div className="col-lg-3 col-md-6">
               <div className="services__item-two role-service-card">
                 <div className="services__icon-two">
-                  <img
-                    src="assets/lpo-icons/4.png"
-                    style={{ width: "65px" }}
-                    alt=""
-                  />
+                  <img src={lpo4} style={{ width: "65px" }} alt="" />
                 </div>
                 <div className="services__content-two">
                   <h4 className="title">
@@ -158,12 +154,7 @@ const InternalGuide = () => {
                     and citizenship applications.
                   </p>
                   <Link to="/Immigration" className="tg-btn tg-btn-two">
-                    Read More{" "}
-                    <img
-                      src="assets/img/icons/right_arrow.svg"
-                      alt=""
-                      className="injectable"
-                    />
+                    Read More <img src={right} alt="" className="injectable" />
                   </Link>
                 </div>
               </div>
@@ -172,11 +163,7 @@ const InternalGuide = () => {
             <div className="col-lg-3 col-md-6">
               <div className="services__item-two role-service-card">
                 <div className="services__icon-two">
-                  <img
-                    src="assets/lpo-icons/5.png"
-                    style={{ width: "65px" }}
-                    alt=""
-                  />
+                  <img src={lpo5} style={{ width: "65px" }} alt="" />
                 </div>
                 <div className="services__content-two">
                   <h4 className="title">
@@ -187,12 +174,7 @@ const InternalGuide = () => {
                     zoning, and real estate litigation.
                   </p>
                   <Link to="/RealEstate" className="tg-btn tg-btn-two">
-                    Read More{" "}
-                    <img
-                      src="assets/img/icons/right_arrow.svg"
-                      alt=""
-                      className="injectable"
-                    />
+                    Read More <img src={right} alt="" className="injectable" />
                   </Link>
                 </div>
               </div>
@@ -201,11 +183,7 @@ const InternalGuide = () => {
             <div className="col-lg-3 col-md-6">
               <div className="services__item-two role-service-card">
                 <div className="services__icon-two">
-                  <img
-                    src="assets/lpo-icons/6.png"
-                    style={{ width: "65px" }}
-                    alt=""
-                  />
+                  <img src={lpo6} style={{ width: "65px" }} alt="" />
                 </div>
                 <div className="services__content-two">
                   <h4 className="title">
@@ -217,12 +195,7 @@ const InternalGuide = () => {
                     matters.
                   </p>
                   <Link to="/Employment" className="tg-btn tg-btn-two">
-                    Read More{" "}
-                    <img
-                      src="assets/img/icons/right_arrow.svg"
-                      alt=""
-                      className="injectable"
-                    />
+                    Read More <img src={right} alt="" className="injectable" />
                   </Link>
                 </div>
               </div>
@@ -231,11 +204,7 @@ const InternalGuide = () => {
             <div className="col-lg-3 col-md-6">
               <div className="services__item-two role-service-card">
                 <div className="services__icon-two">
-                  <img
-                    src="assets/lpo-icons/7.png"
-                    style={{ width: "65px" }}
-                    alt=""
-                  />
+                  <img src={lpo7} style={{ width: "65px" }} alt="" />
                 </div>
                 <div className="services__content-two">
                   <h4 className="title">
@@ -246,12 +215,7 @@ const InternalGuide = () => {
                     acquisitions, and regulatory compliance.
                   </p>
                   <Link to="/Corporate" className="tg-btn tg-btn-two">
-                    Read More{" "}
-                    <img
-                      src="assets/img/icons/right_arrow.svg"
-                      alt=""
-                      className="injectable"
-                    />
+                    Read More <img src={right} alt="" className="injectable" />
                   </Link>
                 </div>
               </div>
@@ -260,11 +224,7 @@ const InternalGuide = () => {
             <div className="col-lg-3 col-md-6">
               <div className="services__item-two role-service-card">
                 <div className="services__icon-two">
-                  <img
-                    src="assets/lpo-icons/8.png"
-                    style={{ width: "65px" }}
-                    alt=""
-                  />
+                  <img src={lpo8} style={{ width: "65px" }} alt="" />
                 </div>
                 <div className="services__content-two">
                   <h4 className="title">
@@ -277,12 +237,7 @@ const InternalGuide = () => {
                     administration of estates after death.
                   </p>
                   <Link to="/EstatePlanning" className="tg-btn tg-btn-two">
-                    Read More{" "}
-                    <img
-                      src="assets/img/icons/right_arrow.svg"
-                      alt=""
-                      className="injectable"
-                    />
+                    Read More <img src={right} alt="" className="injectable" />
                   </Link>
                 </div>
               </div>
@@ -291,11 +246,7 @@ const InternalGuide = () => {
             <div className="col-lg-3 col-md-6">
               <div className="services__item-two role-service-card">
                 <div className="services__icon-two">
-                  <img
-                    src="assets/lpo-icons/9.png"
-                    style={{ width: "65px" }}
-                    alt=""
-                  />
+                  <img src={lpo9} style={{ width: "65px" }} alt="" />
                 </div>
                 <div className="services__content-two">
                   <h4 className="title">
@@ -306,12 +257,7 @@ const InternalGuide = () => {
                     insolvency and debt relief through bankruptcy filings.
                   </p>
                   <Link to="/Bankruptcy" className="tg-btn tg-btn-two">
-                    Read More{" "}
-                    <img
-                      src="assets/img/icons/right_arrow.svg"
-                      alt=""
-                      className="injectable"
-                    />
+                    Read More <img src={right} alt="" className="injectable" />
                   </Link>
                 </div>
               </div>
@@ -320,11 +266,7 @@ const InternalGuide = () => {
             <div className="col-lg-3 col-md-6">
               <div className="services__item-two role-service-card">
                 <div className="services__icon-two">
-                  <img
-                    src="assets/lpo-icons/10.png"
-                    style={{ width: "65px" }}
-                    alt=""
-                  />
+                  <img src={lpo10} style={{ width: "65px" }} alt="" />
                 </div>
                 <div className="services__content-two">
                   <h4 className="title">
@@ -337,12 +279,7 @@ const InternalGuide = () => {
                     secrets.
                   </p>
                   <Link to="/Intellectual" className="tg-btn tg-btn-two">
-                    Read More{" "}
-                    <img
-                      src="assets/img/icons/right_arrow.svg"
-                      alt=""
-                      className="injectable"
-                    />
+                    Read More <img src={right} alt="" className="injectable" />
                   </Link>
                 </div>
               </div>
@@ -351,11 +288,7 @@ const InternalGuide = () => {
             <div className="col-lg-3 col-md-6">
               <div className="services__item-two role-service-card">
                 <div className="services__icon-two">
-                  <img
-                    src="assets/lpo-icons/11.png"
-                    style={{ width: "65px" }}
-                    alt=""
-                  />
+                  <img src={lpo11} style={{ width: "65px" }} alt="" />
                 </div>
                 <div className="services__content-two">
                   <h4 className="title">
@@ -366,12 +299,7 @@ const InternalGuide = () => {
                     agreements between parties.
                   </p>
                   <Link to="/ContractLaw" className="tg-btn tg-btn-two">
-                    Read More{" "}
-                    <img
-                      src="assets/img/icons/right_arrow.svg"
-                      alt=""
-                      className="injectable"
-                    />
+                    Read More <img src={right} alt="" className="injectable" />
                   </Link>
                 </div>
               </div>
@@ -380,11 +308,7 @@ const InternalGuide = () => {
             <div className="col-lg-3 col-md-6">
               <div className="services__item-two role-service-card">
                 <div className="services__icon-two">
-                  <img
-                    src="assets/lpo-icons/12.png"
-                    style={{ width: "65px" }}
-                    alt=""
-                  />
+                  <img src={lpo12} style={{ width: "65px" }} alt="" />
                 </div>
                 <div className="services__content-two">
                   <h4 className="title">
@@ -395,12 +319,7 @@ const InternalGuide = () => {
                     personal disputes, or business lawsuits.
                   </p>
                   <Link to="/Civil" className="tg-btn tg-btn-two">
-                    Read More{" "}
-                    <img
-                      src="assets/img/icons/right_arrow.svg"
-                      alt=""
-                      className="injectable"
-                    />
+                    Read More <img src={right} alt="" className="injectable" />
                   </Link>
                 </div>
               </div>
@@ -409,11 +328,7 @@ const InternalGuide = () => {
             <div className="col-lg-3 col-md-6">
               <div className="services__item-two role-service-card">
                 <div className="services__icon-two">
-                  <img
-                    src="assets/lpo-icons/13.png"
-                    style={{ width: "65px" }}
-                    alt=""
-                  />
+                  <img src={lpo13} style={{ width: "65px" }} alt="" />
                 </div>
                 <div className="services__content-two">
                   <h4 className="title">
@@ -424,12 +339,7 @@ const InternalGuide = () => {
                     involving government regulations and compliance.
                   </p>
                   <Link to="/Environmental" className="tg-btn tg-btn-two">
-                    Read More{" "}
-                    <img
-                      src="assets/img/icons/right_arrow.svg"
-                      alt=""
-                      className="injectable"
-                    />
+                    Read More <img src={right} alt="" className="injectable" />
                   </Link>
                 </div>
               </div>
@@ -438,11 +348,7 @@ const InternalGuide = () => {
             <div className="col-lg-3 col-md-6">
               <div className="services__item-two role-service-card">
                 <div className="services__icon-two">
-                  <img
-                    src="assets/lpo-icons/14.png"
-                    style={{ width: "65px" }}
-                    alt=""
-                  />
+                  <img src={lpo14} style={{ width: "65px" }} alt="" />
                 </div>
                 <div className="services__content-two">
                   <h4 className="title">
@@ -453,12 +359,7 @@ const InternalGuide = () => {
                     individuals and businesses.
                   </p>
                   <Link to="/Taxlaw" className="tg-btn tg-btn-two">
-                    Read More{" "}
-                    <img
-                      src="assets/img/icons/right_arrow.svg"
-                      alt=""
-                      className="injectable"
-                    />
+                    Read More <img src={right} alt="" className="injectable" />
                   </Link>
                 </div>
               </div>
@@ -467,11 +368,7 @@ const InternalGuide = () => {
             <div className="col-lg-3 col-md-6">
               <div className="services__item-two role-service-card">
                 <div className="services__icon-two">
-                  <img
-                    src="assets/lpo-icons/15.png"
-                    style={{ width: "65px" }}
-                    alt=""
-                  />
+                  <img src={lpo15} style={{ width: "65px" }} alt="" />
                 </div>
                 <div className="services__content-two">
                   <h4 className="title">
@@ -482,12 +379,7 @@ const InternalGuide = () => {
                     patient rights, HIPAA compliance, and medical malpractice.
                   </p>
                   <Link to="/Healthcare" className="tg-btn tg-btn-two">
-                    Read More{" "}
-                    <img
-                      src="assets/img/icons/right_arrow.svg"
-                      alt=""
-                      className="injectable"
-                    />
+                    Read More <img src={right} alt="" className="injectable" />
                   </Link>
                 </div>
               </div>
@@ -496,11 +388,7 @@ const InternalGuide = () => {
             <div className="col-lg-3 col-md-6">
               <div className="services__item-two role-service-card">
                 <div className="services__icon-two">
-                  <img
-                    src="assets/lpo-icons/16.png"
-                    style={{ width: "65px" }}
-                    alt=""
-                  />
+                  <img src={lpo16} style={{ width: "65px" }} alt="" />
                 </div>
                 <div className="services__content-two">
                   <h4 className="title">
@@ -511,12 +399,7 @@ const InternalGuide = () => {
                     appeals and compliance with administrative rulings.
                   </p>
                   <Link to="/Administrative" className="tg-btn tg-btn-two">
-                    Read More{" "}
-                    <img
-                      src="assets/img/icons/right_arrow.svg"
-                      alt=""
-                      className="injectable"
-                    />
+                    Read More <img src={right} alt="" className="injectable" />
                   </Link>
                 </div>
               </div>
@@ -525,11 +408,7 @@ const InternalGuide = () => {
             <div className="col-lg-3 col-md-6">
               <div className="services__item-two role-service-card">
                 <div className="services__icon-two">
-                  <img
-                    src="assets/lpo-icons/17.png"
-                    style={{ width: "65px" }}
-                    alt=""
-                  />
+                  <img src={lpo17} style={{ width: "65px" }} alt="" />
                 </div>
                 <div className="services__content-two">
                   <h4 className="title">
@@ -537,12 +416,7 @@ const InternalGuide = () => {
                   </h4>
                   <p>Handling claims, disputes, and policy reviews.</p>
                   <Link to="/Insurance" className="tg-btn tg-btn-two">
-                    Read More{" "}
-                    <img
-                      src="assets/img/icons/right_arrow.svg"
-                      alt=""
-                      className="injectable"
-                    />
+                    Read More <img src={right} alt="" className="injectable" />
                   </Link>
                 </div>
               </div>
@@ -551,11 +425,7 @@ const InternalGuide = () => {
             <div className="col-lg-3 col-md-6">
               <div className="services__item-two role-service-card">
                 <div className="services__icon-two">
-                  <img
-                    src="assets/lpo-icons/18.png"
-                    style={{ width: "65px" }}
-                    alt=""
-                  />
+                  <img src={lpo18} style={{ width: "65px" }} alt="" />
                 </div>
                 <div className="services__content-two">
                   <h4 className="title">
@@ -563,12 +433,7 @@ const InternalGuide = () => {
                   </h4>
                   <p>Contract disputes, lien claims, and compliance matters.</p>
                   <Link to="/Construction" className="tg-btn tg-btn-two">
-                    Read More{" "}
-                    <img
-                      src="assets/img/icons/right_arrow.svg"
-                      alt=""
-                      className="injectable"
-                    />
+                    Read More <img src={right} alt="" className="injectable" />
                   </Link>
                 </div>
               </div>
@@ -577,11 +442,7 @@ const InternalGuide = () => {
             <div className="col-lg-3 col-md-6">
               <div className="services__item-two role-service-card">
                 <div className="services__icon-two">
-                  <img
-                    src="assets/lpo-icons/1.png"
-                    style={{ width: "65px" }}
-                    alt=""
-                  />
+                  <img src={lpo1} style={{ width: "65px" }} alt="" />
                 </div>
                 <div className="services__content-two">
                   <h4 className="title">
@@ -592,12 +453,7 @@ const InternalGuide = () => {
                     accidents.
                   </p>
                   <Link to="/Maritime" className="tg-btn tg-btn-two">
-                    Read More{" "}
-                    <img
-                      src="assets/img/icons/right_arrow.svg"
-                      alt=""
-                      className="injectable"
-                    />
+                    Read More <img src={right} alt="" className="injectable" />
                   </Link>
                 </div>
               </div>
@@ -606,11 +462,7 @@ const InternalGuide = () => {
             <div className="col-lg-3 col-md-6">
               <div className="services__item-two role-service-card">
                 <div className="services__icon-two">
-                  <img
-                    src="assets/lpo-icons/2.png"
-                    style={{ width: "65px" }}
-                    alt=""
-                  />
+                  <img src={lpo2} style={{ width: "65px" }} alt="" />
                 </div>
                 <div className="services__content-two">
                   <h4 className="title">
@@ -618,12 +470,7 @@ const InternalGuide = () => {
                   </h4>
                   <p>Contracts, licensing, and IP-related support.</p>
                   <Link to="/Medialaw" className="tg-btn tg-btn-two">
-                    Read More{" "}
-                    <img
-                      src="assets/img/icons/right_arrow.svg"
-                      alt=""
-                      className="injectable"
-                    />
+                    Read More <img src={right} alt="" className="injectable" />
                   </Link>
                 </div>
               </div>
@@ -632,11 +479,7 @@ const InternalGuide = () => {
             <div className="col-lg-3 col-md-6">
               <div className="services__item-two role-service-card">
                 <div className="services__icon-two">
-                  <img
-                    src="assets/lpo-icons/4.png"
-                    style={{ width: "65px" }}
-                    alt=""
-                  />
+                  <img src={lpo4} style={{ width: "65px" }} alt="" />
                 </div>
                 <div className="services__content-two">
                   <h4 className="title">
@@ -647,12 +490,7 @@ const InternalGuide = () => {
                     disputes.
                   </p>
                   <Link to="/Education" className="tg-btn tg-btn-two">
-                    Read More{" "}
-                    <img
-                      src="assets/img/icons/right_arrow.svg"
-                      alt=""
-                      className="injectable"
-                    />
+                    Read More <img src={right} alt="" className="injectable" />
                   </Link>
                 </div>
               </div>
@@ -661,11 +499,7 @@ const InternalGuide = () => {
             <div className="col-lg-3 col-md-6">
               <div className="services__item-two role-service-card">
                 <div className="services__icon-two">
-                  <img
-                    src="assets/lpo-icons/8.png"
-                    style={{ width: "65px" }}
-                    alt=""
-                  />
+                  <img src={lpo8} style={{ width: "65px" }} alt="" />
                 </div>
                 <div className="services__content-two">
                   <h4 className="title">
@@ -675,12 +509,7 @@ const InternalGuide = () => {
                   </h4>
                   <p>Zoning, ordinances, and administrative support.</p>
                   <Link to="/Municipal" className="tg-btn tg-btn-two">
-                    Read More{" "}
-                    <img
-                      src="assets/img/icons/right_arrow.svg"
-                      alt=""
-                      className="injectable"
-                    />
+                    Read More <img src={right} alt="" className="injectable" />
                   </Link>
                 </div>
               </div>
@@ -689,11 +518,7 @@ const InternalGuide = () => {
             <div className="col-lg-3 col-md-6">
               <div className="services__item-two role-service-card">
                 <div className="services__icon-two">
-                  <img
-                    src="assets/lpo-icons/6.png"
-                    style={{ width: "65px" }}
-                    alt=""
-                  />
+                  <img src={lpo6} style={{ width: "65px" }} alt="" />
                 </div>
                 <div className="services__content-two">
                   <h4 className="title">
@@ -703,12 +528,7 @@ const InternalGuide = () => {
                   </h4>
                   <p>Handling large-scale claims, disputes, and settlements.</p>
                   <Link to="/Consumerprotection" className="tg-btn tg-btn-two">
-                    Read More{" "}
-                    <img
-                      src="assets/img/icons/right_arrow.svg"
-                      alt=""
-                      className="injectable"
-                    />
+                    Read More <img src={right} alt="" className="injectable" />
                   </Link>
                 </div>
               </div>
@@ -717,11 +537,7 @@ const InternalGuide = () => {
             <div className="col-lg-3 col-md-6">
               <div className="services__item-two role-service-card">
                 <div className="services__icon-two">
-                  <img
-                    src="assets/lpo-icons/3.png"
-                    style={{ width: "65px" }}
-                    alt="img"
-                  />
+                  <img src={lpo5} style={{ width: "65px" }} alt="img" />
                 </div>
                 <div className="services__content-two">
                   <h4 className="title">
@@ -734,11 +550,7 @@ const InternalGuide = () => {
                   </p>
                   <Link to="/Transportation" className="tg-btn tg-btn-two">
                     Read More{" "}
-                    <img
-                      src="assets/img/icons/right_arrow.svg"
-                      alt="right arrow"
-                      className="injectable"
-                    />
+                    <img src={right} alt="right arrow" className="injectable" />
                   </Link>
                 </div>
               </div>
@@ -748,7 +560,7 @@ const InternalGuide = () => {
               <div className="services__item-two role-service-card">
                 <div className="services__icon-two">
                   <img
-                    src="assets/lpo-icons/6.png"
+                    src={lpo6}
                     style={{ width: "65px" }}
                     alt="Lemon Law Icon"
                   />
@@ -762,12 +574,7 @@ const InternalGuide = () => {
                     their right to a fair remedy
                   </p>
                   <Link to="/Lemonlaw" className="tg-btn tg-btn-two">
-                    Read More{" "}
-                    <img
-                      src="assets/img/icons/right_arrow.svg"
-                      alt=""
-                      className="injectable"
-                    />
+                    Read More <img src={right} alt="" className="injectable" />
                   </Link>
                 </div>
               </div>
@@ -777,7 +584,7 @@ const InternalGuide = () => {
               <div className="services__item-two role-service-card">
                 <div className="services__icon-two">
                   <img
-                    src="assets/lpo-icons/4.png"
+                    src={lpo7}
                     style={{ width: "65px" }}
                     alt="Lemon Law Icon"
                   />
@@ -791,12 +598,7 @@ const InternalGuide = () => {
                     well-maintained housing.
                   </p>
                   <Link to="/Habitabilitylaw" className="tg-btn tg-btn-two">
-                    Read More{" "}
-                    <img
-                      src="assets/img/icons/right_arrow.svg"
-                      alt=""
-                      className="injectable"
-                    />
+                    Read More <img src={right} alt="" className="injectable" />
                   </Link>
                 </div>
               </div>
@@ -900,18 +702,13 @@ const InternalGuide = () => {
                     href="tel:1 (561) 409-5858"
                     className="tg-btn tg-border-btn "
                   >
-                    Call Now{" "}
-                    <img
-                      src="assets/img/icons/right_arrow.svg"
-                      alt=""
-                      className="injectable"
-                    />
+                    Call Now <img src={right} alt="" className="injectable" />
                   </a>
                 </div>
               </div>
             </div>
             <div className="cta__shape-three">
-              <img src="assets/img/images/h2_cta_shape.svg" alt="shape" />
+              <img src={h2_cta_shape} alt="shape" />
             </div>
           </div>
         </div>
